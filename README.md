@@ -1,5 +1,7 @@
 # javascript-problems-and-solutions
 
+[![Build Status](https://travis-ci.org/jeantimex/javascript-problems-and-solutions.svg?branch=master)](https://travis-ci.org/jeantimex/javascript-problems-and-solutions)
+
 A collection of JavaScript problems and solutions for studying algorithms.
 
 ![cover](docs/images/cover.png)
