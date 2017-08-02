@@ -1,0 +1,26 @@
+{
+  "name": "javascript-problems-and-solutions",
+  "version": "1.0.0",
+  "description": "A collection of JavaScript problems and solutions for studying algorithms.",
+  "main": "index.js",
+  "repository": "https://github.com/jeantimex/javascript-problems-and-solutions.git",
+  "author": "Yong Su <jean.timex@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.0",
+    "eslint": "^4.3.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "minimist": "^1.2.0",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.1.0"
+  }
+}
