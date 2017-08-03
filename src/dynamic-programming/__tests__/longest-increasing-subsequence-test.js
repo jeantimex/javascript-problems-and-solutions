@@ -13,7 +13,7 @@ describe('Longest Increasing Subsequence', () => {
       {
         input: [10, 22, 9, 33, 21, 50, 41, 60],
         expected: 5,
-      }
+      },
     ].forEach(test => {
       const result = solution.lis(test.input);
       assert.equal(result, test.expected);

@@ -10,8 +10,7 @@
  * @author Yong Su <jean.timex@gmail.com>
  */
 
-class Solution {
-
+export default class Solution {
   /**
    * lis() returns the length of the longest increasing subsequence
    * in arr[] of size n
@@ -27,7 +26,7 @@ class Solution {
     for (let i = 0; i < n; i++) {
       res[i] = 1;
 
-      for (let j = 0; j < i; j++) { 
+      for (let j = 0; j < i; j++) {
         if (arr[i] > arr[j] && res[i] < res[j] + 1) {
           res[i] = res[j] + 1;
         }
@@ -38,7 +37,4 @@ class Solution {
 
     return max;
   }
-
 }
-
-export default Solution;
