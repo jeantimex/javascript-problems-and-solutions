@@ -10,6 +10,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ## Problems
 
+#### Dynamic Programming
+
+- [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
+
 ## LICENSE
 
 MIT License
