@@ -7,7 +7,8 @@
   "author": "Yong Su <jean.timex@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "cross-env NODE_ENV=test nyc mocha src/**/*-test.js --compilers js:babel-register --require babel-polyfill",
+    "lint": "eslint src",
+    "test": "npm run lint && cross-env NODE_ENV=test nyc mocha src/**/*-test.js --compilers js:babel-register --require babel-polyfill",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "nyc": {
@@ -21,6 +22,7 @@
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
     "babel-plugin-istanbul": "^4.1.4",
     "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.24.1",
@@ -29,7 +31,9 @@
     "coveralls": "^2.13.1",
     "cross-env": "^5.0.2",
     "eslint": "^4.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
     "mocha": "^3.5.0",
-    "nyc": "^11.1.0"
+    "nyc": "^11.1.0",
+    "prettier": "^1.5.3"
   }
 }
