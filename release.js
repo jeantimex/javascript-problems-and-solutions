@@ -51,7 +51,8 @@ inquirer
     execSync(
       'github_changelog_generator jeantimex/javascript-problems-and-solutions'
     );
-    execSync('git commit -am "Update change log"');
+    execSync('git add .');
+    execSync('git commit -m "Update change log"');
     execSync('git push');
 
     console.log('Done');
