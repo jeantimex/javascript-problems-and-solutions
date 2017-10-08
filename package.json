@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint src",
     "test": "npm run lint && cross-env NODE_ENV=test nyc mocha src/**/*-test.js --compilers js:babel-register --require babel-polyfill",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "release": "node ./release.js"
   },
   "nyc": {
     "sourceMap": false,

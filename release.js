@@ -28,7 +28,7 @@ inquirer
 
     // Step 1. Bump up version number
     console.log('Bumping up version number...');
-    execSync('npm version ' + answer.semver);
+    execSync('npm version ' + answer.semver + ' --no-git-tag-version');
     var version = require('./package.json').version;
     console.log('New version is: ' + version);
 
