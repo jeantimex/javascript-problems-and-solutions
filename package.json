@@ -1,6 +1,6 @@
 {
   "name": "javascript-problems-and-solutions",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A collection of JavaScript problems and solutions for studying algorithms.",
   "main": "index.js",
   "repository": "https://github.com/jeantimex/javascript-problems-and-solutions.git",
