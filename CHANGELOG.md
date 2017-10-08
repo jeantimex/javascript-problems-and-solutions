@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased](https://github.com/jeantimex/javascript-problems-and-solutions/tree/HEAD)
+
+[Full Changelog](https://github.com/jeantimex/javascript-problems-and-solutions/compare/v1.2.2...HEAD)
+
+**Merged pull requests:**
+
+- Update README.md [\#10](https://github.com/jeantimex/javascript-problems-and-solutions/pull/10) ([jeantimex](https://github.com/jeantimex))
+
 ## [v1.2.2](https://github.com/jeantimex/javascript-problems-and-solutions/tree/v1.2.2) (2017-10-08)
 [Full Changelog](https://github.com/jeantimex/javascript-problems-and-solutions/compare/v1.1.0...v1.2.2)
 
