@@ -32,6 +32,7 @@
     "cross-env": "^5.0.5",
     "eslint": "^4.8.0",
     "eslint-plugin-prettier": "^2.3.1",
+    "inquirer": "^3.3.0",
     "mocha": "^4.0.1",
     "nyc": "^11.2.1",
     "prettier": "^1.7.4"
