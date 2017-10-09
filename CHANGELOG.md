@@ -6,6 +6,9 @@
 
 **Merged pull requests:**
 
+- Added tree test cases. [\#13](https://github.com/jeantimex/javascript-problems-and-solutions/pull/13) ([jeantimex](https://github.com/jeantimex))
+- Added tree readme. [\#12](https://github.com/jeantimex/javascript-problems-and-solutions/pull/12) ([jeantimex](https://github.com/jeantimex))
+- Added tree problem. [\#11](https://github.com/jeantimex/javascript-problems-and-solutions/pull/11) ([jeantimex](https://github.com/jeantimex))
 - Update README.md [\#10](https://github.com/jeantimex/javascript-problems-and-solutions/pull/10) ([jeantimex](https://github.com/jeantimex))
 
 ## [v1.2.2](https://github.com/jeantimex/javascript-problems-and-solutions/tree/v1.2.2) (2017-10-08)
