@@ -13,7 +13,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### [Tree](src/tree)
 
-- [Binary Tree Inorder Traversal](src/tree/binary-tree-inorder-traversal)
+- [Binary Tree Inorder Traversal](src/tree/binary-tree-inorder-traversal.js)
 
 ### [Dynamic Programming](src/dynamic-programming)
 
