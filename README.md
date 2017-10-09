@@ -11,11 +11,11 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ## Problems
 
-### [Tree](src/tree)
+### Tree
 
 - [Binary Tree Inorder Traversal](src/tree/binary-tree-inorder-traversal.js)
 
-### [Dynamic Programming](src/dynamic-programming)
+### Dynamic Programming
 
 - [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
 
