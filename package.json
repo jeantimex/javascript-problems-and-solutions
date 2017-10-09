@@ -8,17 +8,9 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint src",
-    "test": "npm run lint && cross-env NODE_ENV=test nyc mocha src/**/*-test.js --compilers js:babel-register --require babel-polyfill",
+    "test": "npm run lint && cross-env NODE_ENV=test nyc mocha src/**/*-test.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "release": "node ./release.js"
-  },
-  "nyc": {
-    "sourceMap": false,
-    "instrument": false,
-    "lines": 99,
-    "statements": 99,
-    "functions": 99,
-    "branches": 99
   },
   "devDependencies": {
     "babel": "^6.23.0",

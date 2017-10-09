@@ -1,0 +1,16 @@
+{
+  "require": [
+    "babel-register",
+    "babel-polyfill"
+  ],
+  "sourceMap": false,
+  "instrument": false,
+  "lines": 99,
+  "statements": 99,
+  "functions": 99,
+  "branches": 99,
+  "reporter": [
+    "lcov",
+    "text"
+  ]
+}
