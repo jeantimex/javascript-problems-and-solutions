@@ -32,7 +32,7 @@ const serializeTree = root => {
     data.pop();
   }
 
-  return JSON.stringify(data);
+  return JSON.stringify(data).slice(1, -1);
 };
 
 /**
@@ -42,11 +42,15 @@ const serializeTree = root => {
  * @return {TreeNode}
  */
 const deserializeTree = str => {
+  if (typeof str === 'undefined' || str === null) {
+    return null;
+  }
+
   let data;
 
   // Sanity checks
   try {
-    data = JSON.parse(str);
+    data = JSON.parse('[' + str + ']');
   } catch (e) {
     return null;
   }
@@ -54,7 +58,12 @@ const deserializeTree = str => {
     return null;
   }
 
-  const root = new TreeNode(data.shift());
+  let val = data.shift();
+  if (typeof val === 'undefined' || val === null) {
+    return null;
+  }
+
+  const root = new TreeNode(val);
   const queue = [root];
 
   while (data.length > 0) {
