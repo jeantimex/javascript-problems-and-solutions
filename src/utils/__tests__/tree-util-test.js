@@ -7,11 +7,11 @@ describe('Tree Util', () => {
   describe('Serialize', () => {
     const testCases = [
       [null, null],
-      [tree1, '[1,2,3]'],
-      [tree2, '[1,null,2]'],
-      [tree3, '[1,null,2,3,4]'],
-      [tree4, '[1,null,2,3]'],
-      [tree5, '[1,2,null,3]'],
+      [tree1, '1,2,3'],
+      [tree2, '1,null,2'],
+      [tree3, '1,null,2,3,4'],
+      [tree4, '1,null,2,3'],
+      [tree5, '1,2,null,3'],
     ];
 
     testCases.map((testCase, index) => {
@@ -27,12 +27,16 @@ describe('Tree Util', () => {
   describe('deserialize', () => {
     const testCases = [
       [null],
+      [undefined, null],
+      ['null', null],
+      ['undefined', null],
       ['bad input', null],
-      ['[1,2,3]'],
-      ['[1,null,2]'],
-      ['[1,null,2,3,4]'],
-      ['[1,null,2,3]'],
-      ['[1,2,null,3]'],
+      ['', null],
+      ['1,2,3'],
+      ['1,null,2'],
+      ['1,null,2,3,4'],
+      ['1,null,2,3'],
+      ['1,2,null,3'],
     ];
 
     testCases.map((testCase, index) => {
