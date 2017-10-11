@@ -14,6 +14,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Tree
 
 - [Binary Tree Inorder Traversal](src/tree/binary-tree-inorder-traversal.js)
+- [Unique Binary Search Trees](src/tree/unique-binary-search-trees.js)
 
 ### Dynamic Programming
 
