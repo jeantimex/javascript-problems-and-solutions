@@ -1,4 +1,4 @@
-import TreeNode from '../../common/tree-node';
+import TreeNode from 'common/tree-node';
 
 /**
  *        1

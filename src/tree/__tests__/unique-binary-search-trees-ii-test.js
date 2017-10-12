@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import { serializeTree } from '../../utils/tree-util';
+import { serializeTree } from 'utils/tree-util';
 import generateTrees from '../unique-binary-search-trees-ii';
 
 describe('Unique Binary Search Trees II', () => {
