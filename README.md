@@ -19,6 +19,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Validate Binary Search Tree](src/tree/validate-binary-search-tree.js)
 - [Recover Binary Search Tree](src/tree/recover-binary-search-tree.js)
 - [Same Tree](src/tree/same-tree.js)
+- [Symmetric Tree](src/tree/symmetric-tree.js)
 
 ### Dynamic Programming
 
