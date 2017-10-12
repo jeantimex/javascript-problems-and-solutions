@@ -2,7 +2,15 @@
   "presets": ["env"],
   "env": {
     "test": {
-      "plugins": ["istanbul"]
+      "plugins": [
+        "istanbul",
+        ["module-resolver", {
+          "root": ["./src"],
+          "alias": {
+            "trees": "./tree/__tests__/trees.js"
+          }
+        }]
+      ]
     }
   }
 }

@@ -1,7 +1,7 @@
 import { assert } from 'chai';
-import TreeNode from '../../common/tree-node';
-import { serializeTree, deserializeTree } from '../tree-util';
-import { tree1, tree2, tree3, tree4, tree5 } from '../../tree/__tests__/trees';
+import TreeNode from 'common/tree-node';
+import { serializeTree, deserializeTree } from 'utils/tree-util';
+import { tree1, tree2, tree3, tree4, tree5 } from 'common/trees';
 
 describe('Tree Util', () => {
   describe('Serialize', () => {

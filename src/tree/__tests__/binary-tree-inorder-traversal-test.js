@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import inorderTraversal from '../binary-tree-inorder-traversal';
-import { tree1, tree2, tree3, tree4, tree5 } from '../../tree/__tests__/trees';
+import { tree1, tree2, tree3, tree4, tree5 } from 'common/trees';
 
 describe('Binary Tree Inorder Traversal', () => {
   const testCases = [

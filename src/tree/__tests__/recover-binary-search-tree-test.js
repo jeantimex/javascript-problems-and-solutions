@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import { serializeTree, deserializeTree } from '../../utils/tree-util';
+import { serializeTree, deserializeTree } from 'utils/tree-util';
 import recoverTree from '../recover-binary-search-tree';
 
 describe('Recover Binary Search Tree', () => {

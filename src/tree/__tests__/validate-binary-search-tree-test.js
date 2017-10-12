@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import isValidBST from '../validate-binary-search-tree';
-import { deserializeTree } from '../../utils/tree-util';
+import { deserializeTree } from 'utils/tree-util';
 
 describe('Validate Binary Search Tree', () => {
   const testCases = [
