@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint src",
-    "test": "npm run lint && cross-env NODE_ENV=test nyc mocha src/**/*-test.js",
+    "mocha": "cross-env NODE_ENV=test nyc mocha src/**/*-test.js",
+    "test": "npm run lint && npm run mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "release": "node ./release.js"
   },

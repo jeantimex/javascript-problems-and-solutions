@@ -20,6 +20,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Recover Binary Search Tree](src/tree/recover-binary-search-tree.js)
 - [Same Tree](src/tree/same-tree.js)
 - [Symmetric Tree](src/tree/symmetric-tree.js)
+- [Binary Tree Level Order Traversal](src/tree/binary-tree-level-order-traversal.js)
 
 ### Dynamic Programming
 
