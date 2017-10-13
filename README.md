@@ -22,6 +22,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Symmetric Tree](src/tree/symmetric-tree.js)
 - [Binary Tree Level Order Traversal](src/tree/binary-tree-level-order-traversal.js)
 - [Binary Tree Zigzag Level Order Traversal](src/tree/binary-tree-zigzag-level-order-traversal.js)
+- [Maximum Depth of Binary Tree](src/tree/maximum-depth-of-binary-tree.js)
 
 ### Dynamic Programming
 
