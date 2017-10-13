@@ -23,6 +23,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Binary Tree Level Order Traversal](src/tree/binary-tree-level-order-traversal.js)
 - [Binary Tree Zigzag Level Order Traversal](src/tree/binary-tree-zigzag-level-order-traversal.js)
 - [Maximum Depth of Binary Tree](src/tree/maximum-depth-of-binary-tree.js)
+- [Construct Binary Tree From Preorder and Inorder Traversal](src/tree/construct-binary-tree-from-preorder-and-inorder-traversal.js)
+- [Construct Binary Tree From Postorder and Inorder Traversal](src/tree/construct-binary-tree-from-inorder-and-postorder-traversal-test.js)
 
 ### Dynamic Programming
 
