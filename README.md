@@ -25,6 +25,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Maximum Depth of Binary Tree](src/tree/maximum-depth-of-binary-tree.js)
 - [Construct Binary Tree From Preorder and Inorder Traversal](src/tree/construct-binary-tree-from-preorder-and-inorder-traversal.js)
 - [Construct Binary Tree From Postorder and Inorder Traversal](src/tree/construct-binary-tree-from-inorder-and-postorder-traversal.js)
+- [Convert Sorted Array to Binary Search Tree](src/tree/convert-sorted-array-to-binary-search-tree.js)
 
 ### Dynamic Programming
 
