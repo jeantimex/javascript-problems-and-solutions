@@ -26,6 +26,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Construct Binary Tree From Preorder and Inorder Traversal](src/tree/construct-binary-tree-from-preorder-and-inorder-traversal.js)
 - [Construct Binary Tree From Postorder and Inorder Traversal](src/tree/construct-binary-tree-from-inorder-and-postorder-traversal.js)
 - [Convert Sorted Array to Binary Search Tree](src/tree/convert-sorted-array-to-binary-search-tree.js)
+- [Balanced Binary Tree](src/tree/balanced-binary-tree.js)
 
 ### Dynamic Programming
 
