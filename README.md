@@ -28,6 +28,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Convert Sorted Array to Binary Search Tree](src/tree/convert-sorted-array-to-binary-search-tree.js)
 - [Balanced Binary Tree](src/tree/balanced-binary-tree.js)
 - [Minimum Depth of Binary Tree](src/tree/minimum-depth-of-binary-tree.js)
+- [Path Sum](src/tree/path-sum.js)
 
 ### Dynamic Programming
 
