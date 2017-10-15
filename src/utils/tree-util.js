@@ -87,5 +87,4 @@ const deserializeTree = str => {
   return root;
 };
 
-export { serializeTree };
-export { deserializeTree };
+export { serializeTree, deserializeTree };

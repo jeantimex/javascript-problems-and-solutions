@@ -31,6 +31,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Path Sum](src/tree/path-sum.js)
 - [Path Sum II](src/tree/path-sum-ii.js)
 - [Flatten Binary Tree to Linked List](src/tree/flatten-binary-tree-to-linked-list.js)
+- [Populating Next Right Pointers in Each Node](src/tree/populating-next-right-pointers-in-each-node.js)
 
 ### Dynamic Programming
 
