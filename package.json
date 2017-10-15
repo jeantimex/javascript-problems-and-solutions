@@ -10,6 +10,7 @@
     "lint": "eslint src",
     "mocha": "cross-env NODE_ENV=test nyc mocha src/**/*-test.js",
     "test": "npm run lint && npm run mocha",
+    "prepush": "npm run test",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "release": "node ./release.js"
   },
