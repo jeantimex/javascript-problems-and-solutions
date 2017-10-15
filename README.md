@@ -30,6 +30,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Minimum Depth of Binary Tree](src/tree/minimum-depth-of-binary-tree.js)
 - [Path Sum](src/tree/path-sum.js)
 - [Path Sum II](src/tree/path-sum-ii.js)
+- [Flatten Binary Tree to Linked List](src/tree/flatten-binary-tree-to-linked-list.js)
 
 ### Dynamic Programming
 
