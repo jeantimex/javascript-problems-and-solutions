@@ -87,4 +87,36 @@ const deserializeTree = str => {
   return root;
 };
 
-export { serializeTree, deserializeTree };
+/**
+ * Clone a binary tree
+ * 
+ * @param {TreeNode} root
+ * @param {TreeNode} clone of root 
+ */
+const cloneTree = root => {
+  if (!root) {
+    return null;
+  }
+
+  const clone = new TreeNode(root.val);
+  clone.left = cloneTree(root.left);
+  clone.right = cloneTree(root.right);
+
+  return clone;
+};
+
+/**
+ * Search a tree node in tree root
+ * 
+ * @param {TreeNode} root 
+ * @param {*} val 
+ */
+const searchTreeNode = (root, val) => {
+  if (!root || root.val === val) {
+    return root;
+  }
+
+  return searchTreeNode(root.left, val) || searchTreeNode(root.right, val);
+};
+
+export { serializeTree, deserializeTree, searchTreeNode, cloneTree };
