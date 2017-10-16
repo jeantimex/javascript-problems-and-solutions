@@ -40,6 +40,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Binary Tree Upside Down](src/tree/binary-tree-upside-down.js)
 - [Univalue Tree](src/tree/univalue-tree.js)
 - [Count Univalue Subtrees](src/tree/count-univalue-subtrees.js)
+- [Lowest Common Ancestor of A Binary Search Tree](src/tree/lowest-common-ancestor-of-a-binary-search-tree.js)
 
 ### Dynamic Programming
 
