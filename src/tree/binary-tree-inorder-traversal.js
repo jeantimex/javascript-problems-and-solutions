@@ -13,20 +13,22 @@
  * Note: Recursive solution is trivial, could you do it iteratively?
  */
 const inorderTraversal = root => {
-  const res = [];
+  const result = [];
+  const stack = [];
+  let current = root;
 
-  const helper = (root, res) => {
-    if (!root) {
-      return;
+  while (stack.length || current) {
+    if (current) {
+      stack.push(current);
+      current = current.left;
+    } else {
+      current = stack.pop();
+      result.push(current.val);
+      current = current.right;
     }
+  }
 
-    helper(root.left, res);
-    res.push(root.val);
-    helper(root.right, res);
-  };
-
-  helper(root, res);
-  return res;
+  return result;
 };
 
 export default inorderTraversal;
