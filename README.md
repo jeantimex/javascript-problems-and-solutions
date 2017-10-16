@@ -38,6 +38,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Binary Tree Preorder Traversal](src/tree/binary-tree-preorder-traversal.js)
 - [Binary Tree Postorder Traversal](src/tree/binary-tree-postorder-traversal.js)
 - [Binary Tree Upside Down](src/tree/binary-tree-upside-down.js)
+- [Univalue Tree](src/tree/univalue-tree.js)
 
 ### Dynamic Programming
 
