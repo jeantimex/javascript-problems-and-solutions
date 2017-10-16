@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import TreeNode from 'common/tree-node';
-import { serializeTree, deserializeTree } from 'utils/tree-util';
+import { serializeTree, deserializeTree, cloneTree, searchTreeNode } from 'utils/tree-util';
 import { tree1, tree2, tree3, tree4, tree5 } from 'common/trees';
 
 describe('Tree Util', () => {
@@ -45,6 +45,33 @@ describe('Tree Util', () => {
         const expected = testCase.length === 1 ? testCase[0] : testCase[1];
         const actual = serializeTree(deserializeTree(input));
         assert.equal(actual, expected);
+      });
+    });
+  });
+
+  describe('clone', () => {
+    const testCases = [tree1, tree2, tree3, tree4, tree5];
+
+    testCases.map((testCase, index) => {
+      it(`should clone the tree ${index}`, () => {
+        const root = testCase;
+        const clone = cloneTree(root);
+        const expected = serializeTree(root);
+        const actual = serializeTree(clone);
+        assert.equal(actual, expected);
+      });
+    });
+  });
+
+  describe('search tree node', () => {
+    const testCases = [[tree1, 2], [tree1, 3]];
+
+    testCases.map((testCase, index) => {
+      it(`should search the tree node ${testCase[1]}`, () => {
+        const root = testCase[0];
+        const val = testCase[1];
+        const node = searchTreeNode(root, val);
+        assert.equal(node ? node.val : null, val);
       });
     });
   });
