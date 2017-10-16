@@ -37,6 +37,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Sum Root to Leaf Numbers](src/tree/sum-root-to-leaf-numbers.js)
 - [Binary Tree Preorder Traversal](src/tree/binary-tree-preorder-traversal.js)
 - [Binary Tree Postorder Traversal](src/tree/binary-tree-postorder-traversal.js)
+- [Binary Tree Upside Down](src/tree/binary-tree-upside-down.js)
 
 ### Dynamic Programming
 
