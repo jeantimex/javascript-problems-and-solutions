@@ -34,6 +34,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Populating Next Right Pointers in Each Node](src/tree/populating-next-right-pointers-in-each-node.js)
 - [Populating Next Right Pointers in Each Node II](src/tree/populating-next-right-pointers-in-each-node-ii.js)
 - [Binary Tree Maximum Path Sum](src/tree/binary-tree-maximum-path-sum.js)
+- [Sum Root to Leaf Numbers](src/tree/sum-root-to-leaf-numbers.js)
 
 ### Dynamic Programming
 
