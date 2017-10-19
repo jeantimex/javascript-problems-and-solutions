@@ -45,6 +45,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Lowest Common Ancestor of a Binary Tree](src/tree/lowest-common-ancestor-of-a-binary-tree.js)
 - [Verify Preorder Sequence in Binary Search Tree](src/tree/verify-preorder-sequence-in-binary-search-tree.js)
 - [Binary Tree Paths](src/tree/binary-tree-paths.js)
+- [Closest Binary Search Tree Value](src/tree/closest-binary-search-tree-value.js)
 
 ### Dynamic Programming
 
