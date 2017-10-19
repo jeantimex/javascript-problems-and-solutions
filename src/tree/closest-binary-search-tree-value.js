@@ -7,6 +7,8 @@
  */
 
 /**
+ * Iterative
+ * 
  * @param {TreeNode} root
  * @param {number} target
  * @return {number}
@@ -29,4 +31,23 @@ const closestValue = (root, target) => {
   return closest;
 };
 
-export default closestValue;
+/**
+ * Recursion
+ * 
+ * @param {TreeNode} root
+ * @param {number} target
+ * @return {number}
+ */
+const closestValueR = (root, target) => {
+  const child = target < root.val ? root.left : root.right;
+
+  if (!child) {
+    return root.val;
+  }
+
+  const closest = closestValueR(child, target);
+
+  return Math.abs(target - closest) < Math.abs(target - root.val) ? closest : root.val;
+};
+
+export { closestValue, closestValueR };
