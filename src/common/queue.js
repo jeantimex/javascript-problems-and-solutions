@@ -1,11 +1,10 @@
 /**
  * Queue data structure.
  */
-let items = [];
 
 export default class Queue {
   constructor() {
-    items = [];
+    this.items = [];
   }
 
   /**
@@ -13,7 +12,7 @@ export default class Queue {
    * @param {*} element
    */
   enqueue(element) {
-    items.push(element);
+    this.items.push(element);
   }
 
   /**
@@ -21,7 +20,7 @@ export default class Queue {
    * @returns {*} The first item in the queue
    */
   dequeue() {
-    return items.shift();
+    return this.items.shift();
   }
 
   /**
@@ -29,20 +28,20 @@ export default class Queue {
    * @returns {*} The first item in the queue
    */
   first() {
-    return items[0];
+    return this.items[0];
   }
 
   /**
    * Checks if the queue is empty
    */
   isEmpty() {
-    return items.length === 0;
+    return this.items.length === 0;
   }
 
   /**
    * Returns the number of items in the queue
    */
   size() {
-    return items.length;
+    return this.items.length;
   }
 }
