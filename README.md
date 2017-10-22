@@ -51,6 +51,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Univalue Tree](src/tree/univalue-tree.js)
 - [Validate Binary Search Tree](src/tree/validate-binary-search-tree.js)
 - [Verify Preorder Sequence in Binary Search Tree](src/tree/verify-preorder-sequence-in-binary-search-tree.js)
+- [Delete Node in a BST](src/tree/delete-node-in-a-bst.js)
 
 ### Dynamic Programming
 
