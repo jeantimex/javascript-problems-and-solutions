@@ -50,6 +50,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Serialize and Deserialize Binary Tree](src/tree/serialize-and-deserialize-binary-tree.js)
 - [Inorder Successor in BST](src/tree/inorder-successor-in-bst.js)
 - [Inorder Predecessor in BST](src/tree/inorder-predecessor-in-bst.js)
+- [Binary Tree Longest Consecutive Sequence](src/tree/binary-tree-longest-consecutive-sequence.js)
 
 ### Dynamic Programming
 
