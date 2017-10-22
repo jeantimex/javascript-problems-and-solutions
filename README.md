@@ -49,6 +49,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Closest Binary Search Tree Value II](src/tree/closest-binary-search-tree-value-ii.js)
 - [Serialize and Deserialize Binary Tree](src/tree/serialize-and-deserialize-binary-tree.js)
 - [Inorder Successor in BST](src/tree/inorder-successor-in-bst.js)
+- [Inorder Predecessor in BST](src/tree/inorder-predecessor-in-bst.js)
 
 ### Dynamic Programming
 

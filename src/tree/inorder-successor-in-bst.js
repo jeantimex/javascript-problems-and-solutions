@@ -20,8 +20,8 @@ const inorderSuccessorR = (root, p) => {
     return inorderSuccessorR(root.right, p);
   }
 
-  const left = inorderSuccessorR(root.left, p);
-  return left ? left : root;
+  const successor = inorderSuccessorR(root.left, p);
+  return successor ? successor : root;
 };
 
 /**
