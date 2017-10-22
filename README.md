@@ -47,6 +47,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Binary Tree Paths](src/tree/binary-tree-paths.js)
 - [Closest Binary Search Tree Value](src/tree/closest-binary-search-tree-value.js)
 - [Closest Binary Search Tree Value II](src/tree/closest-binary-search-tree-value-ii.js)
+- [Serialize and Deserialize Binary Tree](src/tree/serialize-and-deserialize-binary-tree.js)
 
 ### Dynamic Programming
 
