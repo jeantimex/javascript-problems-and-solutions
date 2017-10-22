@@ -18,20 +18,20 @@ import Stack from 'common/stack';
  * @param {number} k
  * @return {number[]}
  */
-var closestKValues = function(root, target, k) {
-  var result = [];
-  var successors = [];
-  var predecessors = [];
+const closestKValues = (root, target, k) => {
+  const result = [];
+  const successors = new Stack();
+  const predecessors = new Stack();
 
   inorder(root, target, successors, true);
   inorder(root, target, predecessors, false);
 
   while (k--) {
-    if (successors.length === 0) {
+    if (successors.isEmpty()) {
       result.push(predecessors.pop());
-    } else if (predecessors.length === 0) {
+    } else if (predecessors.isEmpty()) {
       result.push(successors.pop());
-    } else if (successors[successors.length - 1] - target < target - predecessors[predecessors.length - 1]) {
+    } else if (successors.peek() - target < target - predecessors.peek()) {
       result.push(successors.pop());
     } else {
       result.push(predecessors.pop());
@@ -49,7 +49,7 @@ var closestKValues = function(root, target, k) {
  * @param {*} list 
  * @param {*} reverse 
  */
-var inorder = function(root, target, stack, reverse) {
+const inorder = (root, target, stack, reverse) => {
   if (!root) {
     return;
   }

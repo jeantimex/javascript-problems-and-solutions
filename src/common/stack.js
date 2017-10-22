@@ -1,34 +1,33 @@
 /**
  * Stack data structure.
  */
-let items = [];
 
 export default class Stack {
   constructor() {
-    items = [];
+    this.items = [];
   }
 
   push(element) {
-    items.push(element);
+    this.items.push(element);
   }
 
   pop() {
-    return items.pop();
+    return this.items.pop();
   }
 
   peek() {
-    return items[items.length - 1];
+    return this.items[this.items.length - 1];
   }
 
   isEmpty() {
-    return items.length === 0;
+    return this.items.length === 0;
   }
 
   size() {
-    return items.length;
+    return this.items.length;
   }
 
   clear() {
-    items = [];
+    this.items = [];
   }
 }
