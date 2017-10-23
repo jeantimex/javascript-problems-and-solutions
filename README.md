@@ -39,6 +39,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Minimum Depth of Binary Tree](src/tree/minimum-depth-of-binary-tree.js)
 - [Path Sum](src/tree/path-sum.js)
 - [Path Sum II](src/tree/path-sum-ii.js)
+- [Path Sum III](src/tree/path-sum-iii.js)
 - [Populating Next Right Pointers in Each Node](src/tree/populating-next-right-pointers-in-each-node.js)
 - [Populating Next Right Pointers in Each Node II](src/tree/populating-next-right-pointers-in-each-node-ii.js)
 - [Recover Binary Search Tree](src/tree/recover-binary-search-tree.js)
