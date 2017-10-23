@@ -55,6 +55,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Delete Node in a BST](src/tree/delete-node-in-a-bst.js)
 - [House Robber III](src/tree/house-robber-iii.js)
 - [Diameter of Binary Tree](src/tree/diameter-of-binary-tree.js)
+- [Trim a Binary Search Tree](src/tree/trim-a-binary-search-tree.js)
 
 ### Dynamic Programming
 
