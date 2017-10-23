@@ -54,6 +54,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Verify Preorder Sequence in Binary Search Tree](src/tree/verify-preorder-sequence-in-binary-search-tree.js)
 - [Delete Node in a BST](src/tree/delete-node-in-a-bst.js)
 - [House Robber III](src/tree/house-robber-iii.js)
+- [Diameter of Binary Tree](src/tree/diameter-of-binary-tree.js)
 
 ### Dynamic Programming
 
