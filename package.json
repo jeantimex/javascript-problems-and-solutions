@@ -7,10 +7,10 @@
   "author": "Yong Su <jean.timex@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint src",
-    "mocha": "cross-env NODE_ENV=test nyc mocha src/**/*-test.js",
+    "lint": "./node_modules/.bin/eslint ./src",
+    "mocha": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha ./src/**/*-test.js",
     "test": "npm run lint && npm run mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
