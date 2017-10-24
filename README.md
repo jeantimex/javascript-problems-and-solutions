@@ -56,6 +56,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [House Robber III](src/tree/house-robber-iii.js)
 - [Diameter of Binary Tree](src/tree/diameter-of-binary-tree.js)
 - [Trim a Binary Search Tree](src/tree/trim-a-binary-search-tree.js)
+- [Maximum Binary Tree](src/tree/maximum-binary-tree.js)
 
 ### Dynamic Programming
 
