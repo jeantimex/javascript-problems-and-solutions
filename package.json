@@ -1,17 +1,17 @@
 {
   "name": "javascript-problems-and-solutions",
-  "version": "1.2.5",
+  "version": "0.0.0-development",
   "description": "A collection of JavaScript problems and solutions for studying algorithms.",
   "main": "index.js",
   "repository": "https://github.com/jeantimex/javascript-problems-and-solutions.git",
   "author": "Yong Su <jean.timex@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint src",
-    "mocha": "cross-env NODE_ENV=test nyc mocha src/**/*-test.js",
+    "lint": "./node_modules/.bin/eslint ./src",
+    "mocha": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha ./src/**/*-test.js",
     "test": "npm run lint && npm run mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "release": "node ./release.js"
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -26,11 +26,12 @@
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
     "cross-env": "^5.0.5",
-    "eslint": "^4.8.0",
+    "eslint": "^4.9.0",
     "eslint-plugin-prettier": "^2.3.1",
     "inquirer": "^3.3.0",
     "mocha": "^4.0.1",
     "nyc": "^11.2.1",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "semantic-release": "^8.2.0"
   }
 }
