@@ -10,10 +10,7 @@
     "lint": "./node_modules/.bin/eslint ./src",
     "mocha": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha ./src/**/*-test.js",
     "test": "npm run lint && npm run mocha",
-    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
-    "release:major": "./node_modules/.bin/changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
-    "release:minor": "./node_modules/.bin/changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
-    "release:patch": "./node_modules/.bin/changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -30,7 +27,6 @@
     "cross-env": "^5.0.5",
     "eslint": "^4.9.0",
     "eslint-plugin-prettier": "^2.3.1",
-    "generate-changelog": "^1.5.0",
     "mocha": "^4.0.1",
     "nyc": "^11.2.1",
     "prettier": "^1.7.4"
