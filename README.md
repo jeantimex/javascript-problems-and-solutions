@@ -57,6 +57,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Diameter of Binary Tree](src/tree/diameter-of-binary-tree.js)
 - [Trim a Binary Search Tree](src/tree/trim-a-binary-search-tree.js)
 - [Maximum Binary Tree](src/tree/maximum-binary-tree.js)
+- [Convert BST to Greater Tree](src/tree/convert-bst-to-greater-tree.js)
 
 ### Dynamic Programming
 
