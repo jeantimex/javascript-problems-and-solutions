@@ -10,7 +10,8 @@
     "lint": "./node_modules/.bin/eslint ./src",
     "mocha": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha ./src/**/*-test.js",
     "test": "npm run lint && npm run mocha",
-    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls"
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -29,6 +30,7 @@
     "eslint-plugin-prettier": "^2.3.1",
     "mocha": "^4.0.1",
     "nyc": "^11.2.1",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "semantic-release": "^8.2.0"
   }
 }
