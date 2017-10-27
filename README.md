@@ -63,6 +63,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
 
+## Author
+
+I solve algorithm problems using JavaSript and Java, you can find all my LeetCode solutions and posts [here](https://discuss.leetcode.com/user/jeantimex).
+
 ## LICENSE
 
 MIT License
