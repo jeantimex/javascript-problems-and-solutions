@@ -1,7 +1,4 @@
 {
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
@@ -18,8 +15,8 @@
         "js:babel-core/register"
       ],
       "sourceMaps": true,
-      "env": { "NODE_ENV": "test"},
-      "stopOnEntry": false
+      "stopOnEntry": false,
+      "env": { "NODE_ENV": "test"}
     }
   ]
 }
