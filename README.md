@@ -59,6 +59,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Maximum Binary Tree](src/tree/maximum-binary-tree.js)
 - [Convert BST to Greater Tree](src/tree/convert-bst-to-greater-tree.js)
 - [Find Mode in Binary Search Tree](src/tree/find-mode-in-binary-search-tree.js)
+- [Subtree of Another Tree](src/tree/subtree-of-another-tree.js)
 
 ### Dynamic Programming
 
