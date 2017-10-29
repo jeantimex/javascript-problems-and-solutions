@@ -8,12 +8,7 @@
       "cwd": "${workspaceRoot}",
       "program": "${workspaceRoot}/node_modules/mocha/bin/_mocha",
       "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
-      "args": [
-        "src/**/*-test.js",
-        "--no-timeouts",
-        "--compilers",
-        "js:babel-core/register"
-      ],
+      "args": ["src/**/*-test.js"],
       "sourceMaps": true,
       "stopOnEntry": false,
       "env": { "NODE_ENV": "test"}
