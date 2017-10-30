@@ -61,6 +61,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Find Mode in Binary Search Tree](src/tree/find-mode-in-binary-search-tree.js)
 - [Find Bottom Left Tree Value](src/tree/find-bottom-left-tree-value.js)
 - [Subtree of Another Tree](src/tree/subtree-of-another-tree.js)
+- [Find Largest Value in Each Tree Row](src/tree/find-largest-value-in-each-tree-row.js)
 
 ### Dynamic Programming
 
