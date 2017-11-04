@@ -65,6 +65,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Univalue Path](src/tree/longest-univalue-path.js)
 - [Maximum Width of Binary Tree](src/tree/maximum-width-of-binary-tree.js)
 - [Serialize and Deserialize BST](src/tree/serialize-and-deserialize-bst.js)
+- [Kill Process](src/tree/kill-process.js)
 
 ### Dynamic Programming
 
