@@ -1,18 +1,18 @@
 {
   "presets": ["env"],
   "plugins": [
-    ["transform-object-rest-spread", { "useBuiltIns": true }]
+    ["transform-object-rest-spread", { "useBuiltIns": true }],
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "trees": "./tree/__tests__/trees.js"
+      }
+    }]
   ],
   "env": {
     "test": {
       "plugins": [
-        "istanbul",
-        ["module-resolver", {
-          "root": ["./src"],
-          "alias": {
-            "trees": "./tree/__tests__/trees.js"
-          }
-        }]
+        "istanbul"
       ]
     }
   }
