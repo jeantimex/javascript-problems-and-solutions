@@ -63,6 +63,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Subtree of Another Tree](src/tree/subtree-of-another-tree.js)
 - [Find Largest Value in Each Tree Row](src/tree/find-largest-value-in-each-tree-row.js)
 - [Longest Univalue Path](src/tree/longest-univalue-path.js)
+- [Maximum Width of Binary Tree](src/tree/maximum-width-of-binary-tree.js)
 
 ### Dynamic Programming
 
