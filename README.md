@@ -68,6 +68,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Kill Process](src/tree/kill-process.js)
 - [Most Frequent Subtree Sum](src/tree/most-frequent-subtree-sum.js)
 - [Binary Tree Longest Consecutive Sequence II](src/tree/binary-tree-longest-consecutive-sequence-ii.js)
+- [Path Sum IV](src/tree/path-sum-iv.js)
 
 ### Dynamic Programming
 
