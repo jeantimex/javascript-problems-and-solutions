@@ -67,6 +67,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Serialize and Deserialize BST](src/tree/serialize-and-deserialize-bst.js)
 - [Kill Process](src/tree/kill-process.js)
 - [Most Frequent Subtree Sum](src/tree/most-frequent-subtree-sum.js)
+- [Binary Tree Longest Consecutive Sequence II](src/tree/binary-tree-longest-consecutive-sequence-ii.js)
 
 ### Dynamic Programming
 
