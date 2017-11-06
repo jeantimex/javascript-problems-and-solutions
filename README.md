@@ -14,6 +14,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### Tree
 
+- [Add One Row to Tree](src/tree/add-one-row-to-tree.js)
 - [Balanced Binary Tree](src/tree/balanced-binary-tree.js)
 - [Binary Tree Inorder Traversal](src/tree/binary-tree-inorder-traversal.js)
 - [Binary Tree Level Order Traversal](src/tree/binary-tree-level-order-traversal.js)
