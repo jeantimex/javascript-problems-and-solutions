@@ -1,7 +1,7 @@
 /**
  * Graph Utilities
  * 
- * OJ's undirected graph serialization:
+ * Undirected graph serialization:
  * Nodes are labeled uniquely.
  *
  * We use # as a separator for each node, and , as a separator for node label and each neighbor of the node.
