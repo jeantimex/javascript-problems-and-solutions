@@ -73,6 +73,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Graph
 
 - [Clone Graph](src/graph/clone-graph.js)
+- [Course Schedule](src/graph/course-schedule.js)
 
 ### Dynamic Programming
 
