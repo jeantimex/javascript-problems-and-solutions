@@ -76,6 +76,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Course Schedule](src/graph/course-schedule.js)
 - [Course Schedule II](src/graph/course-schedule-ii.js)
 - [Alien Dictionary](src/graph/alien-dictionary.js)
+- [Graph Valid Tree](src/graph/graph-valid-tree.js)
 
 ### Dynamic Programming
 
