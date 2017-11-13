@@ -78,6 +78,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Alien Dictionary](src/graph/alien-dictionary.js)
 - [Graph Valid Tree](src/graph/graph-valid-tree.js)
 
+### Linked List
+
+- [Add Two Numbers](src/linked-list/add-two-numbers.js)
+
 ### Dynamic Programming
 
 - [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
