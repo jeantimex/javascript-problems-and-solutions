@@ -57,21 +57,12 @@ const dfs = (adjList, u, result) => {
   result.push(u);
 };
 
-const stringComparator = (a, b) => {
-  if (a < b) {
-    return -1;
-  } else if (a > b) {
-    return 1;
-  }
-  return 0;
-};
-
 const buildGraph = tickets => {
   const adjList = new Map();
 
   tickets.forEach(([from, to]) => {
     if (!adjList.has(from)) {
-      adjList.set(from, new PriorityQueue({ comparator: stringComparator }));
+      adjList.set(from, new PriorityQueue({ comparator: (a, b) => a.localeCompare(b) }));
     }
     adjList.get(from).queue(to);
   });
