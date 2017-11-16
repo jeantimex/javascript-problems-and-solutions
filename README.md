@@ -79,6 +79,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Graph Valid Tree](src/graph/graph-valid-tree.js)
 - [Number of Connected Components in an Undirected Graph](src/graph/number-of-connected-components-in-an-undirected-graph.js)
 - [Reconstruct Itinerary](src/graph/reconstruct-itinerary.js)
+- [Evaluate Division](src/graph/evaluate-division.js)
 
 ### Linked List
 
