@@ -80,6 +80,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Number of Connected Components in an Undirected Graph](src/graph/number-of-connected-components-in-an-undirected-graph.js)
 - [Reconstruct Itinerary](src/graph/reconstruct-itinerary.js)
 - [Evaluate Division](src/graph/evaluate-division.js)
+- [Sequence Reconstruction](src/graph/sequence-reconstruction.js)
 
 ### Linked List
 
