@@ -81,6 +81,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Reconstruct Itinerary](src/graph/reconstruct-itinerary.js)
 - [Evaluate Division](src/graph/evaluate-division.js)
 - [Sequence Reconstruction](src/graph/sequence-reconstruction.js)
+- [Minimum Height Trees](src/graph/minimum-height-trees.js)
 
 ### Linked List
 
