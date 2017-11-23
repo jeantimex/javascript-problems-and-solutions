@@ -82,6 +82,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Evaluate Division](src/graph/evaluate-division.js)
 - [Sequence Reconstruction](src/graph/sequence-reconstruction.js)
 - [Minimum Height Trees](src/graph/minimum-height-trees.js)
+- [Redundant Connection](src/graph/redundant-connection.js)
 
 ### Linked List
 
