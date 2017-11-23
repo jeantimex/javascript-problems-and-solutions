@@ -83,7 +83,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Sequence Reconstruction](src/graph/sequence-reconstruction.js)
 - [Minimum Height Trees](src/graph/minimum-height-trees.js)
 - [Redundant Connection](src/graph/redundant-connection.js)
-- [Redundant Connection](src/graph/redundant-connection-ii.js)
+- [Redundant Connection II](src/graph/redundant-connection-ii.js)
 
 ### Linked List
 
