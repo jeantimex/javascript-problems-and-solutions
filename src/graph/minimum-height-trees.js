@@ -53,69 +53,57 @@
  * @return {number[]}
  */
 const findMinHeightTrees = (n, edges) => {
+  if (n === 1) {
+    return [0];
+  }
+
+  // Step 1. Build the graph
   const adjList = buildGraph(n, edges);
 
-  let min = Number.MAX_SAFE_INTEGER;
-  let result = [];
+  // Step 2. Perform BFS by removing leaves until there are only two leaves left
+  const leaves = [];
 
   for (let i = 0; i < n; i++) {
-    const height = getHeight(adjList, i);
-
-    if (height < min) {
-      result = [i];
-      min = height;
-    } else if (height === min) {
-      result.push(i);
+    if (adjList.get(i).size === 1) {
+      leaves.push(i);
     }
   }
 
-  return result;
-};
+  while (n > 2) {
+    const size = leaves.length;
 
-const getHeight = (adjList, node) => {
-  const queue = [node];
-  const visited = new Set();
-  visited.add(node);
-
-  let level = 0;
-
-  while (queue.length > 0) {
-    level++;
-
-    const size = queue.length;
+    n -= size;
 
     for (let i = 0; i < size; i++) {
-      const u = queue.shift();
-      const neighbors = adjList.get(u);
+      const u = leaves.shift();
 
-      for (let j = 0; j < neighbors.length; j++) {
-        const v = neighbors[j];
+      adjList.get(u).forEach(v => {
+        adjList.get(v).delete(u);
 
-        if (!visited.has(v)) {
-          queue.push(v);
-          visited.add(v);
+        if (adjList.get(v).size === 1) {
+          leaves.push(v);
         }
-      }
+      });
     }
   }
 
-  return level;
+  return leaves;
 };
 
 const buildGraph = (n, edges) => {
   const adjList = new Map();
 
   for (let i = 0; i < n; i++) {
-    adjList.set(i, []);
+    adjList.set(i, new Set());
   }
 
-  for (let i = 0; i < edges.length; i++) {
-    const u = edges[i][0];
-    const v = edges[i][1];
+  edges.forEach(edge => {
+    const u = edge[0];
+    const v = edge[1];
 
-    adjList.get(u).push(v);
-    adjList.get(v).push(u);
-  }
+    adjList.get(u).add(v);
+    adjList.get(v).add(u);
+  });
 
   return adjList;
 };
