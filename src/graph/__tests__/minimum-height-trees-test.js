@@ -3,7 +3,11 @@ import { serializeUndirectedGraph, deserializeUndirectedGraph } from 'utils/grap
 import findMinHeightTrees from '../minimum-height-trees';
 
 describe('Minimum Height Trees', () => {
-  const testCases = [[4, [[1, 0], [1, 2], [1, 3]], [1]], [6, [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4]], [3, 4]]];
+  const testCases = [
+    [4, [[1, 0], [1, 2], [1, 3]], [1]],
+    [6, [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4]], [3, 4]],
+    [1, [], [0]],
+  ];
 
   testCases.forEach((testCase, index) => {
     it(`should get the minimum height trees ${index}`, () => {
