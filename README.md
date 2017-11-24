@@ -85,6 +85,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Redundant Connection](src/graph/redundant-connection.js)
 - [Redundant Connection II](src/graph/redundant-connection-ii.js)
 
+### Trie (Prefix Tree)
+
+- [Implement Trie (Prefix Tree)](src/common/implement-trie-prefix-tree.js)
+
 ### Linked List
 
 - [Add Two Numbers](src/linked-list/add-two-numbers.js)
