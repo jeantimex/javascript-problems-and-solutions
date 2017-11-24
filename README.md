@@ -7,7 +7,7 @@
 
 A collection of JavaScript problems and solutions for studying algorithms.
 
-![cover](docs/images/cover.png)
+<img atl="cover" src="docs/images/cover.png" />
 
 ## Problems
 
@@ -87,7 +87,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### Trie (Prefix Tree)
 
-- [Implement Trie (Prefix Tree)](src/common/implement-trie-prefix-tree.js)
+- [Implement Trie (Prefix Tree)](src/common/trie.js)
 
 ### Linked List
 
