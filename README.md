@@ -88,6 +88,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Trie (Prefix Tree)
 
 - [Implement Trie (Prefix Tree)](src/common/trie.js)
+- [](src/trie/add-and-search-word-data-structure-design.js)
 
 ### Linked List
 
