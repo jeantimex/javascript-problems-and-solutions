@@ -7,7 +7,7 @@
 
 A collection of JavaScript problems and solutions for studying algorithms.
 
-<img atl="cover" src="docs/images/cover.png" />
+![cover](docs/images/cover.png)
 
 ## Problems
 
