@@ -90,6 +90,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Implement Trie (Prefix Tree)](src/common/trie.js)
 - [Add and Search Word](src/trie/add-and-search-word-data-structure-design.js)
 - [Word Search II](src/trie/word-search-ii.js)
+- [Longest Word in Dictionary](src/trie/longest-word-in-dictionary.js)
 
 ### Linked List
 
