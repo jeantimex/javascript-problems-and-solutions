@@ -93,6 +93,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Word in Dictionary](src/trie/longest-word-in-dictionary.js)
 - [Map Sum Pairs](src/trie/map-sum-pairs.js)
 - [Implement Magic Dictionary](src/trie/implement-magic-dictionary.js)
+- [Replace Words](src/trie/replace-words.js)
 
 ### Linked List
 
