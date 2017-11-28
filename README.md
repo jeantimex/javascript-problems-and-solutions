@@ -94,6 +94,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Map Sum Pairs](src/trie/map-sum-pairs.js)
 - [Implement Magic Dictionary](src/trie/implement-magic-dictionary.js)
 - [Replace Words](src/trie/replace-words.js)
+- [Top K Frequent Words](src/trie/top-k-frequent-words.js)
 
 ### Linked List
 
