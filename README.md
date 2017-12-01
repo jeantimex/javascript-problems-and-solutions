@@ -95,6 +95,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Implement Magic Dictionary](src/trie/implement-magic-dictionary.js)
 - [Replace Words](src/trie/replace-words.js)
 - [Top K Frequent Words](src/trie/top-k-frequent-words.js)
+- [Concatenated Words](src/trie/concatenated-words.js)
 
 ### Linked List
 
