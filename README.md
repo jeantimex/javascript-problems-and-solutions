@@ -98,6 +98,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Concatenated Words](src/trie/concatenated-words.js)
 - [Palindrome Pairs](src/trie/palindrome-pairs.js)
 - [Design Search Autocomplete System](src/trie/design-search-autocomplete-system.js)
+- [Word Squares](src/trie/word-squares.js)
 
 ### Linked List
 
