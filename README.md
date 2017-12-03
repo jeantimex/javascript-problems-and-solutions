@@ -97,6 +97,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Top K Frequent Words](src/trie/top-k-frequent-words.js)
 - [Concatenated Words](src/trie/concatenated-words.js)
 - [Palindrome Pairs](src/trie/palindrome-pairs.js)
+- [Design Search Autocomplete System](src/trie/design-search-autocomplete-system.js)
 
 ### Linked List
 
