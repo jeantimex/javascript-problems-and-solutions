@@ -101,6 +101,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Word Squares](src/trie/word-squares.js)
 - [Maximum XOR of Two Numbers in an Array](src/trie/maximum-xor-of-two-numbers-in-an-array.js)
 
+### Backtracking
+
+- [Subsets](src/backtracking/subsets.js)
+
 ### Linked List
 
 - [Add Two Numbers](src/linked-list/add-two-numbers.js)
