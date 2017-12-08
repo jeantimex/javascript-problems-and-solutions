@@ -104,6 +104,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Backtracking
 
 - [Subsets](src/backtracking/subsets.js)
+- [Subsets II](src/backtracking/subsets-ii.js)
 
 ### Linked List
 
