@@ -106,6 +106,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Subsets](src/backtracking/subsets.js)
 - [Subsets II](src/backtracking/subsets-ii.js)
 - [Combinations](src/backtracking/combinations.js)
+- [Combination Sum](src/backtracking/combination-sum.js)
 
 ### Linked List
 
