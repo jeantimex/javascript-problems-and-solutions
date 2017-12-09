@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import combinationSum from '../combination-sum-ii';
+import combinationSum from '../combination-sum-iii';
 
 const sorter = (a, b) => {
   if (a.length === b.length) {
@@ -8,19 +8,15 @@ const sorter = (a, b) => {
   return a.length - b.length;
 };
 
-describe('Combination Sum II', () => {
-  const testCases = [
-    [[2, 3, 6, 7], 7, [[7], [2, 2, 3]]],
-    [[7, 3, 6, 2], 7, [[7], [2, 2, 3]]],
-    [[10, 1, 2, 7, 6, 1, 5], 8, [[1, 7], [1, 2, 5], [2, 6], [1, 1, 6]]],
-  ];
+describe('Combination Sum III', () => {
+  const testCases = [[3, 7, [[1, 2, 4]]], [3, 9, [[1, 2, 6], [1, 3, 5], [2, 3, 4]]]];
 
   testCases.forEach((testCase, index) => {
     it(`should get the combination sum using back tracking ${index}`, () => {
-      const candidates = testCase[0];
-      const target = testCase[1];
+      const k = testCase[0];
+      const n = testCase[1];
       const expected = testCase[2];
-      const actual = combinationSum(candidates, target);
+      const actual = combinationSum(k, n);
       assert(actual.sort(sorter), expected.sort(sorter));
     });
   });
