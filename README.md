@@ -108,6 +108,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Combinations](src/backtracking/combinations.js)
 - [Combination Sum](src/backtracking/combination-sum.js)
 - [Combination Sum II](src/backtracking/combination-sum-ii.js)
+- [Combination Sum III](src/backtracking/combination-sum-iii.js)
 
 ### Linked List
 
