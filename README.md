@@ -113,6 +113,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Permutations II](src/backtracking/permutations-ii.js)
 - [N-Queens](src/backtracking/n-queens.js)
 - [N-Queens II](src/backtracking/n-queens-ii.js)
+- [Generate Parentheses](src/backtracking/generate-parentheses.js)
 
 ### Linked List
 
