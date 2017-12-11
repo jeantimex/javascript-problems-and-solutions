@@ -112,6 +112,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Permutations](src/backtracking/permutations.js)
 - [Permutations II](src/backtracking/permutations-ii.js)
 - [N-Queens](src/backtracking/n-queens.js)
+- [N-Queens II](src/backtracking/n-queens-ii.js)
 
 ### Linked List
 
