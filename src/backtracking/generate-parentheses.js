@@ -20,26 +20,22 @@
  */
 const generateParenthesis = n => {
   const results = [];
-  backtracking(n, 0, 0, [], results);
+  backtracking(n, 0, 0, '', results);
   return results;
 };
 
 const backtracking = (n, left, right, solution, results) => {
   if (left === n && right === n) {
-    results.push(solution.join(''));
+    results.push(solution);
     return;
   }
 
   if (left < n) {
-    solution.push('(');
-    backtracking(n, left + 1, right, solution, results);
-    solution.pop();
+    backtracking(n, left + 1, right, solution + '(', results);
   }
 
   if (right < left) {
-    solution.push(')');
-    backtracking(n, left, right + 1, solution, results);
-    solution.pop();
+    backtracking(n, left, right + 1, solution + ')', results);
   }
 };
 
