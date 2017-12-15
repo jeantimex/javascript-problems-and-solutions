@@ -116,6 +116,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Generate Parentheses](src/backtracking/generate-parentheses.js)
 - [Generate Parentheses II](src/backtracking/generate-parentheses-ii.js)
 - [Word Search](src/backtracking/word-search.js)
+- [Word Search II](src/trie/word-search-ii.js)
 
 ### Linked List
 
