@@ -126,6 +126,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Dynamic Programming
 
 - [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
+- [Longest Palindromic Substring](src/dynamic-programming/longest-palindromic-substring.js)
 
 ## Author
 
