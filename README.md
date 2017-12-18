@@ -118,6 +118,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Word Search](src/backtracking/word-search.js)
 - [Word Search II](src/trie/word-search-ii.js)
 - [Sudoku Solver](src/backtracking/sudoku-solver.js)
+- [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 
 ### Linked List
 
@@ -127,6 +128,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
 - [Longest Palindromic Substring](src/dynamic-programming/longest-palindromic-substring.js)
+- [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 
 ## Author
 
