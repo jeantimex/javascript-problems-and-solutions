@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import { isMatch } from '../wildcard-matching';
+import { isMatch, isMatchDP } from '../wildcard-matching';
 
 describe('Wildcard Matching', () => {
   const testCases = [
@@ -18,6 +18,12 @@ describe('Wildcard Matching', () => {
     it(`should check wildcard matching using recursive solution ${index}`, () => {
       const [s, p, expected] = testCase;
       const actual = isMatch(s, p);
+      assert.equal(actual, expected);
+    });
+
+    it(`should check wildcard matching using dynamic programming solution ${index}`, () => {
+      const [s, p, expected] = testCase;
+      const actual = isMatchDP(s, p);
       assert.equal(actual, expected);
     });
   });
