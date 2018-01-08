@@ -15,6 +15,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Median of Two Sorted Arrays](src/array/median-of-two-sorted-arrays.js)
 
+### String
+
+- [Valid Parentheses](src/string/valid-parentheses.js)
+
 ### Tree
 
 - [Add One Row to Tree](src/tree/add-one-row-to-tree.js)
