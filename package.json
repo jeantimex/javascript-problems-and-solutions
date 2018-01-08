@@ -11,7 +11,7 @@
     "mocha": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha ./src/**/*-test.js",
     "test": "npm run lint && npm run mocha",
     "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "release": "release-it"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -32,6 +32,6 @@
     "mocha": "^4.0.1",
     "nyc": "^11.2.1",
     "prettier": "^1.7.4",
-    "semantic-release": "^8.2.0"
+    "release-it": "^5.2.0"
   }
 }
