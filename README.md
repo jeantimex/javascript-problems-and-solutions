@@ -19,6 +19,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Valid Parentheses](src/string/valid-parentheses.js)
 
+### Sorting
+
+- [Quick Sort](src/sorting/quick-sort.js)
+
 ### Tree
 
 - [Add One Row to Tree](src/tree/add-one-row-to-tree.js)
