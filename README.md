@@ -22,6 +22,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Sorting
 
 - [Quick Sort](src/sorting/quick-sort.js)
+- [Quick Sort II](src/sorting/quick-sort-ii.js)
 
 ### Tree
 
