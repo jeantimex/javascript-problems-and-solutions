@@ -1,5 +1,7 @@
 /**
  * Quick Sort
+ * 
+ * Lomuto's partition schema
  */
 
 const swap = (nums, i, j) => {
@@ -15,7 +17,7 @@ const swap = (nums, i, j) => {
  * @param {number} lo
  * @param {number} hi
  */
-const partitionLomuto = (nums, lo, hi) => {
+const partition = (nums, lo, hi) => {
   const pivot = hi;
 
   let i = lo;
@@ -34,72 +36,28 @@ const partitionLomuto = (nums, lo, hi) => {
 };
 
 /**
- * Hoare's partition scheme
- * Hoare's Partition Scheme works by initializing two indexes that start at two ends,
- * the two indexes move toward each other until an inversion is (A smaller value on
- * left side and greater value on right side) found. When an inversion is found, two
- * values are swapped and process is repeated.
- * 
- * Hoare's scheme is more efficient than Lomuto’s partition scheme because it does
- * three times fewer swaps on average, and it creates efficient partitions even when
- * all values are equal.
- * 
- * @param {number[]} nums
- * @param {number} lo
- * @param {number} hi
- */
-const partitionHoare = (nums, lo, hi) => {
-  const pivot = lo + Math.floor((hi - lo) / 2);
-
-  let i = lo;
-  let j = hi;
-
-  while (i < j) {
-    while (nums[i] < nums[pivot]) {
-      i++;
-    }
-
-    while (nums[j] > nums[pivot]) {
-      j--;
-    }
-
-    swap(nums, i++, j--);
-  }
-
-  return i;
-};
-
-/**
  * Quick sort helper - Returns sorted nums
  *
  * @param {number[]} nums
  * @param {number} lo
  * @param {number} hi
- * @parem {string} schema
  */
-const sort = (nums, lo, hi, schema) => {
+const sort = (nums, lo, hi) => {
   if (lo >= hi) {
     return;
   }
 
-  let pivot;
+  const pivot = partition(nums, lo, hi);
 
-  if (schema === 'lomuto') {
-    pivot = partitionLomuto(nums, lo, hi);
-  } else {
-    pivot = partitionHoare(nums, lo, hi);
-  }
-
-  sort(nums, lo, pivot - 1, schema);
-  sort(nums, pivot, hi, schema);
+  sort(nums, lo, pivot - 1);
+  sort(nums, pivot + 1, hi);
 };
 
 /**
  * Quick sort
  *
  * @param {number[]} nums
- * @param {string} schema
  */
-const quickSort = (nums, schema) => sort(nums, 0, nums.length - 1, schema);
+const quickSort = nums => sort(nums, 0, nums.length - 1);
 
 export default quickSort;

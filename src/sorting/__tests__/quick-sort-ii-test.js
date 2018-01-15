@@ -1,7 +1,7 @@
 import { assert } from 'chai';
-import quickSort from '../quick-sort';
+import quickSort from '../quick-sort-ii';
 
-describe('Quick Sort', () => {
+describe('Quick Sort II', () => {
   const testCases = [
     [],
     [1],
@@ -17,7 +17,7 @@ describe('Quick Sort', () => {
   ];
 
   testCases.forEach((testCase, index) => {
-    it('should sort the nums using lomuto schema', () => {
+    it('should sort the nums using hoare schema', () => {
       const nums = testCase.slice();
       quickSort(nums);
       const actual = nums;
