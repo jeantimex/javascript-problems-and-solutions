@@ -26,6 +26,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Quick Sort](src/sorting/quick-sort.js)
 - [Quick Sort II](src/sorting/quick-sort-ii.js)
 
+### Binary Search
+
+- [Binary Search](src/binary-search/binary-search.js)
+
 ### Tree
 
 - [Add One Row to Tree](src/tree/add-one-row-to-tree.js)
