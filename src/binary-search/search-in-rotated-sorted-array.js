@@ -24,13 +24,15 @@ const search = (nums, target) => {
   let hi = nums.length - 1;
 
   while (lo <= hi) {
-    const mid = lo + Math.floor((hi - lo + 1) / 2);
+    const mid = lo + Math.floor((hi - lo) / 2);
 
     if (nums[mid] === target) {
       return mid;
     }
 
-    if (nums[lo] < nums[mid]) {
+    // use <= here because lo might be equal to mid due to
+    // mid = (lo + hi) / 2
+    if (nums[lo] <= nums[mid]) {
       if (nums[lo] <= target && target < nums[mid]) {
         hi = mid - 1;
       } else {
