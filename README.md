@@ -25,6 +25,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Merge Sort](src/sorting/merge-sort.js)
 - [Quick Sort](src/sorting/quick-sort.js)
 - [Quick Sort II](src/sorting/quick-sort-ii.js)
+- [Heap Sort](src/sorting/heap-sort.js)
 
 ### Binary Search
 
