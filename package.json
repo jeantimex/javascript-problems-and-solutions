@@ -9,7 +9,9 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint ./src",
     "mocha": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha ./src/**/*$FILE*-test.js",
+    "mocha-dev": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha --watch ./src/**/*$FILE*-test.js",
     "test": "npm run lint && npm run mocha",
+    "test-dev": "npm run lint && npm run mocha-dev",
     "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
     "release": "release-it"
   },

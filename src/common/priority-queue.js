@@ -3,22 +3,18 @@
  */
 
 export default class PriorityQueue {
-  constructor({ comparator, initialValues }) {
-    this.comparator = comparator || ((a, b) => a - b);
-    this.data = initialValues ? initialValues.slice(0) : [];
+  constructor({ comparator = (a, b) => a - b, initialValues = [] } = {}) {
+    this.comparator = comparator;
+    this.data = initialValues;
     this.heapify();
   }
 
-  size() {
-    return this.data.length;
-  }
-
-  heapify() {
-    if (this.data.length > 0) {
-      for (let i = 0; i < this.data.length; i++) {
-        this.bubbleUp(i);
-      }
+  peek() {
+    if (this.size() === 0) {
+      throw new Error('Empty Queue');
     }
+
+    return this.data[0];
   }
 
   offer(value) {
@@ -27,6 +23,10 @@ export default class PriorityQueue {
   }
 
   poll() {
+    if (this.size() === 0) {
+      throw new Error('Empty Queue');
+    }
+
     const result = this.data[0];
     const last = this.data.pop();
 
@@ -38,12 +38,24 @@ export default class PriorityQueue {
     return result;
   }
 
-  peek() {
-    return this.data[0];
-  }
-
   clear() {
     this.data = [];
+  }
+
+  size() {
+    return this.data.length;
+  }
+
+  toArray() {
+    return this.data.slice(0).sort(this.comparator);
+  }
+
+  heapify() {
+    if (this.data.length > 0) {
+      for (let i = 1; i < this.data.length; i++) {
+        this.bubbleUp(i);
+      }
+    }
   }
 
   bubbleUp(pos) {
