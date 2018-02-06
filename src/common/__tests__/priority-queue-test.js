@@ -20,7 +20,7 @@ describe('Priority Queue', () => {
 
   it('should throw empty queue error when peeking empty queue', () => {
     const pq = new PriorityQueue();
-    assert.throws(() => pq.peek(), Error, 'Empty Queue');
+    assert.equal(pq.peek(), null);
   });
 
   it('should return the first element', () => {
@@ -47,7 +47,7 @@ describe('Priority Queue', () => {
 
   it('should throw empty queue error when polling empty queue', () => {
     const pq = new PriorityQueue();
-    assert.throws(() => pq.poll(), Error, 'Empty Queue');
+    assert.equal(pq.poll(), null);
   });
 
   it('should poll the data and bubble down the queue', () => {
