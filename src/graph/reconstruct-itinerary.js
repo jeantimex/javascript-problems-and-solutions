@@ -26,7 +26,7 @@
  * Another possible reconstruction is ["JFK","SFO","ATL","JFK","ATL","SFO"]. But it is larger in lexical order.
  */
 
-import PriorityQueue from 'js-priority-queue';
+import PriorityQueue from 'common/priority-queue';
 
 /**
  * @param {string[][]} tickets
@@ -49,8 +49,8 @@ const dfs = (adjList, u, result) => {
   // as each node might be visited multiple times
   // and all the nodes have to be visited
   // that's why we use a while loop here instead of using visited set
-  while (adjList.has(u) && adjList.get(u).length > 0) {
-    const v = adjList.get(u).dequeue();
+  while (adjList.has(u) && adjList.get(u).size() > 0) {
+    const v = adjList.get(u).poll();
     dfs(adjList, v, result);
   }
 
@@ -64,7 +64,7 @@ const buildGraph = tickets => {
     if (!adjList.has(from)) {
       adjList.set(from, new PriorityQueue({ comparator: (a, b) => a.localeCompare(b) }));
     }
-    adjList.get(from).queue(to);
+    adjList.get(from).offer(to);
   });
 
   return adjList;
