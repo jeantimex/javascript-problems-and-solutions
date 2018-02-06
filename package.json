@@ -28,10 +28,9 @@
     "cross-env": "^5.0.5",
     "eslint": "^4.9.0",
     "eslint-plugin-prettier": "^2.3.1",
-    "js-priority-queue": "^0.1.5",
-    "mocha": "^4.0.1",
+    "mocha": "^5.0.0",
     "nyc": "^11.2.1",
     "prettier": "^1.7.4",
-    "release-it": "^5.2.0"
+    "release-it": "^6.2.0"
   }
 }

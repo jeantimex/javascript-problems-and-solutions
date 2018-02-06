@@ -28,7 +28,7 @@
  * Try to solve it in O(n log k) time and O(n) extra space.
  */
 
-import PriorityQueue from 'js-priority-queue';
+import PriorityQueue from 'common/priority-queue';
 
 /**
  * @param {string[]} words
@@ -59,12 +59,12 @@ const topKFrequent = (words, k) => {
 
   // Put the counted words to a max heap
   map.forEach((count, key) => {
-    queue.queue({ key, count });
+    queue.offer({ key, count });
   });
 
   // Dequeue the max heap to results
   while (k-- > 0) {
-    const { key } = queue.dequeue();
+    const { key } = queue.poll();
     result.push(key);
   }
 
