@@ -14,6 +14,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Array
 
 - [Median of Two Sorted Arrays](src/array/median-of-two-sorted-arrays.js)
+- [Plus One](src/array/plus-one.js)
 
 ### String
 
