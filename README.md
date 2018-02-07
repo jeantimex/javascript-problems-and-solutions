@@ -9,6 +9,15 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ![cover](https://user-images.githubusercontent.com/565300/33303581-c55a1280-d3b8-11e7-8e78-6879731416f1.png)
 
+## Data Structures
+
+- [Stack](src/common/stack.js)
+- [Queue](src/common/queue.js)
+- [Trie](src/common/trie.js)
+- [Priority Queue](src/common/priority-queue.js)
+- [Tree Node](src/common/tree-node.js)
+- [Linked List Node](src/common/list-node.js)
+
 ## Problems
 
 ### Array
