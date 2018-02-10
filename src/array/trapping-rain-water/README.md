@@ -5,9 +5,9 @@ Given n non-negative integers representing an elevation map where the width of e
 For example,
 Given [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1], return 6.
 
-<img src="./rainwatertrap.png" width="412" /> <!-- markdownlint-disable MD033 -->
+![rainwatertrap](https://user-images.githubusercontent.com/565300/36057813-8a5c75a2-0dc8-11e8-8870-c9b965a9ccac.png)
 
-The above elevation map is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.
+The above elevation map is represented by array [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]. In this case, 6 units of rain water (blue section) are being trapped.
 
 ```javascript
 /**
