@@ -24,6 +24,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Median of Two Sorted Arrays](src/array/median-of-two-sorted-arrays.js)
 - [Plus One](src/array/plus-one.js)
+- [Trapping Rain Water](src/array/trapping-rain-water)
 
 ### String
 
