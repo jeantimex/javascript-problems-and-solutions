@@ -25,6 +25,14 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Median of Two Sorted Arrays](src/array/median-of-two-sorted-arrays.js)
 - [Plus One](src/array/plus-one.js)
 - [Trapping Rain Water](src/array/trapping-rain-water)
+- [Merge Intervals](src/array/merge-intervals.js)
+- [Spiral Matrix](src/array/spiral-matrix.js)
+- [Summary Ranges](src/array/summary-ranges.js)
+- [Find All Numbers Disappeared in an Array](src/array/find-all-numbers-disappeared-in-an-array.js)
+- [Game of Life](src/array/game-of-life.js)
+- [Next Permutation](src/array/next-permutation.js)
+- [Find Peak Element](src/array/find-peak-element.js)
+- [Wiggle Sort](src/array/wiggle-sort.js)
 
 ### String
 
@@ -162,6 +170,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
 - [Longest Palindromic Substring](src/dynamic-programming/longest-palindromic-substring.js)
+- [Longest Consecutive Sequence](src/dynamic-programming/longest-consecutive-sequence.js)
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 - [Wildcard Matching](src/backtracking/wildcard-matching.js)
 
