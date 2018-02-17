@@ -43,6 +43,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Generate Parentheses II](src/backtracking/generate-parentheses-ii.js)
 - [Shortest Palindrome](src/string/shortest-palindrome.js)
 - [Palindrome Pairs](src/trie/palindrome-pairs.js)
+- [First Unique Character in a String](src/string/first-unique-character-in-a-string.js)
 - [Judge Route Circle](src/string/judge-route-circle.js)
 
 
