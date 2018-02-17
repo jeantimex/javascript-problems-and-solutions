@@ -36,7 +36,14 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### String
 
+- [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
+- [Letter Combinations of a Phone Number](src/backtracking/letter-combinations-of-a-phone-number.js)
 - [Valid Parentheses](src/string/valid-parentheses.js)
+- [Generate Parentheses](src/backtracking/generate-parentheses.js)
+- [Generate Parentheses II](src/backtracking/generate-parentheses-ii.js)
+- [Shortest Palindrome](src/string/shortest-palindrome.js)
+- [Palindrome Pairs](src/trie/palindrome-pairs.js)
+
 
 ### Sorting
 
