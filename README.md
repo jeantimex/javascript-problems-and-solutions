@@ -47,7 +47,6 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Judge Route Circle](src/string/judge-route-circle.js)
 - [Reverse Vowels of a String](src/string/reverse-vowels-of-a-string.js)
 
-
 ### Sorting
 
 - [Insertion Sort](src/sorting/insertion-sort.js)
