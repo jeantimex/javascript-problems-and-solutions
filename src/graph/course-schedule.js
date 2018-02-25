@@ -48,21 +48,12 @@ const canFinish = (numCourses, prerequisites) => {
     adjList[i] = [];
   }
 
-  prerequisites.forEach(p => {
-    const u = p[0];
-    const v = p[1];
-    adjList[u].push(v);
-  });
+  prerequisites.forEach(([u, v]) => adjList[u].push(v));
 
   const visited = [];
   const stack = [];
 
   const hasCycle = u => {
-    // Checked already?
-    if (visited[u]) {
-      return false;
-    }
-
     visited[u] = true;
     stack[u] = true;
 
