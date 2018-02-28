@@ -59,6 +59,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Binary Search](src/binary-search/binary-search.js)
 - [Search in Rotated Sorted Array](src/binary-search/search-in-rotated-sorted-array.js)
+- [Divide Two Integers](src/binary-search/divide-two-integers.js)
 
 ### Tree
 
