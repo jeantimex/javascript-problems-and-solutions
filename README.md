@@ -66,6 +66,9 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Add One Row to Tree](src/tree/add-one-row-to-tree.js)
 - [Balanced Binary Tree](src/tree/balanced-binary-tree.js)
+- [Binary Search Tree I - Search](src/tree/binary-search-tree-i-search.js)
+- [Binary Search Tree II - Insert](src/tree/binary-search-tree-ii-insert.js)
+- [Binary Search Tree II - Delete](src/tree/binary-search-tree-iii-delete.js)
 - [Binary Tree Inorder Traversal](src/tree/binary-tree-inorder-traversal.js)
 - [Binary Tree Level Order Traversal](src/tree/binary-tree-level-order-traversal.js)
 - [Binary Tree Longest Consecutive Sequence](src/tree/binary-tree-longest-consecutive-sequence.js)
