@@ -154,6 +154,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Design Search Autocomplete System](src/trie/design-search-autocomplete-system.js)
 - [Word Squares](src/trie/word-squares.js)
 - [Maximum XOR of Two Numbers in an Array](src/trie/maximum-xor-of-two-numbers-in-an-array.js)
+- [Add Bold Tag in String](src/trie/add-bold-tag-in-string.js)
 
 ### Backtracking
 
