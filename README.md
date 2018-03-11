@@ -46,6 +46,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [First Unique Character in a String](src/string/first-unique-character-in-a-string.js)
 - [Judge Route Circle](src/string/judge-route-circle.js)
 - [Reverse Vowels of a String](src/string/reverse-vowels-of-a-string.js)
+- [Add Bold Tag in String](src/string/add-bold-tag-in-string.js)
 
 ### Sorting
 
