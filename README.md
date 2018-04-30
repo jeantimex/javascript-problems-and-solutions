@@ -190,6 +190,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Consecutive Sequence](src/dynamic-programming/longest-consecutive-sequence.js)
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 - [Wildcard Matching](src/backtracking/wildcard-matching.js)
+- [Word Break](src/dynamic-programming/word-break.js)
 
 ## Author
 
