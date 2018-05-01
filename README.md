@@ -191,6 +191,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 - [Wildcard Matching](src/backtracking/wildcard-matching.js)
 - [Word Break](src/dynamic-programming/word-break.js)
+- [Word Break II](src/dynamic-programming/word-break-ii.js)
 
 ## Author
 
