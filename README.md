@@ -97,6 +97,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [House Robber III](src/tree/house-robber-iii.js)
 - [Inorder Predecessor in BST](src/tree/inorder-predecessor-in-bst.js)
 - [Inorder Successor in BST](src/tree/inorder-successor-in-bst.js)
+- [K-th ancestor of a node in Binary Tree](src/tree/k-th-ancestor-of-a-node-in-binary-tree.js)
 - [Kill Process](src/tree/kill-process.js)
 - [Longest Univalue Path](src/tree/longest-univalue-path.js)
 - [Lowest Common Ancestor of A Binary Search Tree](src/tree/lowest-common-ancestor-of-a-binary-search-tree.js)
