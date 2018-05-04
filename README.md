@@ -181,6 +181,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Wildcard Matching](src/backtracking/wildcard-matching.js)
 - [Letter Combinations of a Phone Number](src/backtracking/letter-combinations-of-a-phone-number.js)
 - [Letter Case Permutation](src/backtracking/letter-case-permutation.js)
+- [Count Numbers with Unique Digits](src/backtracking/count-numbers-with-unique-digits.js)
 
 ### Linked List
 
