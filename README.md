@@ -33,6 +33,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Next Permutation](src/array/next-permutation.js)
 - [Find Peak Element](src/array/find-peak-element.js)
 - [Wiggle Sort](src/array/wiggle-sort.js)
+- [Valid Triangle Number](src/array/valid-triangle-number.js)
 
 ### String
 
