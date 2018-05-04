@@ -180,6 +180,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 - [Wildcard Matching](src/backtracking/wildcard-matching.js)
 - [Letter Combinations of a Phone Number](src/backtracking/letter-combinations-of-a-phone-number.js)
+- [Letter Case Permutation](src/backtracking/letter-case-permutation.js)
 
 ### Linked List
 
