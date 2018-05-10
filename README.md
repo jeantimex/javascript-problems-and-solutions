@@ -191,6 +191,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Dynamic Programming
 
 - [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
+- [Longest Palindromic Subsequence](src/dynamic-programming/longest-palindromic-subsequence.js)
 - [Longest Palindromic Substring](src/dynamic-programming/longest-palindromic-substring.js)
 - [Longest Consecutive Sequence](src/dynamic-programming/longest-consecutive-sequence.js)
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
