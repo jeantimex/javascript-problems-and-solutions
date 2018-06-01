@@ -198,6 +198,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Wildcard Matching](src/backtracking/wildcard-matching.js)
 - [Word Break](src/dynamic-programming/word-break.js)
 - [Word Break II](src/dynamic-programming/word-break-ii.js)
+- [Best Time to Buy and Sell Stock](src/dynamic-programming/best-time-to-buy-and-sell-stock.js)
 
 ## Author
 
