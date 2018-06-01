@@ -6,7 +6,7 @@
  * Now you are allowed to break at most k walls, what is the minimum steps to get
  * to Y from X?
  * 
- * For example, we have the following maze:
+ * For example, we have the following maze, and you can break at most 3 walls.
  * 
  *     . X . # . .
  *     . # . . # .
@@ -15,7 +15,7 @@
  *     . Y . . . .
  *     . . . . . #
  * 
- * the minimum steps to reach Y from X is 5.
+ * the minimum steps to reach Y from X is 4.
  * 
  * Normally we run BFS in a flat level, the idea is to run the BFS in a k-level matrix.
  * Each level is connected thru the wall, there are k levels, each time when we break a wall,
