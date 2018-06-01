@@ -184,6 +184,11 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Count Numbers with Unique Digits](src/backtracking/count-numbers-with-unique-digits.js)
 - [Restore IP Addresses](src/backtracking/restore-ip-addresses.js)
 
+### Breadth First Search
+
+- [Shortest Path in Maze](src/bfs/shortest-path-in-maze.js)
+- [Shortest Path in Maze II](src/bfs/shortest-path-in-maze-ii.js)
+
 ### Linked List
 
 - [Add Two Numbers](src/linked-list/add-two-numbers.js)
