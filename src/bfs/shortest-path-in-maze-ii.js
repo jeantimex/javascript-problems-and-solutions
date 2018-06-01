@@ -29,7 +29,6 @@
 /**
  * @param {string[][]} maze
  * @param {number[]} px
- * @param {number[]} py
  * @param {number} k
  */
 const shortestPath = (maze, px, k) => {
