@@ -2,7 +2,8 @@
  * Shortest Path in Maze II
  * 
  * Given a matrix represents a maze, X is the starting point, Y is the destination,
- * # is wall, now you can walk in four directions: up, down, left, right.
+ * # is wall, you can walk in four directions: up, down, left, right.
+ 
  * Now you are allowed to break at most k walls, what is the minimum steps to get
  * to Y from X?
  * 
