@@ -205,6 +205,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Word Break II](src/dynamic-programming/word-break-ii.js)
 - [Best Time to Buy and Sell Stock](src/dynamic-programming/best-time-to-buy-and-sell-stock.js)
 - [Best Time to Buy and Sell Stock II](src/dynamic-programming/best-time-to-buy-and-sell-stock-ii.js)
+- [Best Time to Buy and Sell Stock III](src/dynamic-programming/best-time-to-buy-and-sell-stock-iii.js)
 
 ## Author
 
