@@ -48,3 +48,5 @@ const maxProfit = prices => {
 
   return profit;
 };
+
+export { maxProfit };
