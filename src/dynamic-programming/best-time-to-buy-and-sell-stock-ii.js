@@ -58,6 +58,10 @@ const maxProfit_I = prices => {
  * @return {number}
  */
 const maxProfit_II = prices => {
+  if (!prices) {
+    return 0;
+  }
+
   let cash = 0;
   let hold = -prices[0];
 
