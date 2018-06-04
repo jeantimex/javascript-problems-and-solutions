@@ -207,6 +207,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Best Time to Buy and Sell Stock II](src/dynamic-programming/best-time-to-buy-and-sell-stock-ii.js)
 - [Best Time to Buy and Sell Stock III](src/dynamic-programming/best-time-to-buy-and-sell-stock-iii.js)
 - [Best Time to Buy and Sell Stock IV](src/dynamic-programming/best-time-to-buy-and-sell-stock-iv.js)
+- [Best Time to Buy and Sell Stock with Cooldown](src/dynamic-programming/best-time-to-buy-and-sell-stock-with-cooldown.js)
 
 ## Author
 
