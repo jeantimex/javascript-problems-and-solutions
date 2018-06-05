@@ -210,6 +210,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Best Time to Buy and Sell Stock with Cooldown](src/dynamic-programming/best-time-to-buy-and-sell-stock-with-cooldown.js)
 - [Best Time to Buy and Sell Stock with Transaction Fee](src/dynamic-programming/best-time-to-buy-and-sell-stock-with-transaction-fee.js)
 
+### System Design
+
+- [Encode and Decode TinyURL](src/system-design/encode-and-decode-tinyurl.js)
+
 ## Author
 
 I solve algorithm problems using JavaSript and Java, you can find all my LeetCode solutions and posts [here](https://discuss.leetcode.com/user/jeantimex).
