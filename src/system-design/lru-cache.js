@@ -31,29 +31,19 @@
  * obj.put(key,value)
  */
 
-// Doubly linked list node
-class Node {
-  constructor(key, val) {
+class DataNode {
+  constructor(key, value) {
     this.key = key;
-    this.val = val;
+    this.value = value;
     this.prev = null;
     this.next = null;
   }
 }
 
-class LRUCache {
-  /**
-   * @param {number} capacity
-   */
-  constructor(capacity) {
-    this.capacity = capacity;
-
-    // Hashmap
-    this.map = new Map();
-
-    // Doubly linked list
-    this.head = new Node();
-    this.tail = new Node();
+class DataList {
+  constructor() {
+    this.head = new DataNode();
+    this.tail = new DataNode();
     this.head.next = this.tail;
     this.tail.prev = this.head;
   }
@@ -71,13 +61,28 @@ class LRUCache {
   }
 
   promote(node) {
-    // Break current links
     this.remove(node);
-    // Insert to the front
     this.insert(node);
   }
 
-  /** 
+  getLast() {
+    return this.tail.prev;
+  }
+}
+
+/**
+ * @param {number} capacity
+ */
+class LRUCache {
+  constructor(capacity) {
+    this.capacity = capacity;
+    // Hashmap
+    this.map = new Map();
+    // Doubly linked list
+    this.dataList = new DataList();
+  }
+
+  /**
    * @param {number} key
    * @return {number}
    */
@@ -87,9 +92,9 @@ class LRUCache {
     }
     const node = this.map.get(key);
     // Promote the node to the head of the list
-    this.promote(node);
+    this.dataList.promote(node);
     // Return the value
-    return node.val;
+    return node.value;
   }
 
   /** 
@@ -98,23 +103,28 @@ class LRUCache {
    * @return {void}
    */
   put(key, value) {
+    if (this.capacity === 0) {
+      return;
+    }
+
     let node;
+
     if (this.map.has(key)) {
       node = this.map.get(key);
-      node.val = value;
-      this.promote(node);
+      node.value = value;
+      this.dataList.promote(node);
       return;
     }
 
     if (this.map.size === this.capacity) {
-      node = this.tail.prev;
+      node = this.dataList.getLast();
       this.map.delete(node.key);
-      this.remove(node);
+      this.dataList.remove(node);
     }
 
-    node = new Node(key, value);
+    node = new DataNode(key, value);
     this.map.set(key, node);
-    this.insert(node);
+    this.dataList.insert(node);
   }
 }
 
