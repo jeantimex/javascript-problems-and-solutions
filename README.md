@@ -192,6 +192,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Linked List
 
 - [Add Two Numbers](src/linked-list/add-two-numbers.js)
+- [Merge K Sorted Lists](src/linked-list/merge-k-sorted-lists.js)
 
 ### Dynamic Programming
 
