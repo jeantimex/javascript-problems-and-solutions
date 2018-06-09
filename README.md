@@ -214,6 +214,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Encode and Decode TinyURL](src/system-design/encode-and-decode-tinyurl.js)
 - [LRU Cache](src/system-design/lru-cache.js)
+- [Min Stack](src/system-design/min-stack.js)
 
 ## Author
 
