@@ -35,6 +35,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Wiggle Sort](src/array/wiggle-sort.js)
 - [Valid Triangle Number](src/array/valid-triangle-number.js)
 
+### Matrix
+
+- [Island Perimeter](src/matrix/island-perimeter.js)
+
 ### String
 
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
