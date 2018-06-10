@@ -78,6 +78,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Binary Search Tree I - Search](src/tree/binary-search-tree-i-search.js)
 - [Binary Search Tree II - Insert](src/tree/binary-search-tree-ii-insert.js)
 - [Binary Search Tree II - Delete](src/tree/binary-search-tree-iii-delete.js)
+- [Binary Search Tree Iterator](src/tree/binary-search-tree-iterator.js)
 - [Binary Tree Inorder Traversal](src/tree/binary-tree-inorder-traversal.js)
 - [Binary Tree Level Order Traversal](src/tree/binary-tree-level-order-traversal.js)
 - [Binary Tree Longest Consecutive Sequence](src/tree/binary-tree-longest-consecutive-sequence.js)
