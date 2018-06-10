@@ -34,6 +34,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Find Peak Element](src/array/find-peak-element.js)
 - [Wiggle Sort](src/array/wiggle-sort.js)
 - [Valid Triangle Number](src/array/valid-triangle-number.js)
+- [Find Anagram Mappings](src/array/find-anagram-mappings.js)
 
 ### Matrix
 
