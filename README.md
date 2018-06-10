@@ -37,7 +37,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### Matrix
 
-- [Island Perimeter](src/matrix/island-perimeter.js)
+- [Island Perimeter](src/matrix/island-perimeter)
 
 ### String
 
