@@ -190,6 +190,11 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Shortest Path in Maze](src/bfs/shortest-path-in-maze.js)
 - [Shortest Path in Maze II](src/bfs/shortest-path-in-maze-ii.js)
+- [Number of Islands](src/bfs/number-of-islands.js)
+
+### Depth First Search
+
+- [Number of Islands](src/dfs/number-of-islands.js)
 
 ### Linked List
 
