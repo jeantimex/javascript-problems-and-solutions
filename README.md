@@ -49,6 +49,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Reverse Vowels of a String](src/string/reverse-vowels-of-a-string.js)
 - [Add Bold Tag in String](src/string/add-bold-tag-in-string.js)
 - [Minimum Window Substring](src/string/minimum-window-substring.js)
+- [Longest Absolute File Path](src/string/longest-absolute-file-path.js)
 
 ### Sorting
 
