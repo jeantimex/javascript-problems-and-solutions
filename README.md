@@ -224,6 +224,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Best Time to Buy and Sell Stock with Cooldown](src/dynamic-programming/best-time-to-buy-and-sell-stock-with-cooldown.js)
 - [Best Time to Buy and Sell Stock with Transaction Fee](src/dynamic-programming/best-time-to-buy-and-sell-stock-with-transaction-fee.js)
 - [Gas Station III](src/dynamic-programming/gas-station-iii.js)
+- [Perfect Squares](src/dynamic-programming/perfect-squares.js)
+- [Subset Sum Problem](src/dynamic-programming/subset-sum-problem.js)
 
 ### Greedy
 
