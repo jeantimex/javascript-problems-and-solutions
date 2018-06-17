@@ -232,6 +232,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Gas Station](src/greedy/gas-station.js)
 - [Gas Station II](src/greedy/gas-station-ii.js)
 - [Queue Reconstruction by Height](src/greedy/queue-reconstruction-by-height.js)
+- [K Workers](src/greedy/k-workers.js)
 
 ### System Design
 
