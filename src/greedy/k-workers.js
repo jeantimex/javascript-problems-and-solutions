@@ -22,10 +22,16 @@
  * Explanation: the two workers you should select is [4, 8], [5, 10], their total price is 9
  * 
  * Example 2:
- * workers = [[4, 16], [1, 2], [5, 5]]
- * k = 1
- * You should return 1
+ * workers = [[4, 16], [5, 10], [1, 1]]
+ * k = 2
+ * You should return 11
+ * Explanation: the two workers you should select is [5, 10], [1, 1]
  * 
+ * Example 3:
+ * workers = [[4, 16], [5, 10], [6, 6]]
+ * k = 2
+ * You should return 13
+ * Explanation: the two workers you should select is [4, 16], [5, 10]
  */
 
 import PriorityQueue from 'common/priority-queue';
@@ -51,33 +57,38 @@ const kWorkers = (k, workers) => {
   let minPrice = Number.MAX_SAFE_INTEGER;
 
   // Initialize the max heap for helping us know the worker with max quality
-  const queue = new PriorityQueue({ comparator: (a, b) => b[1] - a[1] });
+  const queue = new PriorityQueue({ comparator: (a, b) => b.worker[1] - a.worker[1] });
   for (let i = 0; i < k - 1; i++) {
-    queue.offer(workers[i]);
+    queue.offer({ index: i, worker: workers[i] });
   }
 
   for (let i = k - 1; i < workers.length; i++) {
-    const currentWorker = workers[i];
-    const currentRatio = currentWorker[0] / currentWorker[1]; // price / quality
+    const kthWorker = workers[i];
+    const kthRatio = kthWorker[0] / kthWorker[1]; // price/quality
 
     // Sum up the k - 1 workers' prices with the new ratio
     let currentPrice = 0;
     for (let j = 0; j < k - 1; j++) {
-      currentPrice += workers[j][1] * currentRatio;
+      currentPrice += workers[j][1] * kthRatio;
     }
     // Plus the k-th worker
-    currentPrice += currentWorker[0];
+    currentPrice += kthWorker[0];
     // Calculate the minimum price
     minPrice = Math.min(minPrice, currentPrice);
 
-    // Get the worker with the max quality
-    const maxQualityWorker = queue.peek();
     // if k-th worker's quality is less, replace the two
     if (queue.size() === 0) {
-      queue.offer(currentWorker);
-    } else if (maxQualityWorker[1] > currentWorker[1]) {
-      queue.poll();
-      queue.offer(currentWorker);
+      queue.offer({ index: i, worker: kthWorker });
+    } else {
+      // Get the worker with the max quality
+      const { index, worker } = queue.peek();
+
+      if (worker[1] > kthWorker[1]) {
+        queue.poll();
+        queue.offer({ index: i, worker: kthWorker });
+        // Replace the workers in the array
+        swap(workers, index, i);
+      }
     }
   }
 
@@ -100,5 +111,7 @@ const sortWorkers = workers => {
     return aRatio - bRatio;
   });
 };
+
+const swap = (arr, i, j) => ([arr[i], arr[j]] = [arr[j], arr[i]]);
 
 export { kWorkers };
