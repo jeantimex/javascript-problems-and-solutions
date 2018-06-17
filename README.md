@@ -201,6 +201,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Depth First Search
 
 - [Number of Islands](src/dfs/number-of-islands.js)
+- [Next Closest Time](src/dfs/next-closest-time.js)
 
 ### Linked List
 
