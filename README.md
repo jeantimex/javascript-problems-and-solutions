@@ -35,6 +35,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Wiggle Sort](src/array/wiggle-sort.js)
 - [Valid Triangle Number](src/array/valid-triangle-number.js)
 - [Find Anagram Mappings](src/array/find-anagram-mappings.js)
+- [K Empty Slots](src/array/k-empty-slots.js)
 
 ### Matrix
 
