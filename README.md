@@ -228,6 +228,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Gas Station III](src/dynamic-programming/gas-station-iii.js)
 - [Perfect Squares](src/dynamic-programming/perfect-squares.js)
 - [Subset Sum Problem](src/dynamic-programming/subset-sum-problem.js)
+- [Burst Balloons](src/dynamic-programming/burst-balloons.js)
 
 ### Greedy
 
