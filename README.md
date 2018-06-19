@@ -143,6 +143,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Course Schedule](src/graph/course-schedule.js)
 - [Course Schedule II](src/graph/course-schedule-ii.js)
 - [Alien Dictionary](src/graph/alien-dictionary.js)
+- [Alien Dictionary II](src/graph/alien-dictionary-ii.js)
 - [Graph Valid Tree](src/graph/graph-valid-tree.js)
 - [Number of Connected Components in an Undirected Graph](src/graph/number-of-connected-components-in-an-undirected-graph.js)
 - [Reconstruct Itinerary](src/graph/reconstruct-itinerary.js)

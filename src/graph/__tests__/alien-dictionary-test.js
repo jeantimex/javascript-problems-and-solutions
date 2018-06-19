@@ -1,22 +1,24 @@
 import { assert } from 'chai';
-import { serializeUndirectedGraph, deserializeUndirectedGraph } from 'utils/graph-util';
-import alienOrder from '../alien-dictionary';
+import { alienOrder } from '../alien-dictionary';
 
 describe('Alien Dictionary', () => {
   const testCases = [
-    ['', ''],
-    [null, ''],
-    [['zoro'], 'zoro'],
-    [['wrt', 'wrf', 'er', 'ett', 'rftt'], 'wertf'],
-    [['z', 'x'], 'zx'],
-    [['z', 'x', 'z'], ''],
+    [null, ['c', 'b', 'a'], false],
+    ['', ['c', 'b', 'a'], false],
+    ['cba', ['c', 'b', 'a'], true],
+    ['cba', ['cc', 'bb', 'aa'], true],
+    ['cba', ['ca', 'bc', 'ab'], true],
+    ['cba', ['cc', 'ca', 'ab'], true],
+    ['cba', ['cc', 'ab', 'ca'], false],
+    ['cba', ['c', 'cc', 'ca'], true],
+    ['cba', ['cc', 'c', 'ca'], false],
+    ['cba', ['cc', '', 'ca'], false],
+    ['cba', ['', 'c', 'ca'], true],
   ];
 
-  testCases.forEach((testCase, index) => {
-    it(`should get the alien dictionary ${index}`, () => {
-      const words = testCase[0];
-      const expected = testCase[1];
-      const actual = alienOrder(words);
+  testCases.forEach(([dict, words, expected], index) => {
+    it(`should check the alien words order ${index}`, () => {
+      const actual = alienOrder(dict, words);
       assert.equal(actual, expected);
     });
   });
