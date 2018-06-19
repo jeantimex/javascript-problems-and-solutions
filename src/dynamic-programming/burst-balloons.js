@@ -65,7 +65,7 @@ const maxCoins = nums => {
   nums = [1, ...nums, 1];
 
   for (let len = 1; len <= n; len++) {
-    for (let start = 1; start <= n + 1 - len; start++) {
+    for (let start = 1; start + len - 1 <= n; start++) {
       const end = start + len - 1;
       // From here it's the same as our recursive solution
       for (let i = start; i <= end; i++) {
