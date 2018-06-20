@@ -245,6 +245,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [LRU Cache](src/system-design/lru-cache.js)
 - [LFU Cache](src/system-design/lfu-cache.js)
 - [Min Stack](src/system-design/min-stack.js)
+- [Max Stack](src/system-design/max-stack.js)
 
 ## Author
 
