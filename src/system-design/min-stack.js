@@ -88,64 +88,73 @@
 /**
  * initialize your data structure here.
  */
-var MinStack = function() {
-  this.stack = [];
-  this.min = 0;
-};
-
-/**
-* @param {number} x
-* @return {void}
-*/
-MinStack.prototype.push = function(x) {
-  if (this.stack.length === 0) {
-    this.stack.push(x);
-    this.min = x;
-    return;
+class MinStack {
+  constructor() {
+    this.stack = [];
+    this.min = null;
   }
 
-  if (x < this.min) {
-    this.stack.push(2 * x - this.min);
-    this.min = x;
-  } else {
-    this.stack.push(x);
+  /**
+   * @param {number} x
+   * @return {void}
+   */
+  push(x) {
+    if (this.stack.length === 0) {
+      this.stack.push(x);
+      this.min = x;
+      return;
+    }
+
+    if (x < this.min) {
+      // x - this.min < 0
+      // 2x - this.min < x
+      // so 2x - this.min < new min
+      this.stack.push(2 * x - this.min);
+      this.min = x;
+    } else {
+      this.stack.push(x);
+    }
   }
-};
 
-/**
-* @return {number}
-*/
-MinStack.prototype.pop = function() {
-  var x = this.stack.pop();
+  /**
+   * @return {number}
+   */
+  pop() {
+    const x = this.stack.pop();
 
-  if (x < this.min) {
-    var result = this.min;
-    this.min = 2 * this.min - x;
-    return result;
+    if (x < this.min) {
+      const result = this.min;
+      this.min = 2 * this.min - x;
+      return result;
+    }
+
+    if (this.stack.length === 0) {
+      this.min = null;
+    }
+
+    return x;
   }
 
-  return x;
-};
+  /**
+   * @return {number}
+   */
+  top() {
+    const x = this.stack[this.stack.length - 1];
 
-/**
-* @return {number}
-*/
-MinStack.prototype.top = function() {
-  var x = this.stack[this.stack.length - 1];
+    if (x < this.min) {
+      return this.min;
+    }
 
-  if (x < this.min) {
+    return x;
+  }
+
+  /**
+   * @return {number}
+   */
+  getMin() {
     return this.min;
   }
-
-  return x;
-};
-
-/**
-* @return {number}
-*/
-MinStack.prototype.getMin = function() {
-  return this.min;
-};
+}
 
 /**
 * Your MinStack object will be instantiated and called as such:
