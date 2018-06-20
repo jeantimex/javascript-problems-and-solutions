@@ -24,8 +24,8 @@ class TrieNode {
 }
 
 /**
-* Initialize your data structure here.
-*/
+ * Initialize your data structure here.
+ */
 class MapSum {
   constructor() {
     this.root = new TrieNode();
@@ -35,7 +35,7 @@ class MapSum {
    * @param {string} key
    * @param {number} val
    * @return {void}
-  */
+   */
   insert(key, val) {
     let current = this.root;
 

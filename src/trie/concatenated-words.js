@@ -83,9 +83,9 @@ class Trie {
 }
 
 /**
-* @param {string[]} words
-* @return {string[]}
-*/
+ * @param {string[]} words
+ * @return {string[]}
+ */
 const findAllConcatenatedWordsInADict = words => {
   const results = [];
   const trie = new Trie(words);

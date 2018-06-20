@@ -1,6 +1,6 @@
 /**
  * Graph Utilities
- * 
+ *
  * Undirected graph serialization:
  * Nodes are labeled uniquely.
  *

@@ -28,20 +28,20 @@
  * immediately. What kind of data structure could answer such query efficiently? Does a hash
  * table work? Why or why not? How about a Trie? If you would like to learn how to implement
  * a basic trie, please work on this problem: Implement Trie (Prefix Tree) first.
- * 
+ *
  * Solution
- * 
- * Intuitively, start from every cell and try to build a word in the dictionary. 
- * Backtracking (dfs) is the powerful way to exhaust every possible ways. 
- * 
+ *
+ * Intuitively, start from every cell and try to build a word in the dictionary.
+ * Backtracking (dfs) is the powerful way to exhaust every possible ways.
+ *
  * Apparently, we need to do pruning when current character is not in any word.
- * 
+ *
  * 1. How do we instantly know the current character is invalid? HashMap?
  * 1. How do we instantly know what's the next valid character? LinkedList?
  * 2. But the next character can be chosen from a list of characters. "Mutil-LinkedList"?
- * 
+ *
  * Combing them, Trie is the natural choice. Notice that:
- * 
+ *
  * 1. TrieNode is all we need. search and startsWith are useless.
  * 2. No need to store character at TrieNode. c.next[i] != null is enough.
  * 3. Never use c1 + c2 + c3. Use StringBuilder.

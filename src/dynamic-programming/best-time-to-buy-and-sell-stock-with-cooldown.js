@@ -13,9 +13,9 @@
  * Input: [1,2,3,0,2]
  * Output: 3
  * Explanation: transactions = [buy, sell, cooldown, buy, sell]
- * 
+ *
  * The possible states are as follows:
- * 
+ *
  *                    rest <--> rest
  *                   /  /\
  *              buy /     \
@@ -26,10 +26,10 @@
  * sold[i] = hold[i - 1] + prices[i]
  * hold[i] = max(hold[i - 1], rest[i - 1] - prices[i])
  * rest[i] = max(rest[i - 1], sold[i - 1])
- * 
+ *
  * init: rest[0] = sold[0] = 0, hold[0] = -∞
  * ans: max(rest[i], sold[i])
- * 
+ *
  * Time complexity: O(n)
  * Space complexity O(n) -> O(1)
  */

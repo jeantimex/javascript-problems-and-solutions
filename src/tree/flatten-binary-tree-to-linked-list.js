@@ -1,17 +1,17 @@
 /**
  * Given a binary tree, flatten it to a linked list in-place.
- * 
+ *
  * For example,
  * Given
- * 
+ *
  *          1
  *         / \
  *        2   5
  *       / \   \
  *      3   4   6
- * 
+ *
  * The flattened tree should look like:
- * 
+ *
  *    1
  *     \
  *      2
@@ -27,7 +27,7 @@
 
 /**
  * Preorder
- * 
+ *
  * @param {TreeNode} root
  * @return {void} Do not return anything, modify root in-place instead.
  */
@@ -57,7 +57,7 @@ const preorder = root => {
 
 /**
  * Postorder
- * 
+ *
  * @param {TreeNode} root
  * @return {void} Do not return anything, modify root in-place instead.
  */
