@@ -1,8 +1,8 @@
 /**
  * Priority Queue
- * 
+ *
  * Binary Heap implementation
- * 
+ *
  * clear: Removes all of the elements from this priority queue.
  * offer: Inserts the specified element into this priority queue.
  * peek: Retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.

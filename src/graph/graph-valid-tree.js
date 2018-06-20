@@ -10,7 +10,7 @@
  *
  * Note: you can assume that no duplicate edges will appear in edges. Since all edges are undirected,
  * [0, 1] is the same as [1, 0] and thus will not appear together in edges.
- * 
+ *
  * The key idea is to check whether the undirected graph has cycle and make sure all vertices are connected
  */
 

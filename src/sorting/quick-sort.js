@@ -1,6 +1,6 @@
 /**
  * Quick Sort
- * 
+ *
  * Lomuto's partition schema
  */
 
@@ -12,7 +12,7 @@ const swap = (nums, i, j) => {
 
 /**
  * Lomuto's partition scheme
- * 
+ *
  * @param {number[]} nums
  * @param {number} lo
  * @param {number} hi

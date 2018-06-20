@@ -1,8 +1,8 @@
 /**
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
- * 
+ *
  * For example, this binary tree [1,2,2,3,4,4,3] is symmetric:
- * 
+ *
  *     1
  *    / \
  *   2   2
@@ -20,7 +20,7 @@
 
 /**
  * Recursion Solution
- * 
+ *
  * @param {TreeNode} root
  * @return {boolean}
  */
@@ -44,7 +44,7 @@ const isSymmetric = root => {
 
 /**
  * Preorder DFS Iterative Solution
- * 
+ *
  * @param {TreeNode} root
  * @return {boolean}
  */
@@ -82,7 +82,7 @@ const isSymmetricDFS = root => {
 
 /**
  * BFS Iterative Solution
- * 
+ *
  * @param {TreeNode} root
  * @return {boolean}
  */

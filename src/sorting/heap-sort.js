@@ -2,9 +2,9 @@
  * Heapify a subtree rooted with node i which is
  * an index in nums[]. n is size of heap
  *
- * @param {number[]} nums 
- * @param {number} n 
- * @param {number} i 
+ * @param {number[]} nums
+ * @param {number} n
+ * @param {number} i
  */
 const heapify = (nums, n, i) => {
   let largest = i; // Initialize largest as root
@@ -34,7 +34,7 @@ const heapify = (nums, n, i) => {
 
 /**
  * Heap Sort
- * 
+ *
  * @param {number[]} nums
  */
 const heapSort = nums => {

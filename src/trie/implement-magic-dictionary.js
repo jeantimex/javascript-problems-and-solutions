@@ -39,7 +39,7 @@ class MagicDictionary {
   }
 
   /**
-   * Build a dictionary through a list of words 
+   * Build a dictionary through a list of words
    * @param {string[]} dict
    * @return {void}
    */
@@ -62,8 +62,8 @@ class MagicDictionary {
   }
 
   /**
-   * Returns if there is any word in the trie that equals to the given word 
-   * after modifying exactly one character 
+   * Returns if there is any word in the trie that equals to the given word
+   * after modifying exactly one character
    * @param {string} word
    * @return {boolean}
    */

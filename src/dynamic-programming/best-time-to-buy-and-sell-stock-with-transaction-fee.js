@@ -32,7 +32,7 @@
  * and hold, the maximum profit we could have if we owned a share of stock.
  *
  * To transition from the i-th day to the i+1-th day,
- * 
+ *
  *
  * we either sell our stock:
  * cash = max(cash, hold + prices[i] - fee)

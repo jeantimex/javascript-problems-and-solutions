@@ -109,7 +109,7 @@ class AutocompleteSystem {
     current.isEnd = true;
   }
 
-  /** 
+  /**
    * @param {character} c
    * @return {string[]}
    */

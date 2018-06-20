@@ -69,10 +69,10 @@ class Trie {
 }
 
 /**
-* @param {string[]} dict
-* @param {string} sentence
-* @return {string}
-*/
+ * @param {string[]} dict
+ * @param {string} sentence
+ * @return {string}
+ */
 const replaceWords = (dict, sentence) => {
   const trie = new Trie(dict);
   const original = sentence.split(' ');

@@ -1,10 +1,10 @@
 /**
  * Sudoku Solver
- * 
+ *
  * Write a program to solve a Sudoku puzzle by filling the empty cells.
- * 
+ *
  * Empty cells are indicated by the character '.'.
- * 
+ *
  * You may assume that there will be only one unique solution.
  */
 
@@ -17,11 +17,11 @@ const solveSudoku = board => {
 };
 
 /**
-* @param {character[][]} board
-* @param {number} row
-* @param {number} col
-* @return {boolean}
-*/
+ * @param {character[][]} board
+ * @param {number} row
+ * @param {number} col
+ * @return {boolean}
+ */
 const solve = (board, row, col) => {
   if (row === 9) {
     return true;
@@ -51,11 +51,11 @@ const solve = (board, row, col) => {
 };
 
 /**
-* @param {character[][]} board
-* @param {number} row
-* @param {number} col
-* @return {boolean}
-*/
+ * @param {character[][]} board
+ * @param {number} row
+ * @param {number} col
+ * @return {boolean}
+ */
 const isValid = (board, row, col) => {
   // Check current column
   for (let i = 0; i < 9; i++) {

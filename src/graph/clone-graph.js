@@ -35,7 +35,7 @@ import UndirectedGraphNode from 'common/undirected-graph-node';
 
 /**
  * DFS Solution
- * 
+ *
  * @param {UndirectedGraphNode} graph
  * @return {UndirectedGraphNode}
  */

@@ -46,11 +46,11 @@ const serialize = function(root) {
 };
 
 /**
-* Decodes your encoded data to tree.
-*
-* @param {string} data
-* @return {TreeNode}
-*/
+ * Decodes your encoded data to tree.
+ *
+ * @param {string} data
+ * @return {TreeNode}
+ */
 const deserialize = function(data) {
   if (!data) {
     return null;
@@ -87,6 +87,6 @@ const buildTree = (preorder, inorder) => {
 export { serialize, deserialize };
 
 /**
-* Your functions will be called as such:
-* deserialize(serialize(root));
-*/
+ * Your functions will be called as such:
+ * deserialize(serialize(root));
+ */

@@ -42,7 +42,7 @@ const myPow = (x, n) => {
     return x * temp * temp;
   }
 
-  return temp * temp / x;
+  return (temp * temp) / x;
 };
 
 export { myPow };

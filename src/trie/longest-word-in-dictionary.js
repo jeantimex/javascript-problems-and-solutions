@@ -72,9 +72,9 @@ const filter = node => {
 };
 
 /**
-* @param {string[]} words
-* @return {string}
-*/
+ * @param {string[]} words
+ * @return {string}
+ */
 const longestWord = words => {
   const trie = new Trie(words);
   let result = null;

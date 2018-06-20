@@ -89,9 +89,9 @@ const deserializeTree = str => {
 
 /**
  * Clone a binary tree
- * 
+ *
  * @param {TreeNode} root
- * @param {TreeNode} clone of root 
+ * @param {TreeNode} clone of root
  */
 const cloneTree = root => {
   if (!root) {
@@ -107,9 +107,9 @@ const cloneTree = root => {
 
 /**
  * Search a tree node in tree root
- * 
- * @param {TreeNode} root 
- * @param {*} val 
+ *
+ * @param {TreeNode} root
+ * @param {*} val
  */
 const searchTreeNode = (root, val) => {
   if (!root || root.val === val) {
