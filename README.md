@@ -243,6 +243,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### Math
 
+- [Power of Two](src/math/power-of-two.js)
 - [Power of Three](src/math/power-of-three.js)
 
 ### System Design
