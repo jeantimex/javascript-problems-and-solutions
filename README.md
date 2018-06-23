@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/jeantimex/javascript-problems-and-solutions.svg?branch=master)](https://travis-ci.org/jeantimex/javascript-problems-and-solutions)
 [![Coverage Status](https://coveralls.io/repos/github/jeantimex/javascript-problems-and-solutions/badge.svg?branch=code-coverage)](https://coveralls.io/github/jeantimex/javascript-problems-and-solutions?branch=code-coverage)
 [![devDependencies Status](https://david-dm.org/jeantimex/javascript-problems-and-solutions/dev-status.svg)](https://david-dm.org/jeantimex/javascript-problems-and-solutions?type=dev)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 A collection of JavaScript problems and solutions for studying algorithms.
 
