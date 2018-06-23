@@ -41,6 +41,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Matrix
 
 - [Island Perimeter](src/matrix/island-perimeter)
+- [Search a 2D Matrix II](src/matrix/search-a-2d-matrix-ii.js)
 
 ### String
 
