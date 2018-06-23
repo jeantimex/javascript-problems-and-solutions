@@ -240,6 +240,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Queue Reconstruction by Height](src/greedy/queue-reconstruction-by-height.js)
 - [K Workers](src/greedy/k-workers.js)
 
+### Math
+
+- [Power of Three](src/math/power-of-three.js)
+
 ### System Design
 
 - [Encode and Decode TinyURL](src/system-design/encode-and-decode-tinyurl.js)
