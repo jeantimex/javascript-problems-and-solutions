@@ -4,5 +4,7 @@
   // Enable per-language
   "[javascript]": {
     "editor.formatOnSave": true
-  }
+  },
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "bounded"
 }
