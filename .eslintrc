@@ -3,13 +3,7 @@
   "plugins": [
     "prettier"
   ],
-  "rules": {
-    "prettier/prettier": ["error", {
-      "printWidth": 120,
-      "singleQuote": true,
-      "tabWidth": 2,
-      "trailingComma": "es5",
-      "useTabs": false
-    }]
-  }
+  "extends": [
+    "plugin:prettier/recommended"
+  ]
 }

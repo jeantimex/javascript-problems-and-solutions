@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/jeantimex/javascript-problems-and-solutions.svg?branch=master)](https://travis-ci.org/jeantimex/javascript-problems-and-solutions)
 [![Coverage Status](https://coveralls.io/repos/github/jeantimex/javascript-problems-and-solutions/badge.svg?branch=code-coverage)](https://coveralls.io/github/jeantimex/javascript-problems-and-solutions?branch=code-coverage)
 [![devDependencies Status](https://david-dm.org/jeantimex/javascript-problems-and-solutions/dev-status.svg)](https://david-dm.org/jeantimex/javascript-problems-and-solutions?type=dev)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 A collection of JavaScript problems and solutions for studying algorithms.
 
@@ -251,7 +252,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 I solve algorithm problems using JavaSript and Java, you can find all my LeetCode solutions and posts [here](https://discuss.leetcode.com/user/jeantimex).
 
-## Support ##
+## Support
+
 <a href="https://paypal.me/jeantimex/3">
   <img alt="But Me a Coffee" src="https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0" width="200" />
 </a>
