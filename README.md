@@ -8,7 +8,7 @@
 
 A collection of JavaScript problems and solutions for studying algorithms.
 
-![cover](https://user-images.githubusercontent.com/565300/33303581-c55a1280-d3b8-11e7-8e78-6879731416f1.png)
+<img alt="cover" src="https://user-images.githubusercontent.com/565300/33303581-c55a1280-d3b8-11e7-8e78-6879731416f1.png" width="600" />
 
 ## Data Structures
 
