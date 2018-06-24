@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import trap from '../trapping-rain-water';
+import trap from '../trapping-rain-water/trapping-rain-water';
 
 describe('Trapping Rain Water', () => {
   const testCases = [[[0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1], 6]];

@@ -207,6 +207,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Number of Islands](src/dfs/number-of-islands.js)
 - [Next Closest Time](src/dfs/next-closest-time.js)
 
+### Divide and Conquer
+
+- [The Skyline Problem](src/divide-and-conquer/the-skyline-problem)
+
 ### Linked List
 
 - [Add Two Numbers](src/linked-list/add-two-numbers.js)
