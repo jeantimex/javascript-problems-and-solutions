@@ -13,6 +13,23 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ## Table of Content
 
 - [Data Structures](#data-structures)
+- [Array](#array)
+- [Matrix](#matrix)
+- [String](#string)
+- [Sorting](#sorting)
+- [Binary Search](#binary-search)
+- [Tree](#tree)
+- [Graph](#graph)
+- [Trie (Prefix Tree)](#trie-prefix-tree)
+- [Backtracking](#backtracking)
+- [Breadth First Search](#breadth-first-search)
+- [Depth First Search](#depth-first-search)
+- [Divide and Conquer](#divide-and-conquer)
+- [Linked List](#linked-list)
+- [Dynamic Programming](#dynamic-programming)
+- [Greedy](#greedy)
+- [Math](#math)
+- [System Design](#system-design)
 
 ## Data Structures
 
