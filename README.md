@@ -29,7 +29,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Dynamic Programming](#dynamic-programming)
 - [Greedy](#greedy)
 - [Math](#math)
-- [System Design](#system-design)
+- [Design](#design)
 
 ## Data Structures
 
@@ -274,13 +274,13 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Power of Two](src/math/power-of-two.js)
 - [Power of Three](src/math/power-of-three.js)
 
-### System Design
+### Design
 
-- [Encode and Decode TinyURL](src/system-design/encode-and-decode-tinyurl.js)
-- [LRU Cache](src/system-design/lru-cache.js)
-- [LFU Cache](src/system-design/lfu-cache.js)
-- [Min Stack](src/system-design/min-stack.js)
-- [Max Stack](src/system-design/max-stack.js)
+- [Encode and Decode TinyURL](src/design/encode-and-decode-tinyurl.js)
+- [LRU Cache](src/design/lru-cache.js)
+- [LFU Cache](src/design/lfu-cache.js)
+- [Min Stack](src/design/min-stack.js)
+- [Max Stack](src/design/max-stack.js)
 
 ## Author
 
