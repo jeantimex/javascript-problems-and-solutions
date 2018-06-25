@@ -58,6 +58,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Valid Triangle Number](src/array/valid-triangle-number.js)
 - [Find Anagram Mappings](src/array/find-anagram-mappings.js)
 - [K Empty Slots](src/array/k-empty-slots.js)
+- [Flatten Nested List Iterator](src/array/flatten-nested-list-iterator.js)
 
 ### Matrix
 
