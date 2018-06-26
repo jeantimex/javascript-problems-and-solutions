@@ -59,6 +59,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Find Anagram Mappings](src/array/find-anagram-mappings.js)
 - [K Empty Slots](src/array/k-empty-slots.js)
 - [Flatten Nested List Iterator](src/array/flatten-nested-list-iterator.js)
+- [Daily Temperatures](src/array/daily-temperatures.js)
 
 ### Matrix
 
