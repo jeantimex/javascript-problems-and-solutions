@@ -269,6 +269,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Queue Reconstruction by Height](src/greedy/queue-reconstruction-by-height.js)
 - [K Workers](src/greedy/k-workers.js)
 - [Remove Duplicate Letters](src/greedy/remove-duplicate-letters.js)
+- [Meeting Rooms II](src/greedy/meeting-rooms-ii.js)
 
 ### Math
 
