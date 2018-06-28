@@ -32,7 +32,7 @@ class UserService {
     for (let userId in this.users) {
       result.push(this.users[userId]);
     }
-    return result;
+    return result.sort((a, b) => a.id - b.id);
   }
 
   registerListener(service) {
@@ -63,18 +63,3 @@ class UserService {
     }
   }
 }
-
-const service1 = new UserService('u1');
-service1.addUser(new User('mary', 1));
-service1.addUser(new User('mary', 1));
-console.log(service1.getUsers());
-
-service1.deleteUser(new User('mary', 1));
-console.log(service1.getUsers());
-
-const service2 = new UserService('u2');
-
-service1.registerListener(service2);
-service1.addUser('su', 2);
-console.log(service1.getUsers());
-console.log(service2.getUsers());
