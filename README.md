@@ -149,7 +149,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Inorder Predecessor in BST](src/tree/inorder-predecessor-in-bst.js)
 - [Inorder Successor in BST](src/tree/inorder-successor-in-bst.js)
 - [K-th ancestor of a node in Binary Tree](src/tree/k-th-ancestor-of-a-node-in-binary-tree.js)
-- [Kth Smallest Element in a BST](str/tree/kth-smallest-element-in-a-bst.js)
+- [Kth Smallest Element in a BST](src/tree/kth-smallest-element-in-a-bst.js)
 - [Kill Process](src/tree/kill-process.js)
 - [Longest Univalue Path](src/tree/longest-univalue-path.js)
 - [Lowest Common Ancestor of A Binary Search Tree](src/tree/lowest-common-ancestor-of-a-binary-search-tree.js)
