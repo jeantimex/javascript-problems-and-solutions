@@ -248,6 +248,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Number of Islands](src/dfs/number-of-islands.js)
 - [Next Closest Time](src/dfs/next-closest-time.js)
+- [Decode String](src/dfs/decode-string.js)
 
 ### Divide and Conquer
 
