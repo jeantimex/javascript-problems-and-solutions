@@ -100,6 +100,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Divide Two Integers](src/binary-search/divide-two-integers.js)
 - [Power(x, n)](src/binary-search/powerx-n.js)
 
+### Binary Indexed Tree
+
+- [Count of Smaller Numbers After Self](src/binary-indexed-tree/count-of-smaller-numbers-after-self.js)
+
 ### Tree
 
 - [Add One Row to Tree](src/tree/add-one-row-to-tree.js)
@@ -125,6 +129,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Convert BST to Greater Tree](src/tree/convert-bst-to-greater-tree.js)
 - [Convert Sorted Array to Binary Search Tree](src/tree/convert-sorted-array-to-binary-search-tree.js)
 - [Count Univalue Subtrees](src/tree/count-univalue-subtrees.js)
+- [Count of Smaller Numbers After Self](src/tree/count-of-smaller-numbers-after-self.js)
 - [Delete Node in a BST](src/tree/delete-node-in-a-bst.js)
 - [Diameter of Binary Tree](src/tree/diameter-of-binary-tree.js)
 - [Find Bottom Left Tree Value](src/tree/find-bottom-left-tree-value.js)
