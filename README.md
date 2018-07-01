@@ -236,6 +236,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Letter Case Permutation](src/backtracking/letter-case-permutation.js)
 - [Count Numbers with Unique Digits](src/backtracking/count-numbers-with-unique-digits.js)
 - [Restore IP Addresses](src/backtracking/restore-ip-addresses.js)
+- [Expression Add Operators](src/backtracking/expression-add-operators.js)
 
 ### Breadth First Search
 
