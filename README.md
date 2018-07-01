@@ -85,6 +85,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Basic Calculator](src/string/basic-calculator.js)
 - [Buddy Strings](src/string/buddy-strings.js)
 - [Find the Difference](src/string/find-the-difference.js)
+- [Bulls and Cows](src/string/bulls-and-cows.js)
 
 ### Sorting
 
