@@ -17,6 +17,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Matrix](#matrix)
 - [String](#string)
 - [Sorting](#sorting)
+- [Heap](#heap)
 - [Binary Search](#binary-search)
 - [Binary Indexed Tree](#binary-indexed-tree)
 - [Tree](#tree)
@@ -94,6 +95,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Quick Sort](src/sorting/quick-sort.js)
 - [Quick Sort II](src/sorting/quick-sort-ii.js)
 - [Heap Sort](src/sorting/heap-sort.js)
+
+### Heap
+
+- [Find Median from Data Stream](src/heap/find-median-from-data-stream.js)
 
 ### Binary Search
 
