@@ -62,6 +62,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [K Empty Slots](src/array/k-empty-slots.js)
 - [Flatten Nested List Iterator](src/array/flatten-nested-list-iterator.js)
 - [Daily Temperatures](src/array/daily-temperatures.js)
+- [Sliding Window Maximum](src/array/sliding-window-maximum.js)
 
 ### Matrix
 
