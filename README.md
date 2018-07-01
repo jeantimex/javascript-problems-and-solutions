@@ -63,6 +63,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Flatten Nested List Iterator](src/array/flatten-nested-list-iterator.js)
 - [Daily Temperatures](src/array/daily-temperatures.js)
 - [Sliding Window Maximum](src/array/sliding-window-maximum.js)
+- [Subarray Sum Equals K](src/array/subarray-sum-equals-k.js)
 
 ### Matrix
 
