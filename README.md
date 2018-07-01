@@ -84,6 +84,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Absolute File Path](src/string/longest-absolute-file-path.js)
 - [Basic Calculator](src/string/basic-calculator.js)
 - [Buddy Strings](src/string/buddy-strings.js)
+- [Find the Difference](src/string/find-the-difference.js)
 
 ### Sorting
 
