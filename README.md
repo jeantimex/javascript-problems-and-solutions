@@ -18,6 +18,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [String](#string)
 - [Sorting](#sorting)
 - [Binary Search](#binary-search)
+- [Binary Indexed Tree](#binary-indexed-tree)
 - [Tree](#tree)
 - [Graph](#graph)
 - [Trie (Prefix Tree)](#trie-prefix-tree)
