@@ -57,6 +57,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Next Permutation](src/array/next-permutation.js)
 - [Find Peak Element](src/array/find-peak-element.js)
 - [Wiggle Sort](src/array/wiggle-sort.js)
+- [Wiggle Sort II](src/array/wiggle-sort-ii.js)
 - [Valid Triangle Number](src/array/valid-triangle-number.js)
 - [Find Anagram Mappings](src/array/find-anagram-mappings.js)
 - [K Empty Slots](src/array/k-empty-slots.js)

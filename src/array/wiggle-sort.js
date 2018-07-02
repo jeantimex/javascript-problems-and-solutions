@@ -12,16 +12,8 @@
  */
 const wiggleSort = nums => {
   for (let i = 1; i < nums.length; i++) {
-    if (i % 2 !== 0 && nums[i] < nums[i - 1]) {
-      swap(nums, i, i - 1);
-    } else if (i % 2 === 0 && nums[i] > nums[i - 1]) {
-      swap(nums, i, i - 1);
+    if ((i % 2 === 0) === nums[i] > nums[i - 1]) {
+      [nums[i], nums[i - 1]] = [nums[i - 1], nums[i]];
     }
   }
-};
-
-const swap = (nums, i, j) => {
-  const tmp = nums[i];
-  nums[i] = nums[j];
-  nums[j] = tmp;
 };
