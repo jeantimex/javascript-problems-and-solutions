@@ -65,6 +65,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Daily Temperatures](src/array/daily-temperatures.js)
 - [Sliding Window Maximum](src/array/sliding-window-maximum.js)
 - [Subarray Sum Equals K](src/array/subarray-sum-equals-k.js)
+- [Maximum Product of Word Lengths](src/array/maximum-product-of-word-lengths.js)
 
 ### Matrix
 
