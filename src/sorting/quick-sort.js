@@ -4,11 +4,7 @@
  * Lomuto's partition schema
  */
 
-const swap = (nums, i, j) => {
-  const temp = nums[i];
-  nums[i] = nums[j];
-  nums[j] = temp;
-};
+const swap = (nums, i, j) => ([nums[i], nums[j]] = [nums[j], nums[i]]);
 
 /**
  * Lomuto's partition scheme
@@ -18,20 +14,14 @@ const swap = (nums, i, j) => {
  * @param {number} hi
  */
 const partition = (nums, lo, hi) => {
-  const pivot = hi;
-
-  let i = lo;
-  let j = lo;
-
-  while (j < hi) {
-    if (nums[j] <= nums[pivot]) {
-      swap(nums, i, j);
-      i++;
+  for (var i = lo, j = lo; j < hi; j++) {
+    if (nums[j] <= nums[hi]) {
+      swap(nums, i++, j);
     }
-    j++;
   }
 
   swap(nums, i, j);
+
   return i;
 };
 

@@ -12,11 +12,7 @@
  * all values are equal.
  */
 
-const swap = (nums, i, j) => {
-  const temp = nums[i];
-  nums[i] = nums[j];
-  nums[j] = temp;
-};
+const swap = (nums, i, j) => ([nums[i], nums[j]] = [nums[j], nums[i]]);
 
 /**
  * Hoare's partition scheme
