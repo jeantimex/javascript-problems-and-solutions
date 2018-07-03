@@ -51,6 +51,11 @@ const findKthLargest = (nums, k) => {
 };
 
 const quickSelect = (nums, lo, hi, k) => {
+  // speed up the quick sort
+  // randomly pick a pivot point
+  const p = Math.floor(Math.random() * (hi - lo + 1)) + lo;
+  swap(nums, p, hi);
+
   // use quick sort's idea
   // put nums that are <= pivot to the left
   // put nums that are  > pivot to the right
@@ -61,7 +66,7 @@ const quickSelect = (nums, lo, hi, k) => {
   }
   swap(nums, i, j);
 
-  // count the nums that are <= pivot from lo
+  // count the nums that are >= pivot
   const m = hi - i + 1;
   // pivot is the one!
   if (m === k) return nums[i];
