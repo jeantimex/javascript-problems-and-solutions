@@ -11,7 +11,7 @@
  * toArray: Returns an array containing all of the elements in this queue.
  */
 
-export default class PriorityQueue {
+class PriorityQueue {
   constructor({ comparator = (a, b) => a - b, initialValues = [] } = {}) {
     this.comparator = comparator;
     this.data = initialValues;
@@ -109,3 +109,5 @@ export default class PriorityQueue {
     }
   }
 }
+
+export default PriorityQueue;
