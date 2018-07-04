@@ -105,6 +105,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Heap
 
 - [Find Median from Data Stream](src/heap/find-median-from-data-stream.js)
+- [Kth Smallest Element in a Sorted Matrix](src/heap/kth-smallest-element-in-a-sorted-matrix.js)
 
 ### Binary Search
 
