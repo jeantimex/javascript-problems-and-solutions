@@ -1,7 +1,6 @@
 # javascript-problems-and-solutions
 
 [![npm version](https://badge.fury.io/js/javascript-problems-and-solutions.svg)](https://badge.fury.io/js/javascript-problems-and-solutions)
-[![Build status](https://ci.appveyor.com/api/projects/status/ljupqa2lvvbtorsf/branch/master?svg=true)](https://ci.appveyor.com/project/jeantimex/javascript-problems-and-solutions/branch/master)
 [![Build Status](https://travis-ci.org/jeantimex/javascript-problems-and-solutions.svg?branch=master)](https://travis-ci.org/jeantimex/javascript-problems-and-solutions)
 [![Coverage Status](https://coveralls.io/repos/github/jeantimex/javascript-problems-and-solutions/badge.svg?branch=code-coverage)](https://coveralls.io/github/jeantimex/javascript-problems-and-solutions?branch=code-coverage)
 [![devDependencies Status](https://david-dm.org/jeantimex/javascript-problems-and-solutions/dev-status.svg)](https://david-dm.org/jeantimex/javascript-problems-and-solutions?type=dev)
