@@ -2,6 +2,8 @@
 
 A city's skyline is the outer contour of the silhouette formed by all the buildings in that city when viewed from a distance. Now suppose you are **given the locations and height of all the buildings** as shown on a cityscape photo (Figure A), write a program to **output the skyline** formed by these buildings collectively (Figure B).
 
+<!-- markdownlint-disable MD033 -->
+
 <img alt="skyline1" src="https://user-images.githubusercontent.com/565300/41813528-8be85200-76ec-11e8-86c0-1a94eee8e86a.jpg" width="350" /><img alt="skyline2" src="https://user-images.githubusercontent.com/565300/41815136-3627f1fc-7716-11e8-9314-16ee383e3967.jpg" width="350" />
 
 The geometric information of each building is represented by a triplet of integers `[Li, Ri, Hi]`, where `Li` and `Ri` are the x coordinates of the left and right edge of the ith building, respectively, and `Hi` is its height. It is guaranteed that `0 ≤ Li, Ri ≤ INT_MAX`, `0 < Hi ≤ INT_MAX`, and `Ri - Li > 0`. You may assume all buildings are perfect rectangles grounded on an absolutely flat surface at height 0.

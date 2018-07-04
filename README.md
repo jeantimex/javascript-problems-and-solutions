@@ -8,6 +8,7 @@
 
 A collection of JavaScript problems and solutions for studying algorithms.
 
+<!-- markdownlint-disable MD033 -->
 <img alt="cover" src="https://user-images.githubusercontent.com/565300/33303581-c55a1280-d3b8-11e7-8e78-6879731416f1.png" width="600" />
 
 ## Table of Content
@@ -315,6 +316,7 @@ I solve algorithm problems using JavaSript and Java, you can find all my LeetCod
 
 ## Support
 
+<!-- markdownlint-disable MD033 -->
 <a href="https://paypal.me/jeantimex/3">
   <img alt="But Me a Coffee" src="https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0" width="200" />
 </a>
