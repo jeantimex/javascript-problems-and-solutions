@@ -70,6 +70,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Kth Largest Element in an Array](src/array/kth-largest-element-in-an-array.js)
 - [Insert Interval](src/array/insert-interval.js)
 - [Toeplitz Matrix](src/array/toeplitz-matrix.js)
+- [Max Consecutive Ones](src/array/max-consecutive-ones.js)
 
 ### Matrix
 
