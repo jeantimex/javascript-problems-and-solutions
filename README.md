@@ -69,6 +69,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Maximum Product of Word Lengths](src/array/maximum-product-of-word-lengths.js)
 - [Kth Largest Element in an Array](src/array/kth-largest-element-in-an-array.js)
 - [Insert Interval](src/array/insert-interval.js)
+- [Toeplitz Matrix](src/array/toeplitz-matrix.js)
 
 ### Matrix
 
