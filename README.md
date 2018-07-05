@@ -310,6 +310,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [LFU Cache](src/design/lfu-cache.js)
 - [Min Stack](src/design/min-stack.js)
 - [Max Stack](src/design/max-stack.js)
+- [Insert Delete GetRandom O(1)](src/design/insert-delete-getrandom-o1.js)
 
 ## Author
 
