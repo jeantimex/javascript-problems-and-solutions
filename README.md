@@ -73,6 +73,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Max Consecutive Ones](src/array/max-consecutive-ones.js)
 - [Max Consecutive Ones II](src/array/max-consecutive-ones-ii.js)
 - [Flippling an Image](src/array/flipping-an-image.js)
+- [Number of Boomerangs](src/array/number-of-boomerangs.js)
 
 ### Matrix
 
