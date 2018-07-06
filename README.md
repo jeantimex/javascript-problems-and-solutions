@@ -98,6 +98,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Find the Difference](src/string/find-the-difference.js)
 - [Bulls and Cows](src/string/bulls-and-cows.js)
 - [Add Strings](src/string/add-strings.js)
+- [Reverse String II](src/string/reverse-string-ii.js)
 
 ### Sorting
 
