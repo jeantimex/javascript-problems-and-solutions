@@ -71,6 +71,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Insert Interval](src/array/insert-interval.js)
 - [Toeplitz Matrix](src/array/toeplitz-matrix.js)
 - [Max Consecutive Ones](src/array/max-consecutive-ones.js)
+- [Max Consecutive Ones II](src/array/max-consecutive-ones-ii.js)
 
 ### Matrix
 
