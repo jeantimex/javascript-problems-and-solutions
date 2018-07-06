@@ -72,6 +72,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Toeplitz Matrix](src/array/toeplitz-matrix.js)
 - [Max Consecutive Ones](src/array/max-consecutive-ones.js)
 - [Max Consecutive Ones II](src/array/max-consecutive-ones-ii.js)
+- [Flippling an Image](src/array/flipping-an-image.js)
 
 ### Matrix
 
