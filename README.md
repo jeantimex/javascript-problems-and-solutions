@@ -104,6 +104,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Reverse String II](src/string/reverse-string-ii.js)
 - [Longest Substring Without Repeating Characters](src/string/longest-substring-without-repeating-characters.js)
 - [Sort Characters By Frequency](src/string/sort-characters-by-frequency.js)
+- [Binary Watch](src/string/binary-watch.js)
 
 ### Sorting
 
