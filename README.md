@@ -79,6 +79,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Island Perimeter](src/matrix/island-perimeter)
 - [Search a 2D Matrix II](src/matrix/search-a-2d-matrix-ii.js)
+- [Diagonal Traverse](src/matrix/diagonal-traverse.js)
 
 ### String
 
@@ -101,6 +102,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Bulls and Cows](src/string/bulls-and-cows.js)
 - [Add Strings](src/string/add-strings.js)
 - [Reverse String II](src/string/reverse-string-ii.js)
+- [Longest Substring Without Repeating Characters](src/string/longest-substring-without-repeating-characters.js)
+- [Sort Characters By Frequency](src/string/sort-characters-by-frequency.js)
 
 ### Sorting
 
