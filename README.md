@@ -297,6 +297,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Subset Sum Problem](src/dynamic-programming/subset-sum-problem.js)
 - [Matrix Chain Multiplication](src/dynamic-programming/matrix-chain-multiplication.js)
 - [Burst Balloons](src/dynamic-programming/burst-balloons.js)
+- [Guess Number Higher or Lower II](src/dynamic-programming/guess-number-higher-or-lower-ii.js)
 
 ### Greedy
 
