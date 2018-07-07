@@ -103,6 +103,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Add Strings](src/string/add-strings.js)
 - [Reverse String II](src/string/reverse-string-ii.js)
 - [Longest Substring Without Repeating Characters](src/string/longest-substring-without-repeating-characters.js)
+- [Sort Characters By Frequency](src/string/sort-characters-by-frequency.js)
 
 ### Sorting
 
