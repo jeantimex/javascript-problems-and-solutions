@@ -75,6 +75,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Flippling an Image](src/array/flipping-an-image.js)
 - [Number of Boomerangs](src/array/number-of-boomerangs.js)
 - [Beautiful Arrangement II](src/array/beautiful-arrangement-ii.js)
+- [Non-decreasing Array](src/array/non-decreasing-array.js)
 
 ### Matrix
 
