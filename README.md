@@ -322,6 +322,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Reservoir Sampling](src/sampling/reservoir-sampling.js)
 - [Select Random Number From Stream](src/sampling/select-a-random-number-from-stream.js)
+- [Linked List Random Node](src/sampling/linked-list-random-node.js)
 
 ### Design
 
