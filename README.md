@@ -32,6 +32,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Dynamic Programming](#dynamic-programming)
 - [Greedy](#greedy)
 - [Math](#math)
+- [Sampling](#sampling)
 - [Design](#design)
 
 ## Data Structures
@@ -316,6 +317,11 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Power of Two](src/math/power-of-two.js)
 - [Power of Three](src/math/power-of-three.js)
 - [Fraction to Recurring Decimal](src/math/fraction-to-recurring-decimal.js)
+
+### Sampling
+
+- [Reservoir Sampling](src/sampling/reservoir-sampling.js)
+- [Select Random Number From Stream](src/sampling/select-a-random-number-from-stream.js)
 
 ### Design
 
