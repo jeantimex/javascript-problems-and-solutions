@@ -109,6 +109,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Sort Characters By Frequency](src/string/sort-characters-by-frequency.js)
 - [Binary Watch](src/string/binary-watch.js)
 - [Magical String](src/string/magic-string.js)
+- [Rotated Digits](src/string/rotated-digits.js)
 
 ### Sorting
 
