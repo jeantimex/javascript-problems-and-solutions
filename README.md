@@ -266,6 +266,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Shortest Path in Maze II](src/bfs/shortest-path-in-maze-ii.js)
 - [Number of Islands](src/bfs/number-of-islands.js)
 - [Pacific Atlantic Water Flow](src/bfs/pacific-atlantic-water-flow.js)
+- [01 Matrix](src/bfs/01-matrix.js)
 
 ### Depth First Search
 
@@ -305,6 +306,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Matrix Chain Multiplication](src/dynamic-programming/matrix-chain-multiplication.js)
 - [Burst Balloons](src/dynamic-programming/burst-balloons.js)
 - [Guess Number Higher or Lower II](src/dynamic-programming/guess-number-higher-or-lower-ii.js)
+- [01 Matrix](src/dynamic-programming/01-matrix.js)
 
 ### Greedy
 
