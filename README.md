@@ -345,9 +345,13 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Moving Average from Data Stream](src/design/moving-average-from-data-stream.js)
 - [Flatten 2D Vector](src/design/flatten-2d-vector.js)
 
-## Author
+## Backers
 
-I solve algorithm problems using JavaSript and Java, you can find all my LeetCode solutions and posts [here](https://discuss.leetcode.com/user/jeantimex).
+Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/javascript-problems-and-solutions#backer)]
+
+## Sponsors
+
+Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/javascript-problems-and-solutions#sponsor)]
 
 ## Support
 
