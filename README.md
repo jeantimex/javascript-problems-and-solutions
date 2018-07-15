@@ -268,6 +268,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Number of Islands](src/bfs/number-of-islands.js)
 - [Pacific Atlantic Water Flow](src/bfs/pacific-atlantic-water-flow.js)
 - [01 Matrix](src/bfs/01-matrix.js)
+- [Minesweeper](src/bfs/minesweeper.js)
 
 ### Depth First Search
 
@@ -275,6 +276,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Next Closest Time](src/dfs/next-closest-time.js)
 - [Decode String](src/dfs/decode-string.js)
 - [Pacific Atlantic Water Flow](src/dfs/pacific-atlantic-water-flow.js)
+- [Minesweeper](src/dfs/minesweeper.js)
 
 ### Divide and Conquer
 
