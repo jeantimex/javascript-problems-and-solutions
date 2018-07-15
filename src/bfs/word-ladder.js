@@ -49,65 +49,56 @@
  * @return {number}
  */
 const ladderLength = (beginWord, endWord, wordList) => {
-  const letters = 'abcdefghijklmnopqrstuvwxyz';
-  const len = beginWord.length;
-
   // Step 1. Build the words set
-  const wordSet = new Set(wordList);
+  const wordDict = new Set(wordList);
 
-  // Sanity check
-  if (!wordSet.has(endWord)) {
+  if (!wordDict.has(endWord)) {
     return 0;
   }
 
-  const queue1 = [beginWord, '#'];
+  let head = new Set([beginWord]);
+  let tail = new Set([endWord]);
+  let distance = 2;
 
-  const visited1 = new Set([beginWord]);
+  while (head.size > 0 && tail.size > 0) {
+    if (head.size > tail.size) {
+      [head, tail] = [tail, head];
+    }
 
-  let level1 = 1;
+    const temp = new Set();
 
-  while (queue1.length > 0) {
-    const str1 = queue1.shift();
+    for (let [word] of head.entries()) {
+      wordDict.delete(word);
 
-    if (str1 !== '#') {
-      const curr1 = str1.split('');
+      const characters = word.split('');
 
-      for (let i = 0; i < len; i++) {
-        const char1 = curr1[i];
+      for (let i = 0; i < characters.length; i++) {
+        const char = characters[i];
 
-        for (let j = 0; j < letters.length; j++) {
-          curr1[i] = letters[j];
+        for (let j = 0; j < 26; j++) {
+          characters[i] = String.fromCharCode(97 + j);
+          const newWord = characters.join('');
 
-          const word1 = curr1.join('');
-
-          if (word1 === endWord) {
-            return level1 + 1;
+          if (tail.has(newWord)) {
+            return distance;
           }
 
-          if (wordSet.has(word1) && !visited1.has(word1)) {
-            visited1.add(word1);
-            queue1.push(word1);
+          if (wordDict.has(newWord)) {
+            temp.add(newWord);
+            wordDict.delete(newWord);
           }
         }
 
-        curr1[i] = char1;
-      }
-    } else {
-      if (queue1.length > 0) {
-        queue1.push('#');
-        level1 += 1;
+        characters[i] = char;
       }
     }
+
+    distance++;
+
+    head = temp;
   }
 
   return 0;
 };
 
 export { ladderLength };
-
-const beginWord = 'hit';
-const endWord = 'cog';
-const wordList = ['hot', 'dot', 'dog', 'lot', 'log', 'cog'];
-
-const result = ladderLength(beginWord, endWord, wordList);
-console.log(result);
