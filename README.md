@@ -269,6 +269,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Pacific Atlantic Water Flow](src/bfs/pacific-atlantic-water-flow.js)
 - [01 Matrix](src/bfs/01-matrix.js)
 - [Minesweeper](src/bfs/minesweeper.js)
+- [Word Ladder](src/bfs/word-ladder.js)
 
 ### Depth First Search
 
