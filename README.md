@@ -110,6 +110,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Binary Watch](src/string/binary-watch.js)
 - [Magical String](src/string/magic-string.js)
 - [Rotated Digits](src/string/rotated-digits.js)
+- [Text Justification](src/string/text-justification.js)
 
 ### Sorting
 
