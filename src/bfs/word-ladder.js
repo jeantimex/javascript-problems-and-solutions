@@ -50,15 +50,18 @@
  */
 const ladderLength = (beginWord, endWord, wordList) => {
   // Step 1. Build the words set
-  const wordDict = new Set(wordList);
+  const dict = new Set(wordList);
 
-  if (!wordDict.has(endWord)) {
+  if (!dict.has(endWord)) {
     return 0;
   }
 
   let head = new Set([beginWord]);
   let tail = new Set([endWord]);
   let distance = 2;
+
+  dict.delete(beginWord);
+  dict.delete(endWord);
 
   while (head.size > 0 && tail.size > 0) {
     if (head.size > tail.size) {
@@ -68,8 +71,6 @@ const ladderLength = (beginWord, endWord, wordList) => {
     const temp = new Set();
 
     for (let [word] of head.entries()) {
-      wordDict.delete(word);
-
       const characters = word.split('');
 
       for (let i = 0; i < characters.length; i++) {
@@ -79,13 +80,17 @@ const ladderLength = (beginWord, endWord, wordList) => {
           characters[i] = String.fromCharCode(97 + j);
           const newWord = characters.join('');
 
+          if (newWord === word) {
+            continue;
+          }
+
           if (tail.has(newWord)) {
             return distance;
           }
 
-          if (wordDict.has(newWord)) {
+          if (dict.has(newWord)) {
+            dict.delete(newWord);
             temp.add(newWord);
-            wordDict.delete(newWord);
           }
         }
 

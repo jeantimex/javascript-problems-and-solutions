@@ -270,6 +270,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [01 Matrix](src/bfs/01-matrix.js)
 - [Minesweeper](src/bfs/minesweeper.js)
 - [Word Ladder](src/bfs/word-ladder.js)
+- [Word Ladder II](src/bfs/word-ladder-ii.js)
 
 ### Depth First Search
 
