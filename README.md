@@ -272,6 +272,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Word Ladder](src/bfs/word-ladder.js)
 - [Word Ladder II](src/bfs/word-ladder-ii.js)
 - [The Maze](src/bfs/the-maze.js)
+- [The Maze II](src/bfs/the-maze-ii.js)
 
 ### Depth First Search
 
@@ -281,6 +282,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Pacific Atlantic Water Flow](src/dfs/pacific-atlantic-water-flow.js)
 - [Minesweeper](src/dfs/minesweeper.js)
 - [The Maze](src/dfs/the-maze.js)
+- [The Maze II](src/dfs/the-maze-ii.js)
 
 ### Divide and Conquer
 
