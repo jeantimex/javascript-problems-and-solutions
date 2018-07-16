@@ -111,6 +111,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Magical String](src/string/magic-string.js)
 - [Rotated Digits](src/string/rotated-digits.js)
 - [Text Justification](src/string/text-justification.js)
+- [Bold Words in String](src/string/bold-words-in-string.js)
 
 ### Sorting
 
