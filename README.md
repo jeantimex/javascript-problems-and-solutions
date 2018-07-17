@@ -114,6 +114,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Text Justification](src/string/text-justification.js)
 - [Bold Words in String](src/string/bold-words-in-string.js)
 - [Valid Word Abbreviation](src/string/valid-word-abbreviation.js)
+- [Backspace String Compare](src/string/backspace-string-compare.js)
 
 ### Sorting
 
