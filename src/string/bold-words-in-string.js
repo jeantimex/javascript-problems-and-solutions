@@ -18,13 +18,45 @@
  */
 
 /**
- * Merge Intervals Solution
+ * HashSet Solution
  *
  * @param {string[]} words
  * @param {string} S
  * @return {string}
  */
 const boldWords = (words, S) => {
+  // Step 1. Record all the bold positions
+  const bold = new Set();
+
+  for (let word of words) {
+    for (let i = 0; i < S.length; i++) {
+      if (S.substring(i, i + word.length) === word) {
+        for (let j = i; j < i + word.length; j++) {
+          bold.add(j);
+        }
+      }
+    }
+  }
+
+  // Step 2. Reconstruct the string
+  let res = '';
+  for (let i = 0; i < S.length; i++) {
+    if (bold.has(i) && !bold.has(i - 1)) res += '<b>';
+    res += S[i];
+    if (bold.has(i) && !bold.has(i + 1)) res += '</b>';
+  }
+
+  return res;
+};
+
+/**
+ * Merge Intervals Solution
+ *
+ * @param {string[]} words
+ * @param {string} S
+ * @return {string}
+ */
+const boldWords_II = (words, S) => {
   let intervals = [];
 
   // Step 1. Get all the intervals
@@ -68,4 +100,4 @@ const mergeIntervals = intervals => {
   return intervals.slice(0, i + 1);
 };
 
-export { boldWords };
+export { boldWords, boldWords_II };
