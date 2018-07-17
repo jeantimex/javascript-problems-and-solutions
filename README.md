@@ -77,6 +77,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Number of Boomerangs](src/array/number-of-boomerangs.js)
 - [Beautiful Arrangement II](src/array/beautiful-arrangement-ii.js)
 - [Non-decreasing Array](src/array/non-decreasing-array.js)
+- [Largest Number At Least Twice of Others](src/array/largest-number-at-least-twice-of-others.js)
 
 ### Matrix
 
