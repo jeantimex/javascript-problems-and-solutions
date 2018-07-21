@@ -141,6 +141,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Search in Rotated Sorted Array II](src/binary-search/search-in-rotated-sorted-array-ii.js)
 - [Divide Two Integers](src/binary-search/divide-two-integers.js)
 - [Power(x, n)](src/binary-search/powerx-n.js)
+- [Heaters](src/binary-search/heaters.js)
 
 ### Binary Indexed Tree
 
