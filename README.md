@@ -119,6 +119,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Backspace String Compare](src/string/backspace-string-compare.js)
 - [Repeated String Match](src/string/repeated-string-match.js)
 - [Longest Palindrome](src/string/longest-palindrome.js)
+- [Valid Word Square](src/string/valid-word-square.js)
 
 ### Sorting
 
