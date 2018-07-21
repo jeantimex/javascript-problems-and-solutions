@@ -79,6 +79,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Non-decreasing Array](src/array/non-decreasing-array.js)
 - [Largest Number At Least Twice of Others](src/array/largest-number-at-least-twice-of-others.js)
 - [Maximize Distance to Closest Person](src/array/maximize-distance-to-closest-person.js)
+- [Positions of Large Groups](src/array/positions-of-large-groups.js)
 
 ### Matrix
 
