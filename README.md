@@ -358,6 +358,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Insert Delete GetRandom O(1)](src/design/insert-delete-getrandom-o1.js)
 - [Moving Average from Data Stream](src/design/moving-average-from-data-stream.js)
 - [Flatten 2D Vector](src/design/flatten-2d-vector.js)
+- [Logger Rate Limiter](src/design/logger-rate-limiter.js)
 
 ## Backers
 
