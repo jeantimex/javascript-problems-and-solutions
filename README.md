@@ -120,6 +120,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Repeated String Match](src/string/repeated-string-match.js)
 - [Longest Palindrome](src/string/longest-palindrome.js)
 - [Valid Word Square](src/string/valid-word-square.js)
+- [Detect Capital](src/string/detect-capital.js)
 
 ### Sorting
 
