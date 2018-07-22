@@ -137,10 +137,12 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Binary Search
 
 - [Binary Search](src/binary-search/binary-search.js)
+- [Search Insert Position](src/binary-search/search-insert-position.js)
 - [Search in Rotated Sorted Array](src/binary-search/search-in-rotated-sorted-array.js)
 - [Search in Rotated Sorted Array II](src/binary-search/search-in-rotated-sorted-array-ii.js)
 - [Divide Two Integers](src/binary-search/divide-two-integers.js)
 - [Power(x, n)](src/binary-search/powerx-n.js)
+- [Heaters](src/binary-search/heaters.js)
 
 ### Binary Indexed Tree
 
