@@ -123,6 +123,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Palindrome](src/string/longest-palindrome.js)
 - [Valid Word Square](src/string/valid-word-square.js)
 - [Detect Capital](src/string/detect-capital.js)
+- [Repeated Substring Pattern](src/string/repeated-substring-pattern.js)
 
 ### Sorting
 
