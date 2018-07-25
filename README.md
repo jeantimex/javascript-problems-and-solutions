@@ -348,6 +348,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Power of Three](src/math/power-of-three.js)
 - [Fraction to Recurring Decimal](src/math/fraction-to-recurring-decimal.js)
 - [Largest Triangle Area](src/math/largest-triangle-area)
+- [Hamming Distance](src/math/hamming-distance.js)
 
 ### Sampling
 
