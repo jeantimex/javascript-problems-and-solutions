@@ -126,6 +126,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Detect Capital](src/string/detect-capital.js)
 - [Repeated Substring Pattern](src/string/repeated-substring-pattern.js)
 - [License Key Formatting](src/string/license-key-formatting.js)
+- [Similar RGB Color](src/string/similar-rgb-color.js)
 
 ### Sorting
 
