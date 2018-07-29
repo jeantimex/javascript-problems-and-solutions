@@ -82,6 +82,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Positions of Large Groups](src/array/positions-of-large-groups.js)
 - [Maximum Average Subarray I](src/array/maximum-average-subarray-i.js)
 - [Shortest Unsorted Continuous Subarray](src/array/shortest-unsorted-continuous-subarray.js)
+- [Relative Ranks](src/array/relative-ranks.js)
 
 ### Matrix
 
