@@ -314,6 +314,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### Dynamic Programming
 
+- [Longest Continuous Increasing Subsequence](src/dynamic-programming/longest-continuous-increasing-subsequence.js)
 - [Longest Increasing Subsequence](src/dynamic-programming/longest-increasing-subsequence.js)
 - [Longest Palindromic Subsequence](src/dynamic-programming/longest-palindromic-subsequence.js)
 - [Longest Palindromic Substring](src/dynamic-programming/longest-palindromic-substring.js)
