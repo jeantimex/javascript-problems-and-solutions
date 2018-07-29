@@ -124,6 +124,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Valid Word Square](src/string/valid-word-square.js)
 - [Detect Capital](src/string/detect-capital.js)
 - [Repeated Substring Pattern](src/string/repeated-substring-pattern.js)
+- [License Key Formatting](src/string/license-key-formatting.js)
 
 ### Sorting
 
