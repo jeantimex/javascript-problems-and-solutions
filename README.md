@@ -129,6 +129,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Repeated Substring Pattern](src/string/repeated-substring-pattern.js)
 - [License Key Formatting](src/string/license-key-formatting.js)
 - [Similar RGB Color](src/string/similar-rgb-color.js)
+- [Valid Palindrome II](src/string/valid-palindrome-ii.js)
 
 ### Sorting
 
