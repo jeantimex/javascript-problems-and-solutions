@@ -74,7 +74,7 @@ const expandAroundCenter = (s, left, right) => {
   let L = left;
   let R = right;
 
-  while (L >= 0 && R < s.length && s[L] == s[R]) {
+  while (L >= 0 && R < s.length && s[L] === s[R]) {
     L--;
     R++;
   }
