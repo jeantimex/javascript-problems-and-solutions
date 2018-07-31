@@ -349,6 +349,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [K Workers](src/greedy/k-workers.js)
 - [Remove Duplicate Letters](src/greedy/remove-duplicate-letters.js)
 - [Meeting Rooms II](src/greedy/meeting-rooms-ii.js)
+- [Task Scheduler](src/greedy/task-scheduler.js)
 
 ### Math
 
