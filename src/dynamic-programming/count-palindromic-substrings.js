@@ -1,5 +1,5 @@
 /**
- * Palindromic Substrings
+ * Count Palindromic Substrings
  *
  * Given a string, your task is to count how many palindromic substrings in this string.
  *

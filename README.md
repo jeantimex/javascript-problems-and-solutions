@@ -322,6 +322,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Palindromic Subsequence](src/dynamic-programming/longest-palindromic-subsequence.js)
 - [Longest Palindromic Substring](src/dynamic-programming/longest-palindromic-substring.js)
 - [Longest Consecutive Sequence](src/dynamic-programming/longest-consecutive-sequence.js)
+- [Count Palindromic Substrings](src/dynamic-programming/count-palindromic-substrings.js)
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 - [Wildcard Matching](src/backtracking/wildcard-matching.js)
 - [Word Break](src/dynamic-programming/word-break.js)
