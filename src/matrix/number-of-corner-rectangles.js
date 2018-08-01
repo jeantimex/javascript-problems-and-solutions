@@ -68,3 +68,5 @@ const countCornerRectangles = grid => {
 
   return result;
 };
+
+export { countCornerRectangles };
