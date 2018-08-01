@@ -93,6 +93,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Search a 2D Matrix II](src/matrix/search-a-2d-matrix-ii.js)
 - [Diagonal Traverse](src/matrix/diagonal-traverse.js)
 - [Number Of Corner Rectangles](src/matrix/number-of-corner-rectangles.js)
+- [Lonely Pixel I](src/matrix/lonely-pixel-i.js)
 
 ### String
 
