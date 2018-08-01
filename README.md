@@ -85,6 +85,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Relative Ranks](src/array/relative-ranks.js)
 - [Sentence Similarity](src/array/sentence-similarity.js)
 - [Magic Squares In Grid](src/array/magic-squares-in-grid.js)
+- [Range Addition](src/array/range-addition.js)
 
 ### Matrix
 
