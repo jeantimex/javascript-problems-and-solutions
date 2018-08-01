@@ -285,6 +285,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Count Numbers with Unique Digits](src/backtracking/count-numbers-with-unique-digits.js)
 - [Restore IP Addresses](src/backtracking/restore-ip-addresses.js)
 - [Expression Add Operators](src/backtracking/expression-add-operators.js)
+- [Keys and Rooms](src/backtracking/keys-and-rooms.js)
 
 ### Breadth First Search
 
