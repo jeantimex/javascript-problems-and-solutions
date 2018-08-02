@@ -355,6 +355,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Remove Duplicate Letters](src/greedy/remove-duplicate-letters.js)
 - [Meeting Rooms II](src/greedy/meeting-rooms-ii.js)
 - [Task Scheduler](src/greedy/task-scheduler.js)
+- [Find Permutation](src/greedy/find-permutation.js)
 
 ### Math
 
