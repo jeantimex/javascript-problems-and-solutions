@@ -94,6 +94,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Diagonal Traverse](src/matrix/diagonal-traverse.js)
 - [Number Of Corner Rectangles](src/matrix/number-of-corner-rectangles.js)
 - [Lonely Pixel I](src/matrix/lonely-pixel-i.js)
+- [Sparse Matrix Multiplication](src/matrix/sparse-matrix-multiplication.js)
 
 ### String
 
