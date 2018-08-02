@@ -384,6 +384,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Moving Average from Data Stream](src/design/moving-average-from-data-stream.js)
 - [Flatten 2D Vector](src/design/flatten-2d-vector.js)
 - [Logger Rate Limiter](src/design/logger-rate-limiter.js)
+- [Design Hit Counter](src/design/design-hit-counter.js)
 - [Design Compressed String Iterator](src/design/design-compressed-string-iterator.js)
 
 ## Backers
