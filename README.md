@@ -137,6 +137,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Similar RGB Color](src/string/similar-rgb-color.js)
 - [Valid Palindrome II](src/string/valid-palindrome-ii.js)
 - [Output Contest Matches](src/string/output-contest-matches.js)
+- [Shortest Completing Word](src/string/shortest-completing-word.js)
 
 ### Sorting
 
