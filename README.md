@@ -291,6 +291,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Restore IP Addresses](src/backtracking/restore-ip-addresses.js)
 - [Expression Add Operators](src/backtracking/expression-add-operators.js)
 - [Keys and Rooms](src/backtracking/keys-and-rooms.js)
+- [Beautiful Arrangement](src/backtracking/beautiful-arrangement.js)
 
 ### Breadth First Search
 
