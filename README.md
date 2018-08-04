@@ -226,6 +226,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Subtree of Another Tree](src/tree/subtree-of-another-tree.js)
 - [Sum Root to Leaf Numbers](src/tree/sum-root-to-leaf-numbers.js)
 - [Symmetric Tree](src/tree/symmetric-tree.js)
+- [Smallest Subtree with all the Deepest Nodes](src/tree/smallest-subtree-with-all-the-deepest-nodes.js)
 - [Trim a Binary Search Tree](src/tree/trim-a-binary-search-tree.js)
 - [Unique Binary Search Trees](src/tree/unique-binary-search-trees.js)
 - [Unique Binary Search Trees II](src/tree/unique-binary-search-trees-ii.js)
