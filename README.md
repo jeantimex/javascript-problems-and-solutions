@@ -353,6 +353,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Burst Balloons](src/dynamic-programming/burst-balloons.js)
 - [Guess Number Higher or Lower II](src/dynamic-programming/guess-number-higher-or-lower-ii.js)
 - [01 Matrix](src/dynamic-programming/01-matrix.js)
+- [4 Keys Keyboard](src/dynamic-programming/4-keys-keyboard.js)
 
 ### Greedy
 
