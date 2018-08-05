@@ -275,6 +275,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Combination Sum](src/backtracking/combination-sum.js)
 - [Combination Sum II](src/backtracking/combination-sum-ii.js)
 - [Combination Sum III](src/backtracking/combination-sum-iii.js)
+- [Combination Sum IV](src/backtracking/combination-sum-iv.js)
 - [Permutations](src/backtracking/permutations.js)
 - [Permutations II](src/backtracking/permutations-ii.js)
 - [N-Queens](src/backtracking/n-queens.js)
