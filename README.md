@@ -97,6 +97,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Lonely Pixel I](src/matrix/lonely-pixel-i.js)
 - [Sparse Matrix Multiplication](src/matrix/sparse-matrix-multiplication.js)
 - [Escape The Ghosts](src/matrix/escape-the-ghosts.js)
+- [Brick Wall](src/matrix/brick-wall.js)
 
 ### String
 
