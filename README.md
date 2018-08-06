@@ -401,6 +401,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Logger Rate Limiter](src/design/logger-rate-limiter.js)
 - [Design Hit Counter](src/design/design-hit-counter.js)
 - [Design Compressed String Iterator](src/design/design-compressed-string-iterator.js)
+- [Design Tic-Tac-Toe](src/design/design-tic-tac-toe.js)
 
 ## Backers
 
