@@ -357,6 +357,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [01 Matrix](src/dynamic-programming/01-matrix.js)
 - [4 Keys Keyboard](src/dynamic-programming/4-keys-keyboard.js)
 - [Coin Change](src/dynamic-programming/coin-change.js)
+- [Coin Change II](src/dynamic-programming/coin-change-2.js)
 
 ### Greedy
 
