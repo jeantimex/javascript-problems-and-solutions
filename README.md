@@ -87,6 +87,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Magic Squares In Grid](src/array/magic-squares-in-grid.js)
 - [Range Addition](src/array/range-addition.js)
 - [Increasing Triplet Subsequence](src/array/increasing-triplet-subsequence.js)
+- [Valid Tic-Tac-Toe State](src/array/valid-tic-tac-toe-state.js)
 
 ### Matrix
 
