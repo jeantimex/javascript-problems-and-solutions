@@ -88,6 +88,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Range Addition](src/array/range-addition.js)
 - [Increasing Triplet Subsequence](src/array/increasing-triplet-subsequence.js)
 - [Valid Tic-Tac-Toe State](src/array/valid-tic-tac-toe-state.js)
+- [Maximum Size Subarray Sum Equals k](src/array/maximum-size-subarray-sum-equals-k.js)
 
 ### Matrix
 
