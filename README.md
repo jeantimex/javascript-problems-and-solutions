@@ -380,6 +380,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Fraction to Recurring Decimal](src/math/fraction-to-recurring-decimal.js)
 - [Largest Triangle Area](src/math/largest-triangle-area)
 - [Hamming Distance](src/math/hamming-distance.js)
+- [Total Hamming Distance](src/math/total-hamming-distance.js)
 - [Nth Digit](src/math/nth-digit.js)
 
 ### Sampling
