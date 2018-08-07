@@ -320,6 +320,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Minesweeper](src/dfs/minesweeper.js)
 - [The Maze](src/dfs/the-maze.js)
 - [The Maze II](src/dfs/the-maze-ii.js)
+- [Pyramid Transition Matrix](src/dfs/pyramid-transition-matrix.js)
 
 ### Divide and Conquer
 
