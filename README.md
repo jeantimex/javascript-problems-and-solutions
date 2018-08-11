@@ -252,6 +252,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Minimum Height Trees](src/graph/minimum-height-trees.js)
 - [Redundant Connection](src/graph/redundant-connection.js)
 - [Redundant Connection II](src/graph/redundant-connection-ii.js)
+- [Is Graph Bipartite?](src/graph/is-graph-bipartite.js)
 
 ### Trie (Prefix Tree)
 
