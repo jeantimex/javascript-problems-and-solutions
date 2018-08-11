@@ -90,7 +90,7 @@ const dfs = (graph, colors, u, color) => {
  * @param {number[][]} graph
  * @return {boolean}
  */
-const isBipartiteBFS = graph => {
+const isBipartite_BFS = graph => {
   const colors = new Map();
 
   for (let u = 0; u < graph.length; u++) {
