@@ -369,6 +369,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Coin Change](src/dynamic-programming/coin-change.js)
 - [Coin Change II](src/dynamic-programming/coin-change-2.js)
 - [Target Sum](src/dynamic-programming/target-sum.js)
+- [Longest Line of Consecutive One in Matrix](src/dynamic-programming/longest-line-of-consecutive-one-in-matrix.js)
 
 ### Greedy
 
