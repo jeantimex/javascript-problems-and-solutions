@@ -165,6 +165,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Divide Two Integers](src/binary-search/divide-two-integers.js)
 - [Power(x, n)](src/binary-search/powerx-n.js)
 - [Heaters](src/binary-search/heaters.js)
+- [Find K Closest Elements](src/binary-search/find-k-closest-elements.js)
 
 ### Binary Indexed Tree
 
