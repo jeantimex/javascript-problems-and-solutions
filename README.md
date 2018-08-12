@@ -91,6 +91,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Maximum Size Subarray Sum Equals k](src/array/maximum-size-subarray-sum-equals-k.js)
 - [Longest Mountain in Array](src/array/longest-mountain-in-array.js)
 - [Continuous Subarray Sum](src/array/continuous-subarray-sum.js)
+- [Contiguous Array](src/array/contiguous-array.js)
 
 ### Matrix
 
