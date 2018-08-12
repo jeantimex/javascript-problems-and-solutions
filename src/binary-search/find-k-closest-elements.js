@@ -66,8 +66,4 @@ const findClosestElement = (arr, x) => {
   return lo;
 };
 
-const arr = [1, 2, 3, 4, 5];
-const k = 1;
-const x = 3;
-
-findClosestElements(arr, k, x);
+export { findClosestElements };
