@@ -303,6 +303,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Expression Add Operators](src/backtracking/expression-add-operators.js)
 - [Keys and Rooms](src/backtracking/keys-and-rooms.js)
 - [Beautiful Arrangement](src/backtracking/beautiful-arrangement.js)
+- [Generalized Abbreviation](src/backtracking/generalized-abbreviation.js)
 
 ### Breadth First Search
 
