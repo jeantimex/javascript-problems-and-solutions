@@ -371,6 +371,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Target Sum](src/dynamic-programming/target-sum.js)
 - [Longest Line of Consecutive One in Matrix](src/dynamic-programming/longest-line-of-consecutive-one-in-matrix.js)
 - [Delete Operation for Two Strings](src/dynamic-programming/delete-operation-for-two-strings.js)
+- [Largest Sum of Averages](src/dynamic-programing/largest-sum-of-averages.js)
 
 ### Greedy
 
