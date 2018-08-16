@@ -372,6 +372,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Line of Consecutive One in Matrix](src/dynamic-programming/longest-line-of-consecutive-one-in-matrix.js)
 - [Delete Operation for Two Strings](src/dynamic-programming/delete-operation-for-two-strings.js)
 - [Largest Sum of Averages](src/dynamic-programing/largest-sum-of-averages.js)
+- [Maximum Sum of 3 Non-Overlapping Subarrays](src/dynamic-programming/maximum-sum-of-3-non-overlapping-subarrays.js)
 
 ### Greedy
 
