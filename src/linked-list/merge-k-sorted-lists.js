@@ -26,6 +26,8 @@
  * }
  */
 
+import PriorityQueue from 'common/priority-queue';
+
 /**
  * @param {ListNode[]} lists
  * @return {ListNode}
@@ -35,50 +37,28 @@ const mergeKLists = lists => {
     return null;
   }
 
-  const merge = (a, b) => {
-    if (!a || !b) {
-      return a || b;
+  const dummy = new ListNode(0);
+  let p = dummy;
+
+  const pq = new PriorityQueue({
+    comparator: (a, b) => a.val - b.val,
+  });
+
+  // Initialize
+  for (let list of lists) {
+    pq.offer(list);
+  }
+
+  while (pq.size() > 0) {
+    p.next = pq.poll();
+    p = p.next;
+
+    if (p.next) {
+      pq.offer(p.next);
     }
+  }
 
-    let result;
-
-    if (a.val < b.val) {
-      result = a;
-      result.next = merge(a.next, b);
-    } else {
-      result = b;
-      result.next = merge(a, b.next);
-    }
-
-    return result;
-  };
-
-  const helper = (arr, last) => {
-    // repeat until only one list is left
-    while (last !== 0) {
-      let i = 0,
-        j = last;
-
-      // (i, j) forms a pair
-      while (i < j) {
-        // merge List i with List j and store
-        // merged list in List i
-        arr[i] = merge(arr[i], arr[j]);
-
-        // consider next pair
-        i++, j--;
-
-        // if all pairs are merged, update last
-        if (i >= j) {
-          last = j;
-        }
-      }
-    }
-
-    return lists[0];
-  };
-
-  return helper(lists, lists.length - 1);
+  return dummy.next;
 };
 
 export { mergeKLists };
