@@ -340,6 +340,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Plus One Linked List](src/linked-list/plus-one-linked-list.js)
 - [Linked List Components](src/linked-list/linked-list-components.js)
 - [Remove Nth Node From End of List](src/linked-list/remove-nth-node-from-end-of-list.js)
+- [Swap Nodes in Pairs](src/linked-list/swap-nodes-in-pairs.js)
 
 ### Dynamic Programming
 
