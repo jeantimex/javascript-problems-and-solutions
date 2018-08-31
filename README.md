@@ -342,6 +342,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Remove Nth Node From End of List](src/linked-list/remove-nth-node-from-end-of-list.js)
 - [Swap Nodes in Pairs](src/linked-list/swap-nodes-in-pairs.js)
 - [Reverse Nodes in k-Group](src/linked-list/reverse-nodes-in-k-group.js)
+- [Rotate List](src/linked-list/rotate-list.js)
 
 ### Dynamic Programming
 
