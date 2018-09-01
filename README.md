@@ -343,6 +343,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Swap Nodes in Pairs](src/linked-list/swap-nodes-in-pairs.js)
 - [Reverse Nodes in k-Group](src/linked-list/reverse-nodes-in-k-group.js)
 - [Rotate List](src/linked-list/rotate-list.js)
+- [](src/linked-list/remove-duplicates-from-sorted-list.js)
 
 ### Dynamic Programming
 
