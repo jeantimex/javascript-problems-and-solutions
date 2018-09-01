@@ -345,6 +345,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Rotate List](src/linked-list/rotate-list.js)
 - [Remove Duplicates from Sorted List](src/linked-list/remove-duplicates-from-sorted-list.js)
 - [Remove Duplicates from Sorted List II](src/linked-list/remove-duplicates-from-sorted-list-ii.js)
+- [Partition List](src/linked-list/partition-list.js)
 
 ### Dynamic Programming
 
