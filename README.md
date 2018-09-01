@@ -346,6 +346,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Remove Duplicates from Sorted List](src/linked-list/remove-duplicates-from-sorted-list.js)
 - [Remove Duplicates from Sorted List II](src/linked-list/remove-duplicates-from-sorted-list-ii.js)
 - [Partition List](src/linked-list/partition-list.js)
+- [Convert Sorted List to Binary Search Tree](src/linked-list/convert-sorted-list-to-binary-search-tree.js)
 
 ### Dynamic Programming
 
