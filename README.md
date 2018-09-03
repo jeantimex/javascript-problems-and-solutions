@@ -350,6 +350,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Copy List with Random Pointer](src/linked-list/copy-list-with-random-pointer.js)
 - [Linked List Cycle](src/linked-list/linked-list-cycle.js)
 - [Linked List Cycle II](src/linked-list/linked-list-cycle-ii.js)
+- [Reorder List](src/linked-list/reorder-list.js)
 
 ### Dynamic Programming
 
