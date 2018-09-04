@@ -335,6 +335,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### Linked List
 
+- [Reverse Linked List](src/linked-list/reverse-linked-list.js)
 - [Add Two Numbers](src/linked-list/add-two-numbers.js)
 - [Merge K Sorted Lists](src/linked-list/merge-k-sorted-lists.js)
 - [Plus One Linked List](src/linked-list/plus-one-linked-list.js)
@@ -353,7 +354,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Reorder List](src/linked-list/reorder-list.js)
 - [Insertion Sort List](src/linked-list/insertion-sort-list.js)
 - [Intersection of Two Linked Lists](src/linked-list/intersection-of-two-linked-lists.js)
-- [](src/linked-list/remove-linked-list-elements.js)
+- [Remove Linked List Elements](src/linked-list/remove-linked-list-elements.js)
 
 ### Dynamic Programming
 
