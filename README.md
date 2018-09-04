@@ -356,6 +356,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Intersection of Two Linked Lists](src/linked-list/intersection-of-two-linked-lists.js)
 - [Remove Linked List Elements](src/linked-list/remove-linked-list-elements.js)
 - [Palindrome Linked List](src/linked-list/palindrome-linked-list.js)
+- [Odd Even Linked List](src/linked-list/odd-even-linked-list.js)
 
 ### Dynamic Programming
 
