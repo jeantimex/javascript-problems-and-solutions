@@ -352,6 +352,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Linked List Cycle II](src/linked-list/linked-list-cycle-ii.js)
 - [Reorder List](src/linked-list/reorder-list.js)
 - [Insertion Sort List](src/linked-list/insertion-sort-list.js)
+- [Intersection of Two Linked Lists](src/linked-list/intersection-of-two-linked-lists.js)
 
 ### Dynamic Programming
 
