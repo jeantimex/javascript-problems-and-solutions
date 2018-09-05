@@ -357,6 +357,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Remove Linked List Elements](src/linked-list/remove-linked-list-elements.js)
 - [Palindrome Linked List](src/linked-list/palindrome-linked-list.js)
 - [Odd Even Linked List](src/linked-list/odd-even-linked-list.js)
+- [Split Linked List in Parts](src/linked-list/split-linked-list-in-parts.js)
 
 ### Dynamic Programming
 
