@@ -358,6 +358,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Palindrome Linked List](src/linked-list/palindrome-linked-list.js)
 - [Odd Even Linked List](src/linked-list/odd-even-linked-list.js)
 - [Split Linked List in Parts](src/linked-list/split-linked-list-in-parts.js)
+- [Convert Binary Search Tree to Sorted Doubly Linked List](src/linked-list/convert-binary-search-tree-to-sorted-doubly-linked-list.js)
 
 ### Dynamic Programming
 
