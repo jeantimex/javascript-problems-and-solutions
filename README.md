@@ -359,6 +359,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Odd Even Linked List](src/linked-list/odd-even-linked-list.js)
 - [Split Linked List in Parts](src/linked-list/split-linked-list-in-parts.js)
 - [Convert Binary Search Tree to Sorted Doubly Linked List](src/linked-list/convert-binary-search-tree-to-sorted-doubly-linked-list.js)
+- [Add Two Numbers II](src/linked-list/add-two-numbers-ii.js)
 
 ### Dynamic Programming
 
