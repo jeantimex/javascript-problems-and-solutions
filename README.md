@@ -360,6 +360,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Split Linked List in Parts](src/linked-list/split-linked-list-in-parts.js)
 - [Convert Binary Search Tree to Sorted Doubly Linked List](src/linked-list/convert-binary-search-tree-to-sorted-doubly-linked-list.js)
 - [Add Two Numbers II](src/linked-list/add-two-numbers-ii.js)
+- [Insert into a Cyclic Sorted List](src/linked-list/insert-into-a-cyclic-sorted-list.js)
 
 ### Dynamic Programming
 
