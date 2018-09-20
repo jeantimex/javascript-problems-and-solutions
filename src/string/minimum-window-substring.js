@@ -20,47 +20,39 @@
  * @return {string}
  */
 const minWindow = (s, t) => {
-  let result = '';
-
   // Step 1. Build a map and count characters in t
   const map = {};
   for (let c of t) {
     map[c] = ~~map[c] + 1;
   }
 
-  // Step 2. Scan through s and try to keep a window [i, j] that contains all the characters in t
-  let count = 0;
-  for (let i = 0, j = 0; j < s.length; j++) {
-    if (s[j] in map) {
-      // (1) If char in s exists in t, increase counter
-      if (map[s[j]] > 0) {
-        count++;
+  let i = 0;
+  let j = 0;
+
+  let start = 0;
+  let size = Infinity;
+  let counter = t.length;
+
+  // Step 2. Try to find the window in s with two pointers i, j
+  while (j < s.length) {
+    if (map[s[j++]]-- > 0) {
+      counter--; // Found a character in t
+    }
+
+    // While the current window contains all the characters
+    while (counter === 0) {
+      if (j - i < size) {
+        size = j - i;
+        start = i;
       }
-      map[s[j]] = map[s[j]] - 1;
 
-      // (2) Found a window, and try to move i forward and search for a smaller window
-      while (count === t.length) {
-        // First, save the current result
-        if (!result || j - i + 1 < result.length) {
-          //console.log(i, j);
-          result = s.substring(i, j + 1);
-        }
-
-        // Then move i forward
-        if (s[i] in map) {
-          map[s[i]] = map[s[i]] + 1;
-
-          if (map[s[i]] > 0) {
-            count--;
-          }
-        }
-
-        i++;
+      if (map[s[i++]]++ === 0) {
+        counter++; // Make it invalid
       }
     }
   }
 
-  return result;
+  return size === Infinity ? '' : s.substr(start, size);
 };
 
 export default minWindow;

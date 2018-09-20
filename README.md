@@ -106,6 +106,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### String
 
+- [Implement strStr()](src/string/implement-strstr.js)
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 - [Letter Combinations of a Phone Number](src/backtracking/letter-combinations-of-a-phone-number.js)
 - [Valid Parentheses](src/string/valid-parentheses.js)
@@ -125,7 +126,6 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Bulls and Cows](src/string/bulls-and-cows.js)
 - [Add Strings](src/string/add-strings.js)
 - [Reverse String II](src/string/reverse-string-ii.js)
-- [Longest Substring Without Repeating Characters](src/string/longest-substring-without-repeating-characters.js)
 - [Sort Characters By Frequency](src/string/sort-characters-by-frequency.js)
 - [Binary Watch](src/string/binary-watch.js)
 - [Magical String](src/string/magic-string.js)
@@ -144,6 +144,12 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Valid Palindrome II](src/string/valid-palindrome-ii.js)
 - [Output Contest Matches](src/string/output-contest-matches.js)
 - [Shortest Completing Word](src/string/shortest-completing-word.js)
+- [Count and Say](src/string/count-and-say.js)
+- [Multiply Strings](src/string/multiply-strings.js)
+- [Add Binary](src/string/add-binary.js)
+- [Minimum Window Substring](src/string/minimum-window-substring.js)
+- [Longest Substring with At Most Two Distinct Characters](src/string/longest-substring-with-at-most-two-distinct-characters.js)
+- [Longest Substring Without Repeating Characters](src/string/longest-substring-without-repeating-characters.js)
 
 ### Sorting
 
@@ -166,6 +172,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Search in Rotated Sorted Array II](src/binary-search/search-in-rotated-sorted-array-ii.js)
 - [Divide Two Integers](src/binary-search/divide-two-integers.js)
 - [Power(x, n)](src/binary-search/powerx-n.js)
+- [Sqrt(x)](src/binary-search/sqrt.js)
 - [Heaters](src/binary-search/heaters.js)
 - [Find K Closest Elements](src/binary-search/find-k-closest-elements.js)
 
