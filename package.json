@@ -25,8 +25,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.4",
-    "babel-plugin-istanbul": "^4.1.6",
+    "babel-eslint": "^9.0.0",
+    "babel-plugin-istanbul": "^5.0.1",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
@@ -36,12 +36,12 @@
     "coveralls": "^3.0.1",
     "cross-env": "^5.2.0",
     "eslint": "^5.0.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^2.6.1",
-    "husky": "^0.14.3",
+    "husky": "^1.0.0-rc.15",
     "lint-staged": "^7.2.0",
     "mocha": "^5.2.0",
-    "nyc": "^12.0.2",
+    "nyc": "^13.0.1",
     "prettier": "^1.13.5",
     "release-it": "^7.4.7"
   }
