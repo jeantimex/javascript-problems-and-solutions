@@ -51,6 +51,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Two Sum](src/array/two-sum.js)
 - [Three Sum](src/array/three-sum.js)
 - [Median of Two Sorted Arrays](src/array/median-of-two-sorted-arrays.js)
+- [Largest Rectangle in Histogram](src/array/largest-rectangle-in-histogram.js)
 - [Plus One](src/array/plus-one.js)
 - [Trapping Rain Water](src/array/trapping-rain-water)
 - [Merge Intervals](src/array/merge-intervals.js)
@@ -94,6 +95,9 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Mountain in Array](src/array/longest-mountain-in-array.js)
 - [Continuous Subarray Sum](src/array/continuous-subarray-sum.js)
 - [Contiguous Array](src/array/contiguous-array.js)
+- [Merge Sorted Array](src/array/merge-sorted-array.js)
+- [Product of Array Except Self](src/array/product-of-array-except-self.js)
+- [Missing Number](src/array/missing-number.js)
 
 ### Matrix
 
@@ -153,6 +157,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Longest Substring with At Most Two Distinct Characters](src/string/longest-substring-with-at-most-two-distinct-characters.js)
 - [Longest Substring Without Repeating Characters](src/string/longest-substring-without-repeating-characters.js)
 - [Group Anagrams](src/string/group-anagrams.js)
+- [Palindromic Substrings](src/string/palindromic-substrings.js)
+- [Integer to English Words](src/string/integer-to-english-words.js)
 
 ### Sorting
 
@@ -428,6 +434,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Total Hamming Distance](src/math/total-hamming-distance.js)
 - [Nth Digit](src/math/nth-digit.js)
 - [Roman to Integer](src/math/roman-to-integer.js)
+- [Excel Sheet Column Title](src/math/excel-sheet-column-title.js)
 
 ### Sampling
 
