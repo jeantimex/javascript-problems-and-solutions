@@ -1,4 +1,4 @@
-# javascript-problems-and-solutions
+# Javascript Problems and Solutions
 
 [![npm version](https://badge.fury.io/js/javascript-problems-and-solutions.svg)](https://badge.fury.io/js/javascript-problems-and-solutions)
 [![Build Status](https://travis-ci.org/jeantimex/javascript-problems-and-solutions.svg?branch=master)](https://travis-ci.org/jeantimex/javascript-problems-and-solutions)
