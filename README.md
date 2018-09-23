@@ -48,6 +48,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### Array
 
+- [Two Sum](src/array/two-sum.js)
+- [Three Sum](src/array/three-sum.js)
 - [Median of Two Sorted Arrays](src/array/median-of-two-sorted-arrays.js)
 - [Plus One](src/array/plus-one.js)
 - [Trapping Rain Water](src/array/trapping-rain-water)
@@ -150,6 +152,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Minimum Window Substring](src/string/minimum-window-substring.js)
 - [Longest Substring with At Most Two Distinct Characters](src/string/longest-substring-with-at-most-two-distinct-characters.js)
 - [Longest Substring Without Repeating Characters](src/string/longest-substring-without-repeating-characters.js)
+- [Group Anagrams](src/string/group-anagrams.js)
 
 ### Sorting
 
@@ -402,6 +405,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Delete Operation for Two Strings](src/dynamic-programming/delete-operation-for-two-strings.js)
 - [Largest Sum of Averages](src/dynamic-programing/largest-sum-of-averages.js)
 - [Maximum Sum of 3 Non-Overlapping Subarrays](src/dynamic-programming/maximum-sum-of-3-non-overlapping-subarrays.js)
+- [Maximal Rectangle](src/dynamic-programming/maximal-rectangle.js)
 
 ### Greedy
 
@@ -423,6 +427,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Hamming Distance](src/math/hamming-distance.js)
 - [Total Hamming Distance](src/math/total-hamming-distance.js)
 - [Nth Digit](src/math/nth-digit.js)
+- [Roman to Integer](src/math/roman-to-integer.js)
 
 ### Sampling
 
