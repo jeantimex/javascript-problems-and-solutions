@@ -70,6 +70,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Daily Temperatures](src/array/daily-temperatures.js)
 - [Sliding Window Maximum](src/array/sliding-window-maximum.js)
 - [Subarray Sum Equals K](src/array/subarray-sum-equals-k.js)
+- [Subarray Product Less Than K](src/array/subarray-product-less-than-k.js)
+- [Maximum Product of Three Numbers](src/array/maximum-product-of-three-numbers.js)
 - [Maximum Product of Word Lengths](src/array/maximum-product-of-word-lengths.js)
 - [Kth Largest Element in an Array](src/array/kth-largest-element-in-an-array.js)
 - [Insert Interval](src/array/insert-interval.js)
@@ -98,6 +100,11 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Merge Sorted Array](src/array/merge-sorted-array.js)
 - [Product of Array Except Self](src/array/product-of-array-except-self.js)
 - [Missing Number](src/array/missing-number.js)
+- [Maximum Sum Subarray](src/array/maximum-subarray.js)
+- [Maximum Product Subarray](src/array/maximum-product-subarray.js)
+- [Evaluate Reverse Polish Notation](src/array/evaluate-reverse-polish-notation.js)
+- [Shortest Word Distance](src/array/shortest-word-distance.js)
+- [Shortest Word Distance II](src/design/shortest-word-distance-ii.js)
 
 ### Matrix
 
@@ -141,6 +148,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Valid Word Abbreviation](src/string/valid-word-abbreviation.js)
 - [Backspace String Compare](src/string/backspace-string-compare.js)
 - [Repeated String Match](src/string/repeated-string-match.js)
+- [Repeated DNA Sequences](src/string/repeated-dna-sequences.js)
 - [Longest Palindrome](src/string/longest-palindrome.js)
 - [Valid Word Square](src/string/valid-word-square.js)
 - [Detect Capital](src/string/detect-capital.js)
@@ -159,6 +167,9 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Group Anagrams](src/string/group-anagrams.js)
 - [Palindromic Substrings](src/string/palindromic-substrings.js)
 - [Integer to English Words](src/string/integer-to-english-words.js)
+- [Robot Return to Origin](src/string/robot-return-to-origin.js)
+- [Valid Number](src/string/valid-number.js)
+- [Isomorphic Strings](src/string/isomorphic-strings.js)
 
 ### Sorting
 
@@ -179,6 +190,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Search Insert Position](src/binary-search/search-insert-position.js)
 - [Search in Rotated Sorted Array](src/binary-search/search-in-rotated-sorted-array.js)
 - [Search in Rotated Sorted Array II](src/binary-search/search-in-rotated-sorted-array-ii.js)
+- [Find First and Last Position of Element in Sorted Array](src/binary-search/find-first-and-last-position-of-element-in-sorted-array.js)
 - [Divide Two Integers](src/binary-search/divide-two-integers.js)
 - [Power(x, n)](src/binary-search/powerx-n.js)
 - [Sqrt(x)](src/binary-search/sqrt.js)
@@ -353,6 +365,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 - [Reverse Linked List](src/linked-list/reverse-linked-list.js)
 - [Add Two Numbers](src/linked-list/add-two-numbers.js)
+- [Merge Two Sorted Lists](src/linked-list/merge-two-sorted-lists.js)
 - [Merge K Sorted Lists](src/linked-list/merge-k-sorted-lists.js)
 - [Plus One Linked List](src/linked-list/plus-one-linked-list.js)
 - [Linked List Components](src/linked-list/linked-list-components.js)
@@ -412,6 +425,11 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Largest Sum of Averages](src/dynamic-programing/largest-sum-of-averages.js)
 - [Maximum Sum of 3 Non-Overlapping Subarrays](src/dynamic-programming/maximum-sum-of-3-non-overlapping-subarrays.js)
 - [Maximal Rectangle](src/dynamic-programming/maximal-rectangle.js)
+- [House Robber](src/dynamic-programming/house-robber.js)
+- [House Robber II](src/dynamic-programming/house-robber-ii.js)
+- [Paint Fence](src/dynamic-programming/paint-fence.js)
+- [Paint House](src/dynamic-programming/paint-house.js)
+- [Paint House II](src/dynamic-programming/paint-house-ii.js)
 
 ### Greedy
 
@@ -460,6 +478,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [My Calendar I](src/design/my-calendar-i.js)
 - [My Calendar II](src/design/my-calendar-ii.js)
 - [Design Phone Directory](src/design/design-phone-directory.js)
+- [Shortest Word Distance II](src/design/shortest-word-distance-ii.js)
 
 ## Backers
 
