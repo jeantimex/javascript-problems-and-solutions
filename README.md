@@ -105,6 +105,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Evaluate Reverse Polish Notation](src/array/evaluate-reverse-polish-notation.js)
 - [Shortest Word Distance](src/array/shortest-word-distance.js)
 - [Shortest Word Distance II](src/design/shortest-word-distance-ii.js)
+- [Sort Colors](src/array/sort-colors.js)
 
 ### Matrix
 
@@ -170,6 +171,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Robot Return to Origin](src/string/robot-return-to-origin.js)
 - [Valid Number](src/string/valid-number.js)
 - [Isomorphic Strings](src/string/isomorphic-strings.js)
+- [Find All Anagrams in a String](src/string/find-all-anagrams-in-a-string.js)
 
 ### Sorting
 
@@ -430,6 +432,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Paint Fence](src/dynamic-programming/paint-fence.js)
 - [Paint House](src/dynamic-programming/paint-house.js)
 - [Paint House II](src/dynamic-programming/paint-house-ii.js)
+- [Partition Equal Subset Sum](src/dynamic-programming/partition-equal-subset-sum.js)
+- [Partition to K Equal Sum Subsets](src/dynamic-programming/partition-to-k-equal-sum-subsets.js)
 
 ### Greedy
 

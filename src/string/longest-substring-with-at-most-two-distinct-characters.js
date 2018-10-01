@@ -20,3 +20,5 @@
  * @return {number}
  */
 const lengthOfLongestSubstringTwoDistinct = s => {};
+
+export { lengthOfLongestSubstringTwoDistinct };
