@@ -106,6 +106,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Shortest Word Distance](src/array/shortest-word-distance.js)
 - [Shortest Word Distance II](src/design/shortest-word-distance-ii.js)
 - [Sort Colors](src/array/sort-colors.js)
+- [Find the Celebrity](src/array/find-the-celebrity.js)
+- [Can Place Flowers](src/array/can-place-flowers.js)
 
 ### Matrix
 
@@ -196,8 +198,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Divide Two Integers](src/binary-search/divide-two-integers.js)
 - [Power(x, n)](src/binary-search/powerx-n.js)
 - [Sqrt(x)](src/binary-search/sqrt.js)
+- [Valid Perfect Square](src/binary-search/valid-perfect-square.js)
 - [Heaters](src/binary-search/heaters.js)
 - [Find K Closest Elements](src/binary-search/find-k-closest-elements.js)
+- [Sum of Square Numbers](src/math/sum-of-square-numbers.js)
 
 ### Binary Indexed Tree
 
@@ -233,6 +237,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Diameter of Binary Tree](src/tree/diameter-of-binary-tree.js)
 - [Find Bottom Left Tree Value](src/tree/find-bottom-left-tree-value.js)
 - [Find Largest Value in Each Tree Row](src/tree/find-largest-value-in-each-tree-row.js)
+- [Find Leaves of Binary Tree](src/tree/find-leaves-of-binary-tree.js)
 - [Find Mode in Binary Search Tree](src/tree/find-mode-in-binary-search-tree.js)
 - [Flatten Binary Tree to Linked List](src/tree/flatten-binary-tree-to-linked-list.js)
 - [House Robber III](src/tree/house-robber-iii.js)
@@ -258,6 +263,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Populating Next Right Pointers in Each Node II](src/tree/populating-next-right-pointers-in-each-node-ii.js)
 - [Recover Binary Search Tree](src/tree/recover-binary-search-tree.js)
 - [Same Tree](src/tree/same-tree.js)
+- [Second Minimum Node In a Binary Tree](src/tree/second-minimum-node-in-a-binary-tree.js)
 - [Serialize and Deserialize BST](src/tree/serialize-and-deserialize-bst.js)
 - [Serialize and Deserialize Binary Tree](src/tree/serialize-and-deserialize-binary-tree.js)
 - [Subtree of Another Tree](src/tree/subtree-of-another-tree.js)
@@ -334,6 +340,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Keys and Rooms](src/backtracking/keys-and-rooms.js)
 - [Beautiful Arrangement](src/backtracking/beautiful-arrangement.js)
 - [Generalized Abbreviation](src/backtracking/generalized-abbreviation.js)
+- [Partition to K Equal Sum Subsets](src/backtracking/partition-to-k-equal-sum-subsets.js)
 
 ### Breadth First Search
 
@@ -358,6 +365,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [The Maze](src/dfs/the-maze.js)
 - [The Maze II](src/dfs/the-maze-ii.js)
 - [Pyramid Transition Matrix](src/dfs/pyramid-transition-matrix.js)
+- [Nested List Weight Sum](src/dfs/nested-list-weight-sum.js)
+- [](src/dfs/nested-list-weight-sum-ii.js)
 
 ### Divide and Conquer
 
@@ -434,6 +443,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Paint House II](src/dynamic-programming/paint-house-ii.js)
 - [Partition Equal Subset Sum](src/dynamic-programming/partition-equal-subset-sum.js)
 - [Partition to K Equal Sum Subsets](src/dynamic-programming/partition-to-k-equal-sum-subsets.js)
+- [Can I Win](src/dynamic-programming/can-i-win.js)
 
 ### Greedy
 
@@ -457,6 +467,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Nth Digit](src/math/nth-digit.js)
 - [Roman to Integer](src/math/roman-to-integer.js)
 - [Excel Sheet Column Title](src/math/excel-sheet-column-title.js)
+- [Sum of Square Numbers](src/math/sum-of-square-numbers.js)
 
 ### Sampling
 
@@ -464,6 +475,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Select Random Number From Stream](src/sampling/select-a-random-number-from-stream.js)
 - [Linked List Random Node](src/sampling/linked-list-random-node.js)
 - [Random Pick Index](src/sampling/random-pick-index.js)
+- [Random Pick with Weight](src/sampling/random-pick-with-weight.js)
 
 ### Design
 
@@ -472,6 +484,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [LFU Cache](src/design/lfu-cache.js)
 - [Min Stack](src/design/min-stack.js)
 - [Max Stack](src/design/max-stack.js)
+- [Max Stack II](src/design/max-stack-ii.js)
 - [Insert Delete GetRandom O(1)](src/design/insert-delete-getrandom-o1.js)
 - [Moving Average from Data Stream](src/design/moving-average-from-data-stream.js)
 - [Flatten 2D Vector](src/design/flatten-2d-vector.js)
