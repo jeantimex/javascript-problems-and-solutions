@@ -108,9 +108,15 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Sort Colors](src/array/sort-colors.js)
 - [Find the Celebrity](src/array/find-the-celebrity.js)
 - [Can Place Flowers](src/array/can-place-flowers.js)
+- [K-diff Pairs in an Array](src/array/k-diff-pairs-in-an-array.js)
+- [Container With Most Water](src/array/container-with-most-water.js)
+- [First Missing Positive](src/array/first-missing-positive.js)
+- [Missing Ranges](src/array/missing-ranges.js)
+- [Majority Elements](src/array/majority-element.js)
 
 ### Matrix
 
+- [Rotate Matrix](src/matrix/rotate-image.js)
 - [Island Perimeter](src/matrix/island-perimeter)
 - [Search a 2D Matrix II](src/matrix/search-a-2d-matrix-ii.js)
 - [Diagonal Traverse](src/matrix/diagonal-traverse.js)
@@ -174,6 +180,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Valid Number](src/string/valid-number.js)
 - [Isomorphic Strings](src/string/isomorphic-strings.js)
 - [Find All Anagrams in a String](src/string/find-all-anagrams-in-a-string.js)
+- [Longest Common Prefix](src/string/longest-common-prefix.js)
 
 ### Sorting
 
@@ -354,6 +361,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Word Ladder II](src/bfs/word-ladder-ii.js)
 - [The Maze](src/bfs/the-maze.js)
 - [The Maze II](src/bfs/the-maze-ii.js)
+- [Surrounded Regions](src/bfs/surrounded-regions.js)
 
 ### Depth First Search
 
@@ -444,6 +452,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Partition Equal Subset Sum](src/dynamic-programming/partition-equal-subset-sum.js)
 - [Partition to K Equal Sum Subsets](src/dynamic-programming/partition-to-k-equal-sum-subsets.js)
 - [Can I Win](src/dynamic-programming/can-i-win.js)
+- [Unique Paths](src/dynamic-programming/unique-paths.js)
+- [Decode Ways](src/dynamic-programming/decode-ways.js)
 
 ### Greedy
 
@@ -455,6 +465,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Meeting Rooms II](src/greedy/meeting-rooms-ii.js)
 - [Task Scheduler](src/greedy/task-scheduler.js)
 - [Find Permutation](src/greedy/find-permutation.js)
+- [Jump Game](src/greedy/jump-game.js)
 
 ### Math
 
@@ -468,6 +479,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Roman to Integer](src/math/roman-to-integer.js)
 - [Excel Sheet Column Title](src/math/excel-sheet-column-title.js)
 - [Sum of Square Numbers](src/math/sum-of-square-numbers.js)
+- [Reverse Integer](src/math/reverse-integer.js)
 
 ### Sampling
 
