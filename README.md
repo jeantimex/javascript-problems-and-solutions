@@ -374,7 +374,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [The Maze II](src/dfs/the-maze-ii.js)
 - [Pyramid Transition Matrix](src/dfs/pyramid-transition-matrix.js)
 - [Nested List Weight Sum](src/dfs/nested-list-weight-sum.js)
-- [](src/dfs/nested-list-weight-sum-ii.js)
+- [Nested List Weight Sum II](src/dfs/nested-list-weight-sum-ii.js)
 
 ### Divide and Conquer
 
