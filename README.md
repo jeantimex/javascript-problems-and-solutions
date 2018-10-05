@@ -454,6 +454,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Can I Win](src/dynamic-programming/can-i-win.js)
 - [Unique Paths](src/dynamic-programming/unique-paths.js)
 - [Decode Ways](src/dynamic-programming/decode-ways.js)
+- [Max Wages](src/dynamic-programming/max-wages.js)
 
 ### Greedy
 
