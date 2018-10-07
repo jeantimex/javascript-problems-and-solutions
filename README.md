@@ -113,6 +113,11 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [First Missing Positive](src/array/first-missing-positive.js)
 - [Missing Ranges](src/array/missing-ranges.js)
 - [Majority Elements](src/array/majority-element.js)
+- [Find All Duplicates in an Array](src/array/find-all-duplicates-in-an-array.js)
+- [Third Maximum Number](src/array/third-maximum-number.js)
+- [Split Array with Equal Sum](src/array/split-array-with-equal-sum.js)
+- [Maximum Swap](src/array/maximum-swap.js)
+- [Candy Crush](src/candy-crush.js)
 
 ### Matrix
 
@@ -122,6 +127,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Diagonal Traverse](src/matrix/diagonal-traverse.js)
 - [Number Of Corner Rectangles](src/matrix/number-of-corner-rectangles.js)
 - [Lonely Pixel I](src/matrix/lonely-pixel-i.js)
+- [Lonely Pixel II](src/matrix/lonely-pixel-ii.js)
 - [Sparse Matrix Multiplication](src/matrix/sparse-matrix-multiplication.js)
 - [Escape The Ghosts](src/matrix/escape-the-ghosts.js)
 - [Brick Wall](src/matrix/brick-wall.js)
@@ -366,6 +372,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Depth First Search
 
 - [Number of Islands](src/dfs/number-of-islands.js)
+- [Max Area of Island](src/dfs/max-area-of-island.js)
 - [Next Closest Time](src/dfs/next-closest-time.js)
 - [Decode String](src/dfs/decode-string.js)
 - [Pacific Atlantic Water Flow](src/dfs/pacific-atlantic-water-flow.js)
@@ -444,6 +451,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Largest Sum of Averages](src/dynamic-programing/largest-sum-of-averages.js)
 - [Maximum Sum of 3 Non-Overlapping Subarrays](src/dynamic-programming/maximum-sum-of-3-non-overlapping-subarrays.js)
 - [Maximal Rectangle](src/dynamic-programming/maximal-rectangle.js)
+- [Min Cost Climbing Stairs](src/dynamic-programming/min-cost-climbing-stairs.js)
 - [House Robber](src/dynamic-programming/house-robber.js)
 - [House Robber II](src/dynamic-programming/house-robber-ii.js)
 - [Paint Fence](src/dynamic-programming/paint-fence.js)
