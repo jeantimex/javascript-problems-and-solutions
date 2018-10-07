@@ -518,6 +518,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Design Phone Directory](src/design/design-phone-directory.js)
 - [Shortest Word Distance II](src/design/shortest-word-distance-ii.js)
 - [Shuffle an Array](src/design/shuffle-an-array.js)
+- [Read N Characters Given Read4](src/design/read-n-characters-given-read4.js)
+- [Read N Characters Given Read4 II - Call multiple times](src/design/read-n-characters-given-read4-ii-call-multiple-times.js)
 
 ## Backers
 
