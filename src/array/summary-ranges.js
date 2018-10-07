@@ -25,27 +25,18 @@ const getRange = (num1, num2) => (num1 === num2 ? `${num1}` : `${num1}->${num2}`
  * @return {string[]}
  */
 const summaryRanges = nums => {
-  if (!nums) {
-    return [];
-  }
-
+  const n = nums.length;
   const result = [];
 
-  let i = 0;
-  const n = nums.length;
-
-  for (let j = 1; j < n; j++) {
-    if (nums[j] - nums[j - 1] > 1) {
+  for (let i = 0, j = 1; j <= n; j++) {
+    if (j === n || nums[j] - nums[j - 1] > 1) {
       // found a range
       result.push(getRange(nums[i], nums[j - 1]));
       i = j;
     }
   }
 
-  // do a final check
-  if (i < n) {
-    result.push(getRange(nums[i], nums[n - 1]));
-  }
-
   return result;
 };
+
+export { summaryRanges };

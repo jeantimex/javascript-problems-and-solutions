@@ -47,14 +47,14 @@ const gameOfLife = board => {
           continue;
         }
 
-        if (board[ii][jj] == 1 || board[ii][jj] == 2) {
+        if (board[ii][jj] === 1 || board[ii][jj] === 2) {
           live++;
         }
       }
 
-      if (board[i][j] == 1 && (live < 2 || live > 3)) {
+      if (board[i][j] === 1 && (live < 2 || live > 3)) {
         board[i][j] = 2;
-      } else if (board[i][j] == 0 && live == 3) {
+      } else if (board[i][j] === 0 && live === 3) {
         board[i][j] = 3;
       }
     }
