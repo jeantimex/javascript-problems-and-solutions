@@ -37,8 +37,7 @@ const numberOfBoomerangs = points => {
       map[d] = ~~map[d] + 1;
     }
 
-    Object.keys(map).forEach(key => {
-      const val = map[key];
+    Object.values(map).forEach(val => {
       total += val * (val - 1); // permutations P(n, 2) = n * (n - 1)
     });
 
