@@ -519,6 +519,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Design Tic-Tac-Toe](src/design/design-tic-tac-toe.js)
 - [My Calendar I](src/design/my-calendar-i.js)
 - [My Calendar II](src/design/my-calendar-ii.js)
+- [My Calendar III](src/design/my-calendar-iii.js)
 - [Design Phone Directory](src/design/design-phone-directory.js)
 - [Shortest Word Distance II](src/design/shortest-word-distance-ii.js)
 - [Shuffle an Array](src/design/shuffle-an-array.js)
