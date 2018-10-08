@@ -55,6 +55,10 @@ class PriorityQueue {
     return this.data.length;
   }
 
+  isEmpty() {
+    return this.data.length === 0;
+  }
+
   toArray() {
     return this.data.slice(0).sort(this.comparator);
   }
