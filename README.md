@@ -477,6 +477,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Task Scheduler](src/greedy/task-scheduler.js)
 - [Find Permutation](src/greedy/find-permutation.js)
 - [Jump Game](src/greedy/jump-game.js)
+- [Minimum Number of Arrows to Burst Balloons](src/greedy/minimum-number-of-arrows-to-burst-balloons.js)
+- [Non-overlapping Intervals](src/greedy/non-overlapping-intervals.js)
 
 ### Math
 
