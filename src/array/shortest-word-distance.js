@@ -24,19 +24,15 @@
  * @return {number}
  */
 const shortestDistance = (words, word1, word2) => {
-  let p1 = -1;
-  let p2 = -1;
-  let min = Infinity;
+  let index = -1;
+  let min = words.length;
 
   for (let i = 0; i < words.length; i++) {
-    if (words[i] === word1) {
-      p1 = i;
-    } else if (words[i] === word2) {
-      p2 = i;
-    }
-
-    if (p1 !== -1 && p2 !== -1) {
-      min = Math.min(min, Math.abs(p1 - p2));
+    if (words[i] === word1 || words[i] === word2) {
+      if (index !== -1 && words[index] !== words[i]) {
+        min = Math.min(i - index, min);
+      }
+      index = i;
     }
   }
 

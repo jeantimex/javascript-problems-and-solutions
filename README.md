@@ -105,6 +105,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Evaluate Reverse Polish Notation](src/array/evaluate-reverse-polish-notation.js)
 - [Shortest Word Distance](src/array/shortest-word-distance.js)
 - [Shortest Word Distance II](src/design/shortest-word-distance-ii.js)
+- [Shortest Word Distance III](src/array/shortest-word-distance-iii.js)
 - [Sort Colors](src/array/sort-colors.js)
 - [Find the Celebrity](src/array/find-the-celebrity.js)
 - [Can Place Flowers](src/array/can-place-flowers.js)
