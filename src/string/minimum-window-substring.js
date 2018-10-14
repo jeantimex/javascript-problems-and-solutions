@@ -20,29 +20,27 @@
  * @return {string}
  */
 const minWindow = (s, t) => {
-  // Step 1. Build a map and count characters in t
+  // Build a map and count characters in t
   const map = {};
   for (let c of t) {
     map[c] = ~~map[c] + 1;
   }
 
-  let i = 0;
-  let j = 0;
-
   let start = 0;
   let size = Infinity;
   let counter = t.length;
 
-  // Step 2. Try to find the window in s with two pointers i, j
-  while (j < s.length) {
-    if (map[s[j++]]-- > 0) {
+  // Try to find the window in s with two pointers i, j
+  for (let i = 0, j = 0; j < s.length; j++) {
+    // Step 1. count the character
+    if (map[s[j]]-- > 0) {
       counter--; // Found a character in t
     }
 
-    // While the current window contains all the characters
+    // Step 2. condition matched (the current window contains all the characters in t)
     while (counter === 0) {
-      if (j - i < size) {
-        size = j - i;
+      if (j - i + 1 < size) {
+        size = j - i + 1;
         start = i;
       }
 

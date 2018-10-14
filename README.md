@@ -356,6 +356,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Beautiful Arrangement](src/backtracking/beautiful-arrangement.js)
 - [Generalized Abbreviation](src/backtracking/generalized-abbreviation.js)
 - [Partition to K Equal Sum Subsets](src/backtracking/partition-to-k-equal-sum-subsets.js)
+- [Additive Number](src/backtracking/additive-number.js)
 
 ### Breadth First Search
 
@@ -465,6 +466,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Unique Paths](src/dynamic-programming/unique-paths.js)
 - [Decode Ways](src/dynamic-programming/decode-ways.js)
 - [Max Wages](src/dynamic-programming/max-wages.js)
+- [Dungeon Game](src/dynamic-programming/dungeon-game.js)
 
 ### Greedy
 

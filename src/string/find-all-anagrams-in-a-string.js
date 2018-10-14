@@ -40,28 +40,25 @@
  * @return {number[]}
  */
 const findAnagrams = (s, p) => {
-  // Step 1. Build a map and count characters in p
+  // Build a map and count characters in p
   const map = {};
   for (let c of p) {
     map[c] = ~~map[c] + 1;
   }
 
-  let i = 0;
-  let j = 0;
-
-  let start = 0;
   let counter = p.length;
   let result = [];
 
-  // Step 2. Try to find the window in s with two pointers i, j
-  while (j < s.length) {
-    if (map[s[j++]]-- > 0) {
+  // Try to find the window in s with two pointers i, j
+  for (let i = 0, j = 0; j < s.length; j++) {
+    // Step 1. count the character
+    if (map[s[j]]-- > 0) {
       counter--; // Found a character in t
     }
 
-    // While the current window contains all the characters
+    // Step 2. condition matched (the current window contains all the characters in p)
     while (counter === 0) {
-      if (j - i === p.length) {
+      if (j - i + 1 === p.length) {
         result.push(i);
       }
 
