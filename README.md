@@ -180,6 +180,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Minimum Window Substring](src/string/minimum-window-substring.js)
 - [Longest Substring with At Most Two Distinct Characters](src/string/longest-substring-with-at-most-two-distinct-characters.js)
 - [Longest Substring Without Repeating Characters](src/string/longest-substring-without-repeating-characters.js)
+- [Substring with Concatenation of All Words](src/string/substring-with-concatenation-of-all-words.js)
 - [Group Anagrams](src/string/group-anagrams.js)
 - [Palindromic Substrings](src/string/palindromic-substrings.js)
 - [Integer to English Words](src/string/integer-to-english-words.js)
