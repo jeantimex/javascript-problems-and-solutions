@@ -12,6 +12,8 @@
  * For each call to the method MyCalendar.book, return an integer K representing the largest integer
  * such that there exists a K-booking in the calendar.
  *
+ * This is to find the maximum number of concurrent ongoing event at any time.
+ *
  * Your class will be called like this: MyCalendarThree cal = new MyCalendarThree();
  * MyCalendarThree.book(start, end)
  *
@@ -41,12 +43,30 @@
  */
 
 class MyCalendarThree {
+  constructor() {
+    this.timeline = {};
+  }
+
   /**
    * @param {number} start
    * @param {number} end
    * @return {number}
    */
-  book(start, end) {}
+  book(start, end) {
+    // 1 new event will be starting at [s]
+    this.timeline[start] = ~~this.timeline[start] + 1;
+    // 1 new event will be ending at [e];
+    this.timeline[end] = ~~this.timeline[end] - 1;
+
+    let ongoing = 0;
+    let k = 0;
+
+    for (let v of Object.values(this.timeline)) {
+      k = Math.max(k, (ongoing += v));
+    }
+
+    return k;
+  }
 }
 
 export { MyCalendarThree };
