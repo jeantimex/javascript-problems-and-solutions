@@ -61,6 +61,7 @@ class MyCalendarThree {
     let ongoing = 0;
     let k = 0;
 
+    // Here we make sure we go though the keys in order of key value
     for (let v of Object.values(this.timeline)) {
       k = Math.max(k, (ongoing += v));
     }

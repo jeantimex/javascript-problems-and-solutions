@@ -29,6 +29,34 @@ import PriorityQueue from 'common/priority-queue';
  * @return {number}
  */
 const minMeetingRooms = intervals => {
+  if (!intervals || intervals.length === 0) {
+    return 0;
+  }
+
+  const timeline = {};
+  for (let { start, end } of intervals) {
+    // 1 new event will be starting at [start]
+    timeline[start] = ~~timeline[start] + 1;
+    // 1 new event will be ending at [end];
+    timeline[end] = ~~timeline[end] - 1;
+  }
+
+  let ongoing = 0;
+  let result = 0;
+
+  for (let v of Object.values(timeline)) {
+    result = Math.max(result, (ongoing += v));
+  }
+
+  return result;
+};
+
+/**
+ * Solution II - Priority Queue
+ * @param {Interval[]} intervals
+ * @return {number}
+ */
+const minMeetingRoomsII = intervals => {
   if (!intervals || intervals.length == 0) {
     return 0;
   }
@@ -66,4 +94,4 @@ const minMeetingRooms = intervals => {
   return heap.size();
 };
 
-export { minMeetingRooms };
+export { minMeetingRooms, minMeetingRoomsII };
