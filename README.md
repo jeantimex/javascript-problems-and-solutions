@@ -335,6 +335,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Word Squares](src/trie/word-squares.js)
 - [Maximum XOR of Two Numbers in an Array](src/trie/maximum-xor-of-two-numbers-in-an-array.js)
 - [Add Bold Tag in String](src/trie/add-bold-tag-in-string.js)
+- [K Edit Distance](src/trie/k-edit-distance.js)
 
 ### Backtracking
 
@@ -551,6 +552,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Read N Characters Given Read4](src/design/read-n-characters-given-read4.js)
 - [Read N Characters Given Read4 II - Call multiple times](src/design/read-n-characters-given-read4-ii-call-multiple-times.js)
 - [File System](src/design/file-system.js)
+- [Implement a Queue with Fixed-Size Array](src/design/implement-queue-using-fixed-size-array.js)
 
 ## Backers
 

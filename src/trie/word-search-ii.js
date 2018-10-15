@@ -112,7 +112,7 @@ class Trie {
   }
 
   addWord(word) {
-    var current = this.root;
+    let current = this.root;
 
     for (let i = 0; i < word.length; i++) {
       if (!(word[i] in current.children)) {
