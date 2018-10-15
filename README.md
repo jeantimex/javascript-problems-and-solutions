@@ -125,6 +125,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Contains Duplicate III](src/array/contains-duplicate-iii.js)
 - [H-Index](src/sorting/h-index.js)
 - [H-Index II](src/sorting/h-index-ii.js)
+- [Pour Water](src/array/pour_water.js)
 
 ### Matrix
 
@@ -318,6 +319,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Redundant Connection](src/graph/redundant-connection.js)
 - [Redundant Connection II](src/graph/redundant-connection-ii.js)
 - [Is Graph Bipartite?](src/graph/is-graph-bipartite.js)
+- [Minimum Vertices to Traverse Directed Graph](src/graph/minimum_vertices_to_traverse_directed_graph.js)
 
 ### Trie (Prefix Tree)
 
