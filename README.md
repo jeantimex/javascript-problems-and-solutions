@@ -118,7 +118,13 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Third Maximum Number](src/array/third-maximum-number.js)
 - [Split Array with Equal Sum](src/array/split-array-with-equal-sum.js)
 - [Maximum Swap](src/array/maximum-swap.js)
-- [Candy Crush](src/candy-crush.js)
+- [Candy Crush](src/array/candy-crush.js)
+- [Pascal's Triangle](src/array/pascals-triangle.js)
+- [Pascal's Triangle II](src/array/pascals-triangle-ii.js)
+- [Contains Duplicate II](src/array/contains-duplicate-ii.js)
+- [Contains Duplicate III](src/array/contains-duplicate-iii.js)
+- [H-Index](src/sorting/h-index.js)
+- [H-Index II](src/sorting/h-index-ii.js)
 
 ### Matrix
 
@@ -189,6 +195,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Isomorphic Strings](src/string/isomorphic-strings.js)
 - [Find All Anagrams in a String](src/string/find-all-anagrams-in-a-string.js)
 - [Longest Common Prefix](src/string/longest-common-prefix.js)
+- [Compare Version Numbers](src/string/compare-version-numbers.js)
 
 ### Sorting
 
@@ -358,6 +365,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Generalized Abbreviation](src/backtracking/generalized-abbreviation.js)
 - [Partition to K Equal Sum Subsets](src/backtracking/partition-to-k-equal-sum-subsets.js)
 - [Additive Number](src/backtracking/additive-number.js)
+- [Gray Code](src/backtracking/gray-code.js)
 
 ### Breadth First Search
 
@@ -390,6 +398,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 ### Divide and Conquer
 
 - [The Skyline Problem](src/divide-and-conquer/the-skyline-problem)
+- [Different Ways to Add Parentheses](src/divide-and-conquer/different-ways-to-add-parentheses.js)
 
 ### Linked List
 
@@ -468,9 +477,13 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Decode Ways](src/dynamic-programming/decode-ways.js)
 - [Max Wages](src/dynamic-programming/max-wages.js)
 - [Dungeon Game](src/dynamic-programming/dungeon-game.js)
+- [Triangle](src/dynamic-programming/triangle.js)
+- [Maximal Square](src/dynamic-programming/maximal-square.js)
+- [Ugly Number II](src/dynamic-programming/ugly-number-ii.js)
 
 ### Greedy
 
+- [Candy](src/greedy/candy.js)
 - [Gas Station](src/greedy/gas-station.js)
 - [Gas Station II](src/greedy/gas-station-ii.js)
 - [Queue Reconstruction by Height](src/greedy/queue-reconstruction-by-height.js)
@@ -485,6 +498,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 
 ### Math
 
+- [Count Primes](src/math/count-primes.js)
 - [Power of Two](src/math/power-of-two.js)
 - [Power of Three](src/math/power-of-three.js)
 - [Fraction to Recurring Decimal](src/math/fraction-to-recurring-decimal.js)
@@ -496,6 +510,10 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Excel Sheet Column Title](src/math/excel-sheet-column-title.js)
 - [Sum of Square Numbers](src/math/sum-of-square-numbers.js)
 - [Reverse Integer](src/math/reverse-integer.js)
+- [Single Number II](src/math/single-number-ii.js)
+- [Factorial Trailing Zeroes](src/math/factorial-trailing-zeroes.js)
+- [Strobogrammatic Number](src/math/strobogrammatic-number.js)
+- [Strobogrammatic Number II](src/math/strobogrammatic-number-ii.js)
 
 ### Sampling
 
@@ -513,6 +531,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Min Stack](src/design/min-stack.js)
 - [Max Stack](src/design/max-stack.js)
 - [Max Stack II](src/design/max-stack-ii.js)
+- [Exam Room](src/design/exam-room.js)
 - [Insert Delete GetRandom O(1)](src/design/insert-delete-getrandom-o1.js)
 - [Moving Average from Data Stream](src/design/moving-average-from-data-stream.js)
 - [Flatten 2D Vector](src/design/flatten-2d-vector.js)
