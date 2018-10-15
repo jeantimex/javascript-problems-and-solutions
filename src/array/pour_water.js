@@ -11,6 +11,9 @@
  *
  * This is how the container looks like
  *
+ *          | water
+ *          |
+ *          v
  *     +
  *     ++         +
  *     ++WWW+WWWWW+
