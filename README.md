@@ -549,6 +549,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Shuffle an Array](src/design/shuffle-an-array.js)
 - [Read N Characters Given Read4](src/design/read-n-characters-given-read4.js)
 - [Read N Characters Given Read4 II - Call multiple times](src/design/read-n-characters-given-read4-ii-call-multiple-times.js)
+- [File System](src/design/file-system.js)
 
 ## Backers
 
