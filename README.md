@@ -351,7 +351,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Generate Parentheses](src/backtracking/generate-parentheses.js)
 - [Generate Parentheses II](src/backtracking/generate-parentheses-ii.js)
 - [Word Search](src/backtracking/word-search.js)
-- [Word Search II](src/trie/word-search-ii.js)
+- [Word Search II (Boggle Game)](src/trie/word-search-ii.js)
 - [Sudoku Solver](src/backtracking/sudoku-solver.js)
 - [Regular Expression Matching](src/backtracking/regular-expression-matching.js)
 - [Wildcard Matching](src/backtracking/wildcard-matching.js)
@@ -514,6 +514,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Factorial Trailing Zeroes](src/math/factorial-trailing-zeroes.js)
 - [Strobogrammatic Number](src/math/strobogrammatic-number.js)
 - [Strobogrammatic Number II](src/math/strobogrammatic-number-ii.js)
+- [Collatz Conjecture](src/math/collatz-conjecture.js)
 
 ### Sampling
 
