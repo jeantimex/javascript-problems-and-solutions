@@ -196,6 +196,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Find All Anagrams in a String](src/string/find-all-anagrams-in-a-string.js)
 - [Longest Common Prefix](src/string/longest-common-prefix.js)
 - [Compare Version Numbers](src/string/compare-version-numbers.js)
+- [Display Pages](src/string/display-pages.js)
 
 ### Sorting
 
