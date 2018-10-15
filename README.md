@@ -367,6 +367,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Partition to K Equal Sum Subsets](src/backtracking/partition-to-k-equal-sum-subsets.js)
 - [Additive Number](src/backtracking/additive-number.js)
 - [Gray Code](src/backtracking/gray-code.js)
+- [Find Case Combination of a String](src/backtracking/find-case-combination-of-a-string.js)
 
 ### Breadth First Search
 
