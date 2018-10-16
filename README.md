@@ -521,6 +521,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Strobogrammatic Number](src/math/strobogrammatic-number.js)
 - [Strobogrammatic Number II](src/math/strobogrammatic-number-ii.js)
 - [Collatz Conjecture](src/math/collatz-conjecture.js)
+- [Number of Intersected Rectangles](src/math/number-of-intersected-rectangles.js)
 
 ### Sampling
 
