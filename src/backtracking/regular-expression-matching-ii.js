@@ -44,7 +44,7 @@ const isMatch = (s, p) => {
   if (p.length >= 2 && p[1] === '*') {
     return isMatch(s, p.substring(2)) || (isFirstMatch && isMatch(s.substring(1), p));
   } else if (p.length >= 2 && p[1] === '+') {
-    return isFirstMatch && isMatch(s.substring(1), p.substring(2));
+    return isFirstMatch && isMatch(s.substring(1), p);
   } else {
     return isFirstMatch && isMatch(s.substring(1), p.substring(1));
   }
@@ -77,7 +77,7 @@ const isMatchDP = (s, p) => {
       if (p[j - 1] === '*') {
         dp[i][j] = dp[i][j - 2] || (isCharMatch(s[i - 1], p[j - 2]) && dp[i - 1][j]);
       } else if (p[j - 1] === '+') {
-        dp[i][j] = isCharMatch(s[i - 1], p[j - 1]) && dp[i - 1][j - 2];
+        dp[i][j] = isCharMatch(s[i - 1], p[j - 1]) && dp[i - 1][j];
       } else {
         dp[i][j] = isCharMatch(s[i - 1], p[j - 1]) && dp[i - 1][j - 1];
       }
