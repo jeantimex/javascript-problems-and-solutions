@@ -33,6 +33,7 @@ const pourWater = (heights, location, water) => {
 
   while (water > 0) {
     // Handle left-hand side
+    // Search for the lowest valley on the left
     let left = location - 1;
 
     while (left >= 0) {
@@ -50,6 +51,7 @@ const pourWater = (heights, location, water) => {
     }
 
     // Handle right-hand side
+    // Search for the lowest valley on the right
     let right = location + 1;
 
     while (right < heights.length) {
@@ -66,6 +68,7 @@ const pourWater = (heights, location, water) => {
       continue;
     }
 
+    // Handle the original pour location
     pourLocation = location;
     waters[pourLocation]++;
     water--;
