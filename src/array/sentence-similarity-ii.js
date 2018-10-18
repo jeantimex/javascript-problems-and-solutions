@@ -46,6 +46,7 @@ const areSentencesSimilarTwo = (words1, words2, pairs) => {
   for (let pair of pairs) {
     const parent1 = find(map, pair[0]);
     const parent2 = find(map, pair[1]);
+
     if (parent1 !== parent2) {
       map.set(parent1, parent2);
     }
