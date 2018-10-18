@@ -89,6 +89,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Shortest Unsorted Continuous Subarray](src/array/shortest-unsorted-continuous-subarray.js)
 - [Relative Ranks](src/array/relative-ranks.js)
 - [Sentence Similarity](src/array/sentence-similarity.js)
+- [Sentence Similarity II](src/array/sentence-similarity-ii.js)
 - [Magic Squares In Grid](src/array/magic-squares-in-grid.js)
 - [Range Addition](src/array/range-addition.js)
 - [Increasing Triplet Subsequence](src/array/increasing-triplet-subsequence.js)
