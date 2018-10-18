@@ -124,8 +124,8 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Pascal's Triangle II](src/array/pascals-triangle-ii.js)
 - [Contains Duplicate II](src/array/contains-duplicate-ii.js)
 - [Contains Duplicate III](src/array/contains-duplicate-iii.js)
-- [H-Index](src/sorting/h-index.js)
-- [H-Index II](src/sorting/h-index-ii.js)
+- [H-Index](src/array/h-index.js)
+- [H-Index II](src/array/h-index-ii.js)
 - [Pour Water](src/array/pour_water.js)
 
 ### Matrix
