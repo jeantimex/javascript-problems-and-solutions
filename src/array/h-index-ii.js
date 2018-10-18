@@ -56,7 +56,7 @@ const hIndex = citations => {
     }
   }
 
-  return n - 1 - hi;
+  return n - lo;
 };
 
 export { hIndex };
