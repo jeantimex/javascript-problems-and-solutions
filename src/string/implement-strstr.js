@@ -76,6 +76,20 @@ const strStrKMP = (haystack, needle) => {
 /**
  * KMP algorithm to get the longest prefix and suffix count
  *
+ * len = lps[len - 1];
+ *
+ * From:
+ *             len-1
+ *             |
+ * lps: ++++++++x________++++++++y
+ *              |                |
+ *              len              i
+ * To:
+ *
+ * lps: ****y________________****y
+ *          |                    |
+ *          len                  i
+ *
  * @param {string} s
  * @return {number[]}
  */
