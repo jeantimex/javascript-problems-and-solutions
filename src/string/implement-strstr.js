@@ -81,16 +81,17 @@ const strStrKMP = (haystack, needle) => {
  */
 const getLPS = s => {
   const lps = Array(s.length).fill(0);
+
   let i = 1;
   let len = 0;
 
   while (i < s.length) {
     if (s[i] === s[len]) {
       lps[i++] = ++len;
-    } else if (len === 0) {
-      lps[i++] = 0;
-    } else {
+    } else if (len > 0) {
       len = lps[len - 1];
+    } else {
+      i++;
     }
   }
 
