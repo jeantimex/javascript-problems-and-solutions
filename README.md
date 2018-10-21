@@ -388,7 +388,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [The Maze](src/bfs/the-maze.js)
 - [The Maze II](src/bfs/the-maze-ii.js)
 - [Surrounded Regions](src/bfs/surrounded-regions.js)
-- [Trapping Rain Water II](src/bfs/trapping-rain-water-ii)
+- [Trapping Rain Water II](src/bfs/trapping-rain-water)
 
 ### Depth First Search
 
