@@ -30,8 +30,13 @@ const backtracking = (word, index, count, solution, result) => {
     result.push(solution);
     return;
   }
+  
+  // solution | count | word[index]
+  // -------- |  10   | I
 
+  // Case 1. Continue to use number to replace the character
   backtracking(word, index + 1, count + 1, solution, result);
+  // Case 2. Stop using number to replace the character
   backtracking(word, index + 1, 0, solution + (count > 0 ? count : '') + word[index], result);
 };
 
