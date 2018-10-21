@@ -36,8 +36,6 @@ const detectCapitalUse = word => {
     }
   }
 
-  console.log(count);
-
   return count === 0 || count === word.length || (count === 1 && word[0] === word[0].toUpperCase());
 };
 
