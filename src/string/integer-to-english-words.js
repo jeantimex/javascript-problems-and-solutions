@@ -58,7 +58,7 @@ const numberToWords = num => {
   let words = '';
 
   while (num > 0) {
-    if (num % 1000 != 0) words = helper(num % 1000) + THOUSANDS[i] + ' ' + words;
+    if (num % 1000 !== 0) words = helper(num % 1000) + THOUSANDS[i] + ' ' + words;
     num = Math.floor(num / 1000);
     i++;
   }
@@ -67,7 +67,7 @@ const numberToWords = num => {
 };
 
 const helper = num => {
-  if (num == 0) return '';
+  if (num === 0) return '';
   else if (num < 20) return LESS_THAN_20[num] + ' ';
   else if (num < 100) return TENS[Math.floor(num / 10)] + ' ' + helper(num % 10);
   else return LESS_THAN_20[Math.floor(num / 100)] + ' Hundred ' + helper(num % 100);
