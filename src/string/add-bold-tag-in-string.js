@@ -26,11 +26,49 @@
  */
 
 /**
+ * Solution II: Bold Boolean Array
+ *
  * @param {string} s
  * @param {string[]} dict
  * @return {string}
  */
 const addBoldTag = (s, dict) => {
+  const n = s.length;
+  const bold = Array(n).fill(false);
+
+  for (let i = 0, end = 0; i < n; i++) {
+    for (let word of dict) {
+      if (s.startsWith(word, i)) {
+        end = Math.max(end, i + word.length);
+      }
+    }
+    bold[i] = end > i;
+  }
+
+  let result = '';
+  for (let i = 0; i < n; ) {
+    if (!bold[i]) {
+      result += s[i++];
+      continue;
+    }
+
+    let j = i;
+    while (j < n && bold[j]) j++;
+    result += '<b>' + s.substring(i, j) + '</b>';
+    i = j;
+  }
+
+  return result.toString();
+};
+
+/**
+ * Solution I: Merge Intervals
+ *
+ * @param {string} s
+ * @param {string[]} dict
+ * @return {string}
+ */
+const addBoldTagII = (s, dict) => {
   let intervals = [];
 
   // Step 1. Get the initial intervals
