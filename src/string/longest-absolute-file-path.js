@@ -44,6 +44,7 @@
  * @return {number}
  */
 const lengthLongestPath = input => {
+  // The map stores the length of the directory path to current level
   const map = new Map();
   map.set(0, 0);
 
