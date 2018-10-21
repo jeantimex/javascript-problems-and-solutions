@@ -183,7 +183,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Output Contest Matches](src/string/output-contest-matches.js)
 - [Shortest Completing Word](src/string/shortest-completing-word.js)
 - [Count and Say](src/string/count-and-say.js)
-- [Multiply Strings](src/string/multiply-strings.js)
+- [Multiply Strings](src/string/multiply-strings)
 - [Add Binary](src/string/add-binary.js)
 - [Minimum Window Substring](src/string/minimum-window-substring.js)
 - [Longest Substring with At Most Two Distinct Characters](src/string/longest-substring-with-at-most-two-distinct-characters.js)
