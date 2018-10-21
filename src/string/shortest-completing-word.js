@@ -50,7 +50,6 @@ const shortestCompletingWord = function(licensePlate, words) {
   // Step 3. compare the letter count of each word with the license plate
   for (let word of words) {
     const wordMap = getCountMap(word);
-    console.log(wordMap);
 
     if (isMatch(licenseMap, wordMap) && (!result || word.length < result.length)) {
       result = word;
