@@ -50,7 +50,7 @@ const lengthLongestPath = input => {
   let result = 0;
 
   for (let s of input.split('\n')) {
-    const level = s.lastIndexOf('\t') + 1;
+    const level = s.lastIndexOf('\t') + 1; // \t is a single character!
     const length = s.substring(level).length;
 
     if (s.includes('.')) {
