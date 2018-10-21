@@ -74,6 +74,17 @@ class Trie {
     let current = this.root;
 
     for (let i = 0; i < word.length; i++) {
+      // Case 1. word is long
+      // 0:    abc
+      //       |
+      //       index = 0, palindromeIndices: [0]
+      //       |
+      //       current
+      //       |
+      // 1: cbaaaaaaa (word)
+      //       i
+      //
+      // [1, 0] is a pair
       if (current.index >= 0 && current.index !== index && isPalindrome(word, i, word.length - 1)) {
         pairs.push([index, current.index]);
       }
@@ -87,6 +98,15 @@ class Trie {
       current = current.children[c];
     }
 
+    // Case 2. word is short
+    // 0: aaaaaaabc
+    //          |
+    //          palindromeIndices = [0]
+    //          |
+    //          current
+    //          |
+    // 1:    cba
+    //          i
     current.palindromeIndices.forEach(i => {
       if (i !== index) {
         pairs.push([index, i]);
