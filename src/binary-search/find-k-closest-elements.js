@@ -31,14 +31,15 @@
 const findClosestElements = (arr, k, x) => {
   const p = findClosestElement(arr, x);
 
-  let i = p - 1;
+  let i = p - 1; // Because we prefer smaller value if there is a tie
   let j = p;
 
   while (k-- > 0) {
-    if (j >= arr.length || Math.abs(arr[i] - x) <= Math.abs(arr[j] - x)) {
-      i--;
-    } else {
+    if (i < 0 || (j < arr.length && Math.abs(arr[j] - x) < Math.abs(arr[i] - x))) {
+      // Here we use < instead of <=, beacuse we prefer smaller value if there is a tie
       j++;
+    } else {
+      i--;
     }
   }
 
