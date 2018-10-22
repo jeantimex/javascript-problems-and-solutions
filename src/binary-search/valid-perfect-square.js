@@ -20,18 +20,18 @@
  * @return {boolean}
  */
 const isPerfectSquare = num => {
-  let low = 1;
-  let high = num;
+  let lo = 0;
+  let hi = num;
 
-  while (low <= high) {
-    const mid = (low + high) >>> 1;
+  while (lo <= hi) {
+    const mid = (lo + hi) >>> 1;
 
     if (mid * mid === num) {
       return true;
     } else if (mid * mid < num) {
-      low = mid + 1;
+      lo = mid + 1;
     } else {
-      high = mid - 1;
+      hi = mid - 1;
     }
   }
 
