@@ -32,7 +32,7 @@ const myPow = (x, n) => {
     return 1;
   }
 
-  let temp = myPow(x, n > 0 ? Math.floor(n / 2) : Math.round(n / 2));
+  const temp = myPow(x, parseInt(n / 2));
 
   if (n % 2 === 0) {
     return temp * temp;
