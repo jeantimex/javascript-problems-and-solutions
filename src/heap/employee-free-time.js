@@ -51,16 +51,17 @@ const employeeFreeTime = schedule => {
   const pq = new PriorityQueue({ comparator: (a, b) => a.start - b.start });
   schedule.forEach(list => list.forEach(e => pq.offer(e)));
 
-  let temp = pq.poll();
+  let current = pq.poll();
+
   while (!pq.isEmpty()) {
-    if (temp.end < pq.peek().start) {
+    if (current.end < pq.peek().start) {
       // no intersect
-      result.push(new Interval(temp.end, pq.peek().start));
-      // becomes the next temp interval
-      temp = pq.poll();
+      result.push(new Interval(current.end, pq.peek().start));
+      // becomes the next current interval
+      current = pq.poll();
     } else {
       // intersect or sub merged
-      temp = temp.end < pq.peek().end ? pq.peek() : temp;
+      current = Math.max(current.end, pq.peek().end);
       pq.poll();
     }
   }
