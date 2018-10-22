@@ -200,6 +200,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Compare Version Numbers](src/string/compare-version-numbers.js)
 - [Display Pages](src/string/display-pages.js)
 - [CSV Parser](src/string/csv-parser.js)
+- [One Edit Distance](src/string/one-edit-distance.js)
 
 ### Sorting
 
