@@ -511,6 +511,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [Count Primes](src/math/count-primes.js)
 - [Power of Two](src/math/power-of-two.js)
 - [Power of Three](src/math/power-of-three.js)
+- [Power of Four](src/math/power-of-four.js)
 - [Fraction to Recurring Decimal](src/math/fraction-to-recurring-decimal.js)
 - [Largest Triangle Area](src/math/largest-triangle-area)
 - [Hamming Distance](src/math/hamming-distance.js)
