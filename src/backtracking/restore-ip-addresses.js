@@ -27,7 +27,7 @@ const backtracking = (s, index, segment, solution, result) => {
   }
 
   // Too many characters left
-  if (s.length - index > (4 - segment) * 4) {
+  if (s.length - index > (4 - segment) * 3) {
     return;
   }
 
