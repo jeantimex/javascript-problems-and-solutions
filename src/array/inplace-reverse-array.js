@@ -21,26 +21,30 @@
  * @param {number[]} arr
  * @return {number[]} arr
  */
-function inplaceReverse(arr){
-//edge cases
-    if(!arr){
-        throw new Error('undefined input');
-    }
-    if(Array.isArray(arr) !== true){
-        throw new Error('not an array')
-    }
-    if(arr.length === 0){
-        throw new Error('array empty')
-    } 
-    var len = arr.length - 1;
-    for(let j=0; j<len/2; j++ ){
-            let temp = arr[j];
-            arr[j] = arr[len-j];
-            arr[len-j] = temp;
-        }   
-    return arr;
+function inPlaceArrayReverse(arr) {
+  // edge cases
+  if(!arr){
+    throw new Error('undefined input');
+  }
+  
+  if(!Array.isArray(arr)){
+    throw new Error('not an array')
+  }
+  
+  if(arr.length === 0){
+    throw new Error('array empty')
+  } 
+  
+  var len = arr.length - 1;
+  for(let j=0; j<len/2; j++ ){
+    let temp = arr[j];
+    arr[j] = arr[len-j];
+    arr[len-j] = temp;
+  }  
+  
+  return arr;
 }
 
-let arr = [1,2,3,4,5,6];
+let testArray = [1,2,3,4,5,6];
 
-console.log('Printing the inplace reverse of a given array: ', inplaceReverse(arr));
+console.log('Printing the inplace reverse of a given array: ', inPlaceArrayReverse(testArray));
