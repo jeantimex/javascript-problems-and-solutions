@@ -127,6 +127,7 @@ A collection of JavaScript problems and solutions for studying algorithms.
 - [H-Index](src/array/h-index.js)
 - [H-Index II](src/array/h-index-ii.js)
 - [Pour Water](src/array/pour_water.js)
+- [Inplace Array Reversal](src/array/inplace-reverse-array.js)
 
 ### Matrix
 
