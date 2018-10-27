@@ -5,7 +5,7 @@
  * 'M' represents an unrevealed mine,
  * 'E' represents an unrevealed empty square,
  * 'B' represents a revealed blank square that has no adjacent (above, below, left, right, and all 4 diagonals) mines,
- *     digit ('1' to '8') represents how many mines are adjacent to this revealed square,
+ * digit ('1' to '8') represents how many mines are adjacent to this revealed square,
  * 'X' represents a revealed mine.
  *
  * Now given the next click position (row and column indices) among all the unrevealed squares ('M' or 'E'),
