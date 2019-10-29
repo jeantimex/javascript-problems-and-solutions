@@ -25,7 +25,7 @@
  */
 var mergeTwoLists = function(l1, l2) {
   const temp = new ListNode(0);
-  let p = fakeHead;
+  let p = temp;
 
   while (l1 && l2) {
     if (l1.val < l2.val) {
