@@ -30,7 +30,7 @@ const swapPairsR = head => {
   let next = curr.next;
 
   curr.next = prev;
-  prev.next = swapPairs(next);
+  prev.next = swapPairsR(next);
 
   return curr;
 };
