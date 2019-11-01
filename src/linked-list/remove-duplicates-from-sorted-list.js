@@ -27,9 +27,6 @@
  * @return {ListNode}
  */
 const deleteDuplicates = head => {
-  const dummy = new ListNode(0);
-  dummy.next = head;
-
   let slow = head;
   let fast = head;
 
@@ -41,7 +38,7 @@ const deleteDuplicates = head => {
     slow = fast;
   }
 
-  return dummy.next;
+  return head;
 };
 
 export { deleteDuplicates };
