@@ -44,4 +44,19 @@ const isPalindromic = (s, i, j) => {
   return true;
 };
 
+/**
+ * Using RegExp
+ */
+
+var isPalindrome = function(s) {
+  s = s.replace(/[^0-9a-z]/gi, '');
+  return (
+    s
+      .split('')
+      .reverse()
+      .join('')
+      .toLowerCase() == s.toLowerCase()
+  );
+};
+
 export { validPalindrome };
