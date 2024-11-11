@@ -21,29 +21,19 @@
  * - n is a non-negative integer which won't exceed the input array size.
  */
 
-/**
- * @param {number[]} flowerbed
- * @param {number} n
- * @return {boolean}
- */
-const canPlaceFlowers = (flowerbed, n) => {
-  let count = 0;
-
-  for (let i = 0; i < flowerbed.length && count < n; i++) {
-    if (flowerbed[i] === 0) {
-      // Get next and prev flower bed slot values.
-      // If i lies at the ends the next and prev are considered as 0.
-      const next = i === flowerbed.length - 1 ? 0 : flowerbed[i + 1];
-      const prev = i === 0 ? 0 : flowerbed[i - 1];
-
-      if (next === 0 && prev === 0) {
-        flowerbed[i] = 1;
-        count++;
+console.clear()
+let can_place_flowers = (flowes, n) => {
+  let count = 0
+  for (let i = 0; i < flowes.length - 1 && count < n; i++) {
+    if (flowes[i] == 0) {
+      let next = i == flowes.length - 1 ? 0 : flowes[i + 1]
+      let prev = i == 0 ? 0 : flowes[i - 1]
+      if (next == 0 && prev == 0) {
+        flowes[i] = 1
+        count++
       }
     }
   }
-
-  return count === n;
-};
-
-export { canPlaceFlowers };
+  return count == n
+}
+console.log(can_place_flowers([1, 0, 0, 0, 1, 1], 2))
