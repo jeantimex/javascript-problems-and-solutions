@@ -23,43 +23,77 @@
  * }
  */
 
-/**
- * @param {ListNode} l1
- * @param {ListNode} l2
- * @return {ListNode}
- */
-const addTwoNumbers = (l1, l2) => {
-  // Let's use two stacks to help
-  const s1 = [];
-  const s2 = [];
+class Node {
+  constructor(val) {
+    this.value = val;
+    this.next = null;
+  }
+}
 
-  while (l1) {
-    s1.push(l1.val);
-    l1 = l1.next;
+class LinkedList {
+  constructor() {
+    this.head = null;
   }
 
-  while (l2) {
-    s2.push(l2.val);
-    l2 = l2.next;
-  }
-
-  // Perform the addition
-  let carry = 0;
-  let list = null;
-  while (s1.length > 0 || s2.length > 0 || carry > 0) {
-    const v1 = s1.length > 0 ? s1.pop() : 0;
-    const v2 = s2.length > 0 ? s2.pop() : 0;
-    const node = new ListNode((v1 + v2 + carry) % 10);
-
-    carry = Math.floor((v1 + v2 + carry) / 10);
-
-    if (list) {
-      node.next = list;
+  append(value) {
+    const newNode = new Node(value);
+    if (!this.head) {
+      this.head = newNode;
+      return;
     }
-    list = node;
+    let temp = this.head;
+    while (temp.next) {
+      temp = temp.next;
+    }
+    temp.next = newNode;
   }
 
-  return list;
-};
+  sum() {
+    let temp = this.head;
+    let total = 0;
+    while (temp) {
+      total += temp.value;
+      temp = temp.next;
+    }
+    return total;
+  }
+}
 
-export { addTwoNumbers };
+function sumLinkedLists(l1, l2) {
+  const totalSum = l1.sum() + l2.sum();
+  const resultList = new LinkedList();
+
+  // Convert totalSum to a string, split it into digits, and create nodes
+  String(totalSum)
+    .split('')
+    .map(Number)
+    .forEach((digit) => resultList.append(digit));
+
+  return resultList;
+}
+
+// Criação das listas l1 e l2
+let l1 = new LinkedList();
+let l2 = new LinkedList();
+
+const values1 = [7, 2, 4, 3];
+const values2 = [5, 6, 4];
+
+values1.forEach((value) => l1.append(value));
+values2.forEach((value) => l2.append(value));
+
+// Soma das listas
+const result = sumLinkedLists(l1, l2);
+
+// Função para exibir a lista encadeada
+function printList(list) {
+  let temp = list.head;
+  const result = [];
+  while (temp) {
+    result.push(temp.value);
+    temp = temp.next;
+  }
+  return result.join(' -> ');
+}
+
+console.log(printList(result)); // Saída: 7 -> 8 -> 0 -> 7
