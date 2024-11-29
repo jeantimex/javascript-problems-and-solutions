@@ -24,76 +24,109 @@
  */
 
 class Node {
-  constructor(val) {
-    this.value = val;
-    this.next = null;
+  constructor(value) {
+    this.value = value
+    this.next = null
+    this.tail = null
   }
 }
-
 class LinkedList {
   constructor() {
-    this.head = null;
+    this.head = null
   }
-
   append(value) {
-    const newNode = new Node(value);
-    if (!this.head) {
-      this.head = newNode;
-      return;
+    let new_node = new Node(value)
+    if (this.isEmphy()) {
+      this.head = new_node
+      return
+    } else {
+      let temp = this.head
+      while (temp.next) {
+        temp = temp.next
+      }
+      temp.next = new_node
+      return
     }
-    let temp = this.head;
-    while (temp.next) {
-      temp = temp.next;
-    }
-    temp.next = newNode;
   }
-
-  sum() {
-    let temp = this.head;
-    let total = 0;
+  prepend(value) {
+    let new_node = new Node(value)
+    if (this.isEmphy()) {
+      this.head = new_node
+      return
+    } else {
+      new_node.next = this.head
+      this.head = new_node
+      return
+    }
+  }
+  isEmphy() {
+    return this.head == null
+  }
+  twoNodes(node1, node2) {
+    let temp_node1 = node1.head
+    let temp_node2 = node2.head
+    let node1_res = ''
+    let node2_res = ''
+    while (temp_node1 || temp_node2) {
+      if (temp_node1) {
+        node1_res += String(temp_node1.value)
+        temp_node1 = temp_node1.next
+      }
+      if (temp_node2) {
+        node2_res += String(temp_node2.value)
+        temp_node2 = temp_node2.next
+      }
+    }
+    let resposta = Number(Number(node1_res) + Number(node2_res))
+    return console.log(resposta)
+  }
+  removeFromFront() {
+    if (this.isEmphy()) {
+      return null
+    } else {
+      this.head = this.head.next
+      return
+    }
+  }
+  // removeFromEnd() {
+  //   if (this.isEmphy()) {
+  //     return null
+  //   } else {
+  //     let temp = this.head
+  //     while (true) {
+  //       if (temp.next.next == null) {
+  //         temp.next = null
+  //         return
+  //       }
+  //     }
+  //   }
+  // }
+  print() {
+    let temp = this.head
+    let saida = ''
     while (temp) {
-      total += temp.value;
-      temp = temp.next;
+      saida += String(temp.value)
+      temp = temp.next
     }
-    return total;
+    return console.log(saida)
   }
 }
+console.clear()
+let node1 = new LinkedList()
+let node2 = new LinkedList()
+let collection = []
 
-function sumLinkedLists(l1, l2) {
-  const totalSum = l1.sum() + l2.sum();
-  const resultList = new LinkedList();
+while (collection.length < 3) {
+  collection.push(Math.floor(Math.random() * 10))
+  node1.append(Math.floor(Math.random() * 10))
+  node2.append(Math.floor(Math.random() * 10))
 
-  // Convert totalSum to a string, split it into digits, and create nodes
-  String(totalSum)
-    .split('')
-    .map(Number)
-    .forEach((digit) => resultList.append(digit));
-
-  return resultList;
 }
+node1.print()
+node2.print()
+let conj = new LinkedList()
+conj.twoNodes(node1, node2)
+// node1.removeFromEnd()
+node1.print()
 
-// Criação das listas l1 e l2
-let l1 = new LinkedList();
-let l2 = new LinkedList();
 
-const values1 = [7, 2, 4, 3];
-const values2 = [5, 6, 4];
-
-values1.forEach((value) => l1.append(value));
-values2.forEach((value) => l2.append(value));
-
-// Soma das listas
-const result = sumLinkedLists(l1, l2);
-
-// Função para exibir a lista encadeada
-function printList(list) {
-  let temp = list.head;
-  const result = [];
-  while (temp) {
-    result.push(temp.value);
-    temp = temp.next;
-  }
-  return result.join(' -> ');
-}
-
-console.log(printList(result)); // Saída: 7 -> 8 -> 0 -> 7
