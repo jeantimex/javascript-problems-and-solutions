@@ -22,4 +22,67 @@
 
 console.clear()
 
+class Node {
+    constructor(value) {
+        this.next = null
+        this.value = value
+    }
+}
+class LinkedList {
+    constructor() {
+        this.list = null
+        this.tail = null
+    }
+    isemphy() {
+        return this.list == null
+    }
+    insertEnd(value) {
+        if (this.isemphy()) {
+            this.list = new Node(value)
+            this.tail = this.list
+            this.size = 0
+        } else {
+            let node = new Node(value)
+            let temp = this.list
+            this.size += 1
+            while (temp.next) {
+                temp = temp.next
+            }
+            temp.next = node
+            this.tail = node
+            this.size += 1
+        }
+    }
+    remove() {
+        if (this.isemphy()) {
+            return null
+        } else {
+            let temp = this.list
+            while (temp.next.next) {
+                temp = temp.next
+            }
+            temp.next = null
+            this.tail = temp
+            this.size = -1
+        }
+    }
+    search(value) {
+        if (this.isemphy()) {
+            return null
+        } else {
+            let temp = this.list
+            while (temp) {
+                if (temp.value == value) {
+                    return true
+                }
+                temp = temp.next
+            }
+            return false
+        }
+    }
+    peek() {
+        return this.list.value
+    }
+
+}
 
