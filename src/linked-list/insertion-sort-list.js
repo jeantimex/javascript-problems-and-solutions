@@ -130,12 +130,19 @@ class LinkedList {
         }
     }
     insertion_sort() {
-        let length = this.size
-        let current_node = this.head
-        for (let i = 0; i < length; i++) {
-            let key = current_node
-
+        if(this.isemphy() || this.head.next == null){
+            return
         }
+        let sorted = null
+        let current = this.head
+        while(current != null){
+            let nextNode = current.next
+            sorted = this.sortedInsert(sorted,current)
+            current = nextNode
+        }
+    }
+    sortedInsert(sorted,new_node){
+
     }
     print() {
         let root = this.head
