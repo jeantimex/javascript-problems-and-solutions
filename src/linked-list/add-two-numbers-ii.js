@@ -23,43 +23,109 @@
  * }
  */
 
-/**
- * @param {ListNode} l1
- * @param {ListNode} l2
- * @return {ListNode}
- */
-const addTwoNumbers = (l1, l2) => {
-  // Let's use two stacks to help
-  const s1 = [];
-  const s2 = [];
-
-  while (l1) {
-    s1.push(l1.val);
-    l1 = l1.next;
+class Node {
+  constructor(value) {
+    this.value = value
+    this.next = null
+    this.tail = null
   }
-
-  while (l2) {
-    s2.push(l2.val);
-    l2 = l2.next;
+}
+class LinkedList {
+  constructor() {
+    this.head = null
   }
-
-  // Perform the addition
-  let carry = 0;
-  let list = null;
-  while (s1.length > 0 || s2.length > 0 || carry > 0) {
-    const v1 = s1.length > 0 ? s1.pop() : 0;
-    const v2 = s2.length > 0 ? s2.pop() : 0;
-    const node = new ListNode((v1 + v2 + carry) % 10);
-
-    carry = Math.floor((v1 + v2 + carry) / 10);
-
-    if (list) {
-      node.next = list;
+  append(value) {
+    let new_node = new Node(value)
+    if (this.isEmphy()) {
+      this.head = new_node
+      return
+    } else {
+      let temp = this.head
+      while (temp.next) {
+        temp = temp.next
+      }
+      temp.next = new_node
+      return
     }
-    list = node;
   }
+  prepend(value) {
+    let new_node = new Node(value)
+    if (this.isEmphy()) {
+      this.head = new_node
+      return
+    } else {
+      new_node.next = this.head
+      this.head = new_node
+      return
+    }
+  }
+  isEmphy() {
+    return this.head == null
+  }
+  twoNodes(node1, node2) {
+    let temp_node1 = node1.head
+    let temp_node2 = node2.head
+    let node1_res = ''
+    let node2_res = ''
+    while (temp_node1 || temp_node2) {
+      if (temp_node1) {
+        node1_res += String(temp_node1.value)
+        temp_node1 = temp_node1.next
+      }
+      if (temp_node2) {
+        node2_res += String(temp_node2.value)
+        temp_node2 = temp_node2.next
+      }
+    }
+    let resposta = Number(Number(node1_res) + Number(node2_res))
+    return console.log(resposta)
+  }
+  removeFromFront() {
+    if (this.isEmphy()) {
+      return null
+    } else {
+      this.head = this.head.next
+      return
+    }
+  }
+  // removeFromEnd() {
+  //   if (this.isEmphy()) {
+  //     return null
+  //   } else {
+  //     let temp = this.head
+  //     while (true) {
+  //       if (temp.next.next == null) {
+  //         temp.next = null
+  //         return
+  //       }
+  //     }
+  //   }
+  // }
+  print() {
+    let temp = this.head
+    let saida = ''
+    while (temp) {
+      saida += String(temp.value)
+      temp = temp.next
+    }
+    return console.log(saida)
+  }
+}
+console.clear()
+let node1 = new LinkedList()
+let node2 = new LinkedList()
+let collection = []
 
-  return list;
-};
+while (collection.length < 3) {
+  collection.push(Math.floor(Math.random() * 10))
+  node1.append(Math.floor(Math.random() * 10))
+  node2.append(Math.floor(Math.random() * 10))
 
-export { addTwoNumbers };
+}
+node1.print()
+node2.print()
+let conj = new LinkedList()
+conj.twoNodes(node1, node2)
+// node1.removeFromEnd()
+node1.print()
+

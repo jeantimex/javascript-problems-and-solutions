@@ -26,11 +26,6 @@
  * The length of board[i] will be in the range [3, 50].
  * Each board[i][j] will initially start as an integer in the range [1, 2000].
  */
-
-/**
- * @param {number[][]} board
- * @return {number[][]}
- */
 const candyCrush = board => {
   const m = board.length;
   const n = board[0].length;
@@ -74,5 +69,13 @@ const candyCrush = board => {
 
   return shouldContinue ? candyCrush(board) : board;
 };
+let board = [
+  [1, 1, 1, 2, 2],
+  [5, 1, 3, 2, 2],
+  [1, 2, 2, 3, 3],
+  [4, 4, 4, 1, 1]
+];
 
-export { candyCrush };
+let candy = candyCrush(board);
+console.log(candy);
+

@@ -20,60 +20,69 @@
  * }
  */
 
-import ListNode from 'common/list-node';
+console.clear()
 
-/**
- * @param {ListNode} start
- * @param {number} x
- */
-const insert = (start, x) => {
-  // if start is null, create a node pointing to itself and return
-  if (start === null) {
-    const node = new ListNode(x, null);
-    node.next = node;
-    return node;
-  }
-
-  // is start is NOT null, try to insert it into correct position
-  let cur = start;
-  while (true) {
-    // case 1A: has a tipping point, still climbing
-    if (cur.val < cur.next.val) {
-      if (cur.val <= x && x <= cur.next.val) {
-        // x in between cur and next
-        insertAfter(cur, x);
-        break;
-      }
-      // case 1B: has a tipping point, about to return back to min node
-    } else if (cur.val > cur.next.val) {
-      if (cur.val <= x || x <= cur.next.val) {
-        // cur is the tipping point, x is max or min val
-        insertAfter(cur, x);
-        break;
-      }
-      // case 2: NO tipping point, all flat
-    } else {
-      if (cur.next === start) {
-        // insert x before we traverse all nodes back to start
-        insertAfter(cur, x);
-        break;
-      }
+class Node {
+    constructor(value) {
+        this.next = null
+        this.value = value
+    }
+}
+class LinkedList {
+    constructor() {
+        this.list = null
+        this.tail = null
+    }
+    isemphy() {
+        return this.list == null
+    }
+    insertEnd(value) {
+        if (this.isemphy()) {
+            this.list = new Node(value)
+            this.tail = this.list
+            this.size = 0
+        } else {
+            let node = new Node(value)
+            let temp = this.list
+            this.size += 1
+            while (temp.next) {
+                temp = temp.next
+            }
+            temp.next = node
+            this.tail = node
+            this.size += 1
+        }
+    }
+    remove() {
+        if (this.isemphy()) {
+            return null
+        } else {
+            let temp = this.list
+            while (temp.next.next) {
+                temp = temp.next
+            }
+            temp.next = null
+            this.tail = temp
+            this.size = -1
+        }
+    }
+    search(value) {
+        if (this.isemphy()) {
+            return null
+        } else {
+            let temp = this.list
+            while (temp) {
+                if (temp.value == value) {
+                    return true
+                }
+                temp = temp.next
+            }
+            return false
+        }
+    }
+    peek() {
+        return this.list.value
     }
 
-    // None of the above three cases met, go to next node
-    cur = cur.next;
-  }
+}
 
-  return start;
-};
-
-/**
- * Insert value x after Node node
- * @param {ListNode} node
- * @param {number} x
- */
-const insertAfter = (node, x) => {
-  node.next = new ListNode(x, node.next);
-};
-
-export { insert };
