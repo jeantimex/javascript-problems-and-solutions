@@ -21,8 +21,8 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const maxPathSum = root => {
-  const helper = root => {
+const maxPathSum = (root) => {
+  const helper = (root) => {
     if (!root) {
       return 0;
     }

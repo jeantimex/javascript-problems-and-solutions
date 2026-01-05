@@ -28,7 +28,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const totalHammingDistance = nums => {
+const totalHammingDistance = (nums) => {
   let total = 0;
   const n = nums.length;
 

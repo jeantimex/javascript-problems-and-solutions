@@ -69,7 +69,12 @@ const hasPath = (maze, start, destination) => {
 
   const m = maze.length;
   const n = maze[0].length;
-  const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+  const dirs = [
+    [-1, 0],
+    [1, 0],
+    [0, -1],
+    [0, 1],
+  ];
 
   for (let [dx, dy] of dirs) {
     let i = start[0];

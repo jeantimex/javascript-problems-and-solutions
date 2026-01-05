@@ -18,7 +18,7 @@
  * @param {number} n
  * @return {string[]}
  */
-const generateParenthesis = n => {
+const generateParenthesis = (n) => {
   const results = [];
   backtracking(n, 0, 0, '', results);
   return results;

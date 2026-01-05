@@ -40,11 +40,11 @@
  * @param {TreeNode} root
  * @return {void} Do not return anything, modify root in-place instead.
  */
-const recoverTree = root => {
+const recoverTree = (root) => {
   // first and second are the two nodes that are swapped by mistake
   let prev, first, second;
 
-  const inorder = root => {
+  const inorder = (root) => {
     if (!root) {
       return;
     }

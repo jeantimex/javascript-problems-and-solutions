@@ -32,7 +32,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-const splitArray = nums => {
+const splitArray = (nums) => {
   if (nums.length < 7) {
     return false;
   }

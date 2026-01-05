@@ -28,7 +28,7 @@ import TreeNode from 'common/tree-node';
  * @param {number[]} nums
  * @return {TreeNode}
  */
-const constructMaximumBinaryTree = nums => {
+const constructMaximumBinaryTree = (nums) => {
   const helper = (i, j) => {
     if (i > j) {
       return null;

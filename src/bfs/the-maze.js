@@ -66,7 +66,12 @@ const hasPath = (maze, start, destination) => {
   const m = maze.length;
   const n = maze[0].length;
   const queue = [start];
-  const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+  const dirs = [
+    [-1, 0],
+    [1, 0],
+    [0, -1],
+    [0, 1],
+  ];
 
   while (queue.length > 0) {
     const [x, y] = queue.shift();

@@ -32,7 +32,7 @@
  * @param {number} n
  * @return {number}
  */
-const nthUglyNumber = n => {
+const nthUglyNumber = (n) => {
   const ugly = Array(n);
   ugly[0] = 1;
 

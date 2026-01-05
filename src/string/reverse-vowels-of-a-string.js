@@ -19,8 +19,8 @@ import { swap } from 'utils/swap';
  * @param {string} s
  * @return {string}
  */
-const reverseVowels = s => {
-  const isVowel = c => 'aeiou'.includes(c.toLowerCase());
+const reverseVowels = (s) => {
+  const isVowel = (c) => 'aeiou'.includes(c.toLowerCase());
   let arr = s.split('');
 
   for (let i = 0, j = s.length - 1; i < j; i++, j--) {

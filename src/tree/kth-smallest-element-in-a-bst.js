@@ -50,7 +50,7 @@
  * @return {number}
  */
 const kthSmallest = (root, k) => {
-  const inorder = node => {
+  const inorder = (node) => {
     if (node) {
       inorder(node.left);
 

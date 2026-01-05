@@ -3,7 +3,11 @@ import { serializeTree, deserializeTree } from 'utils/tree-util';
 import preorderTraversal from '../binary-tree-preorder-traversal';
 
 describe('Binary Tree Preorder Traversal', () => {
-  const testCases = [['null', []], ['1', [1]], ['1,2,3', [1, 2, 3]]];
+  const testCases = [
+    ['null', []],
+    ['1', [1]],
+    ['1,2,3', [1, 2, 3]],
+  ];
 
   testCases.map((testCase, index) => {
     it(`should traverse the tree in preorder manner ${testCase[0]}`, () => {

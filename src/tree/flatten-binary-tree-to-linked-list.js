@@ -31,8 +31,8 @@
  * @param {TreeNode} root
  * @return {void} Do not return anything, modify root in-place instead.
  */
-const preorder = root => {
-  const helper = current => {
+const preorder = (root) => {
+  const helper = (current) => {
     if (!current) {
       return;
     }
@@ -61,8 +61,8 @@ const preorder = root => {
  * @param {TreeNode} root
  * @return {void} Do not return anything, modify root in-place instead.
  */
-const flatten = root => {
-  const helper = root => {
+const flatten = (root) => {
+  const helper = (root) => {
     if (!root) {
       return;
     }

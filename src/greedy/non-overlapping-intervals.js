@@ -45,7 +45,7 @@
  * @param {Interval[]} intervals
  * @return {number}
  */
-const eraseOverlapIntervals = intervals => {
+const eraseOverlapIntervals = (intervals) => {
   if (intervals.length === 0) {
     return 0;
   }

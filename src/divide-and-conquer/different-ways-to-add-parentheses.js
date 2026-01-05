@@ -31,7 +31,7 @@
  * @param {string} input
  * @return {number[]}
  */
-const diffWaysToCompute = input => {
+const diffWaysToCompute = (input) => {
   const result = [];
 
   for (let i = 1; i < input.length; i++) {

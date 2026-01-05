@@ -19,7 +19,7 @@
  * @param {string} s
  * @return {number}
  */
-const lengthOfLongestSubstringTwoDistinct = s => {
+const lengthOfLongestSubstringTwoDistinct = (s) => {
   const k = 2;
   const map = {};
   let max = 0;

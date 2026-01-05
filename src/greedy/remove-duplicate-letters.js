@@ -19,7 +19,7 @@
  */
 
 Object.defineProperty(Array.prototype, 'last', {
-  get: function() {
+  get: function () {
     return this[this.length - 1];
   },
 });
@@ -28,7 +28,7 @@ Object.defineProperty(Array.prototype, 'last', {
  * @param {string} s
  * @return {string}
  */
-const removeDuplicateLetters = s => {
+const removeDuplicateLetters = (s) => {
   // Step 1. Build a counter map and count the characters
   const counter = {};
   for (let c of s) {

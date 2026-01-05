@@ -28,7 +28,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const plusOne = head => {
+const plusOne = (head) => {
   if (dfs(head) === 0) {
     return head;
   }
@@ -41,7 +41,7 @@ const plusOne = head => {
 /**
  * Returns the carry value
  */
-const dfs = node => {
+const dfs = (node) => {
   if (node === null) {
     return 1;
   }

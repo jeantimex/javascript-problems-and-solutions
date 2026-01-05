@@ -50,7 +50,7 @@ const inorderPredecessor = (root, p) => {
   return predecessor;
 };
 
-const getMaxNode = root => {
+const getMaxNode = (root) => {
   while (root.right) {
     root = root.right;
   }

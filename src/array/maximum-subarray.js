@@ -21,7 +21,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const maxSubArray = nums => {
+const maxSubArray = (nums) => {
   let max = nums[0];
   let local = nums[0];
 

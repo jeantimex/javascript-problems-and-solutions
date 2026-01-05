@@ -27,7 +27,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const rob = nums => {
+const rob = (nums) => {
   if (!nums) {
     return 0;
   }
@@ -54,7 +54,7 @@ const rob = nums => {
  * @param {number[]} nums
  * @return {number}
  */
-const robII = nums => {
+const robII = (nums) => {
   if (!nums || nums.length === 0) {
     return 0;
   }

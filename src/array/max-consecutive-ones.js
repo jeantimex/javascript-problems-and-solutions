@@ -18,7 +18,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const findMaxConsecutiveOnes = nums => {
+const findMaxConsecutiveOnes = (nums) => {
   let maxLocal = 0;
   let max = 0;
 

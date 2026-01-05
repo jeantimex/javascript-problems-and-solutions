@@ -75,7 +75,7 @@ class Trie {
  * @param {number[]} nums
  * @return {number}
  */
-const findMaximumXOR = nums => {
+const findMaximumXOR = (nums) => {
   let max = 0;
 
   const trie = new Trie();

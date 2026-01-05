@@ -34,7 +34,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const insertionSortList = head => {
+const insertionSortList = (head) => {
   let curr = head;
   let next = null;
 

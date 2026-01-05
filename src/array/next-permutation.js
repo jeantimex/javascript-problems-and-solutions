@@ -17,7 +17,7 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-const nextPermutation = nums => {
+const nextPermutation = (nums) => {
   const n = nums.length;
 
   // Step 1. scan from right and find the first digit that is less than its right

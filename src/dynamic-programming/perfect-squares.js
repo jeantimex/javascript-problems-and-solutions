@@ -19,7 +19,7 @@
  * @param {number} n
  * @return {number}
  */
-const numSquares = n => {
+const numSquares = (n) => {
   if (n <= 0) {
     return 0;
   }

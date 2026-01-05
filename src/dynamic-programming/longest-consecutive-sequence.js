@@ -14,7 +14,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const longestConsecutive = nums => {
+const longestConsecutive = (nums) => {
   let max = 0;
 
   const set = new Set();

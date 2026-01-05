@@ -21,7 +21,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const majorityElement = nums => {
+const majorityElement = (nums) => {
   let major = nums[0];
   let count = 1;
 

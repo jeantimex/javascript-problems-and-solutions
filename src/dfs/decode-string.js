@@ -22,7 +22,7 @@
  * @param {string} s
  * @return {string}
  */
-const decodeString = s => {
+const decodeString = (s) => {
   const helper = () => {
     let count = 0;
     let word = '';

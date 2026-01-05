@@ -17,7 +17,7 @@
  * @param {string} s
  * @return {number[]}
  */
-const getLPS = s => {
+const getLPS = (s) => {
   const lps = Array(s.length).fill(0);
   let i = 1;
   let len = 0;
@@ -39,11 +39,8 @@ const getLPS = s => {
  * @param {string} s
  * @return {string}
  */
-const shortestPalindrome = s => {
-  const r = s
-    .split('')
-    .reverse()
-    .join('');
+const shortestPalindrome = (s) => {
+  const r = s.split('').reverse().join('');
   const lps = getLPS(s + '|' + r);
   return r.substring(0, r.length - lps[lps.length - 1]) + s;
 };

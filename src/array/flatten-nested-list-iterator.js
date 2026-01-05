@@ -64,7 +64,7 @@ class NestedIterator {
 
       const listItem = this.stack.pop().reverse();
 
-      listItem.forEach(element => {
+      listItem.forEach((element) => {
         this.stack.push(element);
       });
     }

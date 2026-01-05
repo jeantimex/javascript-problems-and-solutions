@@ -25,9 +25,9 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-const findMode = root => {
+const findMode = (root) => {
   // handle current count
-  const handleValue = val => {
+  const handleValue = (val) => {
     if (val !== currVal) {
       currVal = val;
       currCount = 0;
@@ -46,7 +46,7 @@ const findMode = root => {
     }
   };
 
-  const inorder = node => {
+  const inorder = (node) => {
     if (!node) {
       return;
     }

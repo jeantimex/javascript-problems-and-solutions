@@ -19,7 +19,7 @@
  * @param {number} c
  * @return {boolean}
  */
-const judgeSquareSum = c => {
+const judgeSquareSum = (c) => {
   if (c < 0) {
     return false;
   }

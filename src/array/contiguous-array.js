@@ -24,7 +24,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const findMaxLength = nums => {
+const findMaxLength = (nums) => {
   const map = new Map([[0, -1]]);
 
   let result = 0;

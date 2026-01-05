@@ -107,7 +107,7 @@ class Trie {
     //          |
     // 1:    cba
     //          i
-    current.palindromeIndices.forEach(i => {
+    current.palindromeIndices.forEach((i) => {
       if (i !== index) {
         pairs.push([index, i]);
       }
@@ -121,7 +121,7 @@ class Trie {
  * @param {string[]} words
  * @return {number[][]}
  */
-const palindromePairs = words => {
+const palindromePairs = (words) => {
   let results = [];
   const trie = new Trie(words);
 

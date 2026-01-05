@@ -83,7 +83,12 @@ const shortestDistance = (maze, start, destination) => {
 };
 
 const dfs = (maze, start, distance) => {
-  const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+  const dirs = [
+    [-1, 0],
+    [1, 0],
+    [0, -1],
+    [0, 1],
+  ];
   const [x, y] = start;
 
   for (let [dx, dy] of dirs) {

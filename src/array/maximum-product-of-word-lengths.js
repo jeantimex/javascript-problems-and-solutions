@@ -28,7 +28,7 @@
  * @param {string[]} words
  * @return {number}
  */
-const maxProduct = words => {
+const maxProduct = (words) => {
   const n = words.length;
   const values = Array(n).fill(0);
 

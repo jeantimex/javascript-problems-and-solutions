@@ -23,7 +23,7 @@
  * @param {string} S
  * @return {string[]}
  */
-const letterCasePermutation = S => {
+const letterCasePermutation = (S) => {
   const result = [];
   backtracking(S, 0, '', result);
   return result;

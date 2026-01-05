@@ -22,7 +22,7 @@
  * @param {string} moves
  * @return {boolean}
  */
-const judgeCircle = moves => {
+const judgeCircle = (moves) => {
   const map = { R: 0, L: 0, U: 0, D: 0 };
 
   for (let c of moves) {

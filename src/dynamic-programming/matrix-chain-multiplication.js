@@ -48,7 +48,7 @@
  * @param {number[]} p
  * @return {number}
  */
-const matrixChainOrderR = p => {
+const matrixChainOrderR = (p) => {
   return helper(p, 1, p.length - 1);
 };
 
@@ -77,7 +77,7 @@ const helper = (p, i, j) => {
  * @param {number[]} p
  * @return {number}
  */
-const matrixChainOrder = p => {
+const matrixChainOrder = (p) => {
   const n = p.length;
   const dp = Array(n)
     .fill()

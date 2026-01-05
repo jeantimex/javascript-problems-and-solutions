@@ -26,7 +26,7 @@
  * @param {string} s
  * @return {number}
  */
-const countSubstrings = s => {
+const countSubstrings = (s) => {
   const extendPalindrome = (s, left, right) => {
     while (left >= 0 && right < s.length && s[left] === s[right]) {
       count++;

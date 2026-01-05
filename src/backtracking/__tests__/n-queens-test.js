@@ -3,7 +3,13 @@ import solveNQueens from '../n-queens';
 
 describe('N-Queens', () => {
   const testCases = [
-    [4, [['.Q..', '...Q', 'Q...', '..Q.'], ['..Q.', 'Q...', '...Q', '.Q..']]],
+    [
+      4,
+      [
+        ['.Q..', '...Q', 'Q...', '..Q.'],
+        ['..Q.', 'Q...', '...Q', '.Q..'],
+      ],
+    ],
     [
       6,
       [

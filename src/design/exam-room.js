@@ -29,16 +29,16 @@
 /**
  * Mimic a TreeSet
  */
-Object.prototype.size = function() {
+Object.prototype.size = function () {
   return Object.keys(this).length;
 };
 
-Object.prototype.first = function() {
+Object.prototype.first = function () {
   const keys = Object.keys(this);
   return parseInt(keys[0]);
 };
 
-Object.prototype.last = function() {
+Object.prototype.last = function () {
   const keys = Object.keys(this);
   return parseInt(keys[keys.length - 1]);
 };

@@ -41,7 +41,7 @@
  * @param {string[]} words
  * @return {string}
  */
-const shortestCompletingWord = function(licensePlate, words) {
+const shortestCompletingWord = function (licensePlate, words) {
   let result = null;
 
   // Step 2. count the letters in licensePlate
@@ -68,7 +68,7 @@ const isMatch = (map1, map2) => {
   return true;
 };
 
-const getCountMap = str => {
+const getCountMap = (str) => {
   const map = {};
   for (let c of str) {
     if (/[a-zA-Z]/.test(c)) {

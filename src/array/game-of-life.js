@@ -28,7 +28,7 @@
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
  */
-const gameOfLife = board => {
+const gameOfLife = (board) => {
   const m = board.length;
   const n = board[0].length;
 

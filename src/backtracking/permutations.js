@@ -19,7 +19,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-const permute = nums => {
+const permute = (nums) => {
   const results = [];
   backtracking(nums, {}, [], results);
   return results;

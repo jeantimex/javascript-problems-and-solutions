@@ -17,7 +17,7 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-const largestValues = root => {
+const largestValues = (root) => {
   if (!root) {
     return [];
   }

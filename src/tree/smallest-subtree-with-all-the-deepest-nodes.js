@@ -42,11 +42,11 @@
  * @param {TreeNode} root
  * @return {TreeNode}
  */
-const subtreeWithAllDeepest = root => {
+const subtreeWithAllDeepest = (root) => {
   return helper(root).node;
 };
 
-const helper = root => {
+const helper = (root) => {
   if (!root) {
     return { node: null, dist: 0 };
   }

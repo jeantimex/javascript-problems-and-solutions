@@ -5,12 +5,32 @@ import calcEquation from '../evaluate-division';
 describe('Evaluate Division', () => {
   const testCases = [
     [
-      [['a', 'b'], ['b', 'c']],
+      [
+        ['a', 'b'],
+        ['b', 'c'],
+      ],
       [2.0, 3.0],
-      [['a', 'c'], ['b', 'a'], ['a', 'e'], ['a', 'a'], ['x', 'x']],
+      [
+        ['a', 'c'],
+        ['b', 'a'],
+        ['a', 'e'],
+        ['a', 'a'],
+        ['x', 'x'],
+      ],
       [6.0, 0.5, -1.0, 1.0, -1.0],
     ],
-    [[['a', 'b'], ['c', 'b']], [2.0, 4.0], [['a', 'c'], ['b', 'a']], [0.5, 0.5]],
+    [
+      [
+        ['a', 'b'],
+        ['c', 'b'],
+      ],
+      [2.0, 4.0],
+      [
+        ['a', 'c'],
+        ['b', 'a'],
+      ],
+      [0.5, 0.5],
+    ],
   ];
 
   testCases.forEach((testCase, index) => {

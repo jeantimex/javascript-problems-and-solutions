@@ -36,7 +36,7 @@
  * @param {number[]} seats
  * @return {number}
  */
-const maxDistToClosest = seats => {
+const maxDistToClosest = (seats) => {
   const n = seats.length;
   let max = -Infinity;
 

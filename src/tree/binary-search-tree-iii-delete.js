@@ -38,7 +38,7 @@ export const deleteNode = (root, key) => {
   return root;
 };
 
-const minValue = root => {
+const minValue = (root) => {
   while (root.left) {
     root = root.left;
   }

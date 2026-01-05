@@ -31,7 +31,7 @@ const anagramMappings = (A, B) => {
 
   B.forEach((number, index) => (map[number] = index));
 
-  return A.map(number => map[number]);
+  return A.map((number) => map[number]);
 };
 
 export { anagramMappings };

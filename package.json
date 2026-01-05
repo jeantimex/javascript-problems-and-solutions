@@ -1,6 +1,6 @@
 {
   "name": "javascript-problems-and-solutions",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "A collection of JavaScript problems and solutions for studying algorithms.",
   "main": "index.js",
   "repository": "https://github.com/jeantimex/javascript-problems-and-solutions.git",
@@ -8,41 +8,40 @@
   "license": "MIT",
   "lint-staged": {
     "*.{js,json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint ./src",
-    "mocha": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha ./src/**/*$FILE*-test.js",
-    "mocha-dev": "cross-env NODE_ENV=test ./node_modules/.bin/nyc mocha --watch ./src/**/*$FILE*-test.js",
+    "lint": "eslint ./src",
+    "mocha": "cross-env NODE_ENV=test nyc mocha ./src/**/*$FILE*-test.js",
+    "mocha-dev": "cross-env NODE_ENV=test nyc mocha --watch ./src/**/*$FILE*-test.js",
     "test": "npm run lint && npm run mocha",
     "test-dev": "npm run lint && npm run mocha-dev",
-    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | coveralls",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "release": "release-it",
-    "precommit": "lint-staged"
+    "prepare": "husky"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^9.0.0",
-    "babel-plugin-istanbul": "^5.0.1",
-    "babel-plugin-module-resolver": "^3.1.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "chai": "^4.1.2",
-    "coveralls": "^3.0.1",
-    "cross-env": "^5.2.0",
-    "eslint": "^5.0.0",
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-prettier": "^2.6.1",
-    "husky": "^1.0.0-rc.15",
-    "lint-staged": "^7.2.0",
-    "mocha": "^5.2.0",
-    "nyc": "^13.0.1",
-    "prettier": "^1.13.5",
-    "release-it": "^7.4.7"
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/eslint-parser": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/register": "^7.28.3",
+    "babel-plugin-istanbul": "^7.0.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "chai": "^4.5.0",
+    "core-js": "^3.47.0",
+    "coveralls": "^3.1.1",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "mocha": "^11.7.5",
+    "nyc": "^17.1.0",
+    "prettier": "^3.7.4",
+    "regenerator-runtime": "^0.14.1",
+    "release-it": "^19.2.2"
   }
 }

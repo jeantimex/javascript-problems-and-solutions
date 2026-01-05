@@ -26,7 +26,7 @@
  * @param {string} s
  * @return {number}
  */
-const longestPalindromeSubseqR = s => {
+const longestPalindromeSubseqR = (s) => {
   return helper(s, 0, s.length - 1);
 };
 
@@ -52,7 +52,7 @@ const helper = (s, l, h) => {
  * @param {string} s
  * @return {number}
  */
-const longestPalindromeSubseq = s => {
+const longestPalindromeSubseq = (s) => {
   const n = s.length;
   const table = Array(n)
     .fill()

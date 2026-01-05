@@ -16,7 +16,7 @@
  * @param {string} word
  * @return {string[]}
  */
-const generateAbbreviations = word => {
+const generateAbbreviations = (word) => {
   const result = [];
   backtracking(word, 0, 0, '', result);
   return result;
@@ -30,7 +30,7 @@ const backtracking = (word, index, count, solution, result) => {
     result.push(solution);
     return;
   }
-  
+
   // solution | count | word[index]
   // -------- |  10   | I
 

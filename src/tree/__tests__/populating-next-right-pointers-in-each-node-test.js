@@ -8,8 +8,8 @@ import connect from '../populating-next-right-pointers-in-each-node';
  * @param {TreeLinkNode} root
  * @return {string}
  */
-const serializeLinkTree = root => {
-  const getNext = root => {
+const serializeLinkTree = (root) => {
+  const getNext = (root) => {
     while (root) {
       if (root.left) {
         return root.left;
@@ -44,7 +44,11 @@ const serializeLinkTree = root => {
 };
 
 describe('Populating Next Right Pointers in Each Node', () => {
-  const testCases = [['1', '1,null'], ['1,2,3', '1,null,2,3,null'], ['1,2,3,4,5,6,7', '1,null,2,3,null,4,5,6,7,null']];
+  const testCases = [
+    ['1', '1,null'],
+    ['1,2,3', '1,null,2,3,null'],
+    ['1,2,3,4,5,6,7', '1,null,2,3,null,4,5,6,7,null'],
+  ];
 
   testCases.map((testCase, index) => {
     it(`should populate the next right pointers for tree ${testCase[0]}`, () => {

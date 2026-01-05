@@ -8,9 +8,33 @@ import {
 
 describe('Number of Connected Components in an Undirected Graph', () => {
   const testCases = [
-    [5, [[0, 1], [1, 2], [3, 4]], 2],
-    [5, [[0, 1], [1, 2], [2, 3], [3, 4]], 1],
-    [2, [[0, 1], [1, 0]], 1],
+    [
+      5,
+      [
+        [0, 1],
+        [1, 2],
+        [3, 4],
+      ],
+      2,
+    ],
+    [
+      5,
+      [
+        [0, 1],
+        [1, 2],
+        [2, 3],
+        [3, 4],
+      ],
+      1,
+    ],
+    [
+      2,
+      [
+        [0, 1],
+        [1, 0],
+      ],
+      1,
+    ],
   ];
 
   testCases.forEach((testCase, index) => {

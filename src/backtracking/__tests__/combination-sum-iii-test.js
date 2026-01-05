@@ -9,7 +9,18 @@ const sorter = (a, b) => {
 };
 
 describe('Combination Sum III', () => {
-  const testCases = [[3, 7, [[1, 2, 4]]], [3, 9, [[1, 2, 6], [1, 3, 5], [2, 3, 4]]]];
+  const testCases = [
+    [3, 7, [[1, 2, 4]]],
+    [
+      3,
+      9,
+      [
+        [1, 2, 6],
+        [1, 3, 5],
+        [2, 3, 4],
+      ],
+    ],
+  ];
 
   testCases.forEach((testCase, index) => {
     it(`should get the combination sum using back tracking ${index}`, () => {

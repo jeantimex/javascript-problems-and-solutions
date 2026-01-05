@@ -35,8 +35,8 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const longestUnivaluePath = root => {
-  const helper = node => {
+const longestUnivaluePath = (root) => {
+  const helper = (node) => {
     if (!node) {
       return 0;
     }

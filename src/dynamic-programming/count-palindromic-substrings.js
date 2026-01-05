@@ -28,7 +28,7 @@
  * @param {string} s
  * @return {number}
  */
-const countSubstrings = s => {
+const countSubstrings = (s) => {
   const n = s.length;
   const dp = Array(n)
     .fill()
@@ -55,7 +55,7 @@ const countSubstrings = s => {
  * @param {string} s
  * @return {number}
  */
-const countSubstringsExpandAroundCenter = s => {
+const countSubstringsExpandAroundCenter = (s) => {
   let count = 0;
 
   const expandAroundCenter = (s, i, j) => {

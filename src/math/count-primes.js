@@ -14,7 +14,7 @@
  * @param {number} n
  * @return {number}
  */
-const countPrimes = n => {
+const countPrimes = (n) => {
   const isPrime = Array(n).fill(true);
   let count = 0;
 

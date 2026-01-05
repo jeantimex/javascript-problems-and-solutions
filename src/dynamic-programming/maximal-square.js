@@ -19,7 +19,7 @@
  * @param {character[][]} matrix
  * @return {number}
  */
-const maximalSquare = matrix => {
+const maximalSquare = (matrix) => {
   if (!matrix || matrix.length === 0) {
     return 0;
   }

@@ -35,7 +35,7 @@ class Trie {
   constructor(dict) {
     this.root = new TrieNode();
 
-    dict.forEach(word => {
+    dict.forEach((word) => {
       this.insert(word);
     });
   }
@@ -76,7 +76,7 @@ class Trie {
 const replaceWords = (dict, sentence) => {
   const trie = new Trie(dict);
   const original = sentence.split(' ');
-  const result = original.map(word => trie.search(word));
+  const result = original.map((word) => trie.search(word));
   return result.join(' ');
 };
 

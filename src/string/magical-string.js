@@ -34,7 +34,7 @@
  * @param {number} n
  * @return {number}
  */
-const magicalString = n => {
+const magicalString = (n) => {
   let s = '122';
   let i = 2;
 

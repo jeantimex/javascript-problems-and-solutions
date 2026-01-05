@@ -26,7 +26,7 @@
  * @param {number[]} prices
  * @return {number}
  */
-const maxProfit = prices => {
+const maxProfit = (prices) => {
   if (!prices) {
     return 0;
   }

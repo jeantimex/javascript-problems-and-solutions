@@ -27,7 +27,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-const checkPossibility = nums => {
+const checkPossibility = (nums) => {
   let p = null;
 
   for (let i = 0; i < nums.length - 1; i++) {

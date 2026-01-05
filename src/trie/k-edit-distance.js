@@ -98,7 +98,7 @@ class Trie {
   constructor(words) {
     this.root = new TrieNode();
 
-    words.forEach(word => {
+    words.forEach((word) => {
       this.addWord(word);
     });
   }

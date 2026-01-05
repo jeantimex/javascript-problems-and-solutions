@@ -101,7 +101,7 @@ const addBoldTagII = (s, dict) => {
   return arr.join('');
 };
 
-const mergeIntervals = intervals => {
+const mergeIntervals = (intervals) => {
   let i = 0;
 
   for (let j = 0; j < intervals.length; j++) {

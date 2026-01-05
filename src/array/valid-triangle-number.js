@@ -23,7 +23,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const triangleNumber = nums => {
+const triangleNumber = (nums) => {
   let count = 0;
 
   nums.sort((a, b) => a - b);

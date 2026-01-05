@@ -89,7 +89,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const robR = root => {
+const robR = (root) => {
   if (!root) {
     return 0;
   }
@@ -110,12 +110,12 @@ const robR = root => {
 /**
  * Step III - Greedy
  */
-const rob = root => {
+const rob = (root) => {
   const res = robSub(root);
   return Math.max(res[0], res[1]);
 };
 
-const robSub = root => {
+const robSub = (root) => {
   if (root == null) {
     return [0, 0];
   }

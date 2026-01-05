@@ -19,7 +19,7 @@
  * @param {number} num
  * @return {boolean}
  */
-const isPerfectSquare = num => {
+const isPerfectSquare = (num) => {
   let lo = 0;
   let hi = num;
 

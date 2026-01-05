@@ -6,7 +6,7 @@ import TreeNode from 'common/tree-node';
  * @param {TreeNode} root
  * @return {string}
  */
-const serializeTree = root => {
+const serializeTree = (root) => {
   if (!root) {
     return null;
   }
@@ -41,7 +41,7 @@ const serializeTree = root => {
  * @param {string} str
  * @return {TreeNode}
  */
-const deserializeTree = str => {
+const deserializeTree = (str) => {
   if (typeof str === 'undefined' || str === null) {
     return null;
   }
@@ -93,7 +93,7 @@ const deserializeTree = str => {
  * @param {TreeNode} root
  * @param {TreeNode} clone of root
  */
-const cloneTree = root => {
+const cloneTree = (root) => {
   if (!root) {
     return null;
   }

@@ -26,7 +26,7 @@
  * @param {ListNode} head
  * @return {void} Do not return anything, modify head in-place instead.
  */
-const reorderList = head => {
+const reorderList = (head) => {
   if (!head || !head.next) {
     return;
   }
@@ -51,7 +51,7 @@ const reorderList = head => {
   return merge(head, head2);
 };
 
-const reverse = head => {
+const reverse = (head) => {
   if (!head || !head.next) {
     return head;
   }

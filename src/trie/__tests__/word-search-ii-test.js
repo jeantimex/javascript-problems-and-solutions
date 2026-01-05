@@ -5,7 +5,12 @@ describe('Word Search II', () => {
   const testCases = [
     [[['a']], ['a'], ['a']],
     [
-      [['o', 'a', 'a', 'n'], ['e', 't', 'a', 'e'], ['i', 'h', 'k', 'r'], ['i', 'f', 'l', 'v']],
+      [
+        ['o', 'a', 'a', 'n'],
+        ['e', 't', 'a', 'e'],
+        ['i', 'h', 'k', 'r'],
+        ['i', 'f', 'l', 'v'],
+      ],
       ['oath', 'pea', 'eat', 'rain', 'aaa', 'ooo'],
       ['aaa', 'eat', 'oath'],
     ],

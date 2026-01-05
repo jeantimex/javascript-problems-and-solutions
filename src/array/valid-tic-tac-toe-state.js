@@ -49,7 +49,7 @@
  * @param {string[]} board
  * @return {boolean}
  */
-const validTicTacToe = board => {
+const validTicTacToe = (board) => {
   let xCount = 0;
   let oCount = 0;
 

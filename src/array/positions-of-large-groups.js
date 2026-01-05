@@ -33,7 +33,7 @@
  * @param {string} S
  * @return {number[][]}
  */
-const largeGroupPositions = S => {
+const largeGroupPositions = (S) => {
   const result = [];
 
   let i = 0;

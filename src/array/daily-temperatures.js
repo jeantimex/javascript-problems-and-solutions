@@ -17,7 +17,7 @@
  */
 
 Object.defineProperty(Array.prototype, 'last', {
-  get: function() {
+  get: function () {
     return this[this.length - 1];
   },
 });
@@ -26,7 +26,7 @@ Object.defineProperty(Array.prototype, 'last', {
  * @param {number[]} temperatures
  * @return {number[]}
  */
-const dailyTemperatures = temperatures => {
+const dailyTemperatures = (temperatures) => {
   const n = temperatures.length;
   const result = Array(n).fill(0);
   const stack = [];

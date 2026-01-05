@@ -40,7 +40,7 @@
  * @param {number} N
  * @return {number}
  */
-const maxA = N => {
+const maxA = (N) => {
   let result = N;
   for (let i = 1; i < N - 2; i++) {
     result = Math.max(result, maxA(i) * (N - i - 1));
@@ -54,7 +54,7 @@ const maxA = N => {
  * @param {number} N
  * @return {number}
  */
-const maxA_II = N => {
+const maxA_II = (N) => {
   const dp = Array(N + 1).fill(0);
 
   for (let n = 1; n <= N; n++) {

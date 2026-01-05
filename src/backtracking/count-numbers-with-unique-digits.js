@@ -12,7 +12,7 @@
  * @param {number} n
  * @return {number}
  */
-const countNumbersWithUniqueDigitsR = n => {
+const countNumbersWithUniqueDigitsR = (n) => {
   const result = [];
   backtracking(n, 0, 0, new Set(), result);
   return result.length;
@@ -37,7 +37,7 @@ const backtracking = (n, start, num, set, result) => {
  * @param {number} n
  * @return {number}
  */
-const countNumbersWithUniqueDigits = n => {
+const countNumbersWithUniqueDigits = (n) => {
   if (n === 0) {
     return 1;
   }

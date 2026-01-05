@@ -4,9 +4,23 @@ import findItinerary from '../reconstruct-itinerary';
 
 describe('Reconstruct Itinerary', () => {
   const testCases = [
-    [[['MUC', 'LHR'], ['JFK', 'MUC'], ['SFO', 'SJC'], ['LHR', 'SFO']], ['JFK', 'MUC', 'LHR', 'SFO', 'SJC']],
     [
-      [['JFK', 'SFO'], ['JFK', 'ATL'], ['SFO', 'ATL'], ['ATL', 'JFK'], ['ATL', 'SFO']],
+      [
+        ['MUC', 'LHR'],
+        ['JFK', 'MUC'],
+        ['SFO', 'SJC'],
+        ['LHR', 'SFO'],
+      ],
+      ['JFK', 'MUC', 'LHR', 'SFO', 'SJC'],
+    ],
+    [
+      [
+        ['JFK', 'SFO'],
+        ['JFK', 'ATL'],
+        ['SFO', 'ATL'],
+        ['ATL', 'JFK'],
+        ['ATL', 'SFO'],
+      ],
       ['JFK', 'ATL', 'JFK', 'SFO', 'ATL', 'SFO'],
     ],
   ];

@@ -19,7 +19,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-const productExceptSelf = nums => {
+const productExceptSelf = (nums) => {
   const n = nums.length;
   const res = Array(n).fill(0);
 

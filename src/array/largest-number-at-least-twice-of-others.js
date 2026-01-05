@@ -26,7 +26,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var dominantIndex = function(nums) {
+var dominantIndex = function (nums) {
   let first = nums[0];
   let second = -Infinity;
   let maxIndex = 0;

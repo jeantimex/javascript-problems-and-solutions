@@ -30,12 +30,12 @@
  * @param {function} knows()
  * @return {function}
  */
-const solution = knows => {
+const solution = (knows) => {
   /**
    * @param {integer} n Total people
    * @return {integer} The celebrity
    */
-  return n => {
+  return (n) => {
     // base case
     if (n <= 0) return -1;
     if (n == 1) return 0;

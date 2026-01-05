@@ -26,7 +26,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const reverseListR = head => {
+const reverseListR = (head) => {
   if (!head || !head.next) {
     return head;
   }
@@ -46,7 +46,7 @@ const reverseListR = head => {
  * @param {ListNode} head
  * @return {ListNode}
  */
-const reverseList = head => {
+const reverseList = (head) => {
   let prev = null;
   let curr = head;
   let next = null;

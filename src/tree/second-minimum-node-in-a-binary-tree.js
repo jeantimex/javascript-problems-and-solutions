@@ -42,7 +42,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var findSecondMinimumValue = function(root) {
+var findSecondMinimumValue = function (root) {
   if (!root) {
     return -1;
   }

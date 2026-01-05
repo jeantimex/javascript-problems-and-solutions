@@ -26,7 +26,7 @@
  * @param {number} num
  * @return {string[]}
  */
-const readBinaryWatch = num => {
+const readBinaryWatch = (num) => {
   const result = [];
 
   for (let h = 0; h < 12; h++) {
@@ -40,7 +40,7 @@ const readBinaryWatch = num => {
   return result;
 };
 
-const hammingWeight = n => {
+const hammingWeight = (n) => {
   let count = 0;
   for (let i = 0; i < 32; i++) {
     if ((n & 1) !== 0) count++;

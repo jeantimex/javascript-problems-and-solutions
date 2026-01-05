@@ -99,7 +99,7 @@ const kWorkers = (k, workers) => {
  * Sort the workers by their price/quality ratio
  * @param {number[]} workers
  */
-const sortWorkers = workers => {
+const sortWorkers = (workers) => {
   workers.sort((a, b) => {
     const aRatio = a[0] / a[1];
     const bRatio = b[0] / b[1];

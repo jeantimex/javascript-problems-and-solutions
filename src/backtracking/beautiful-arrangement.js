@@ -36,7 +36,7 @@
  * @param {number} N
  * @return {number}
  */
-const countArrangement = N => {
+const countArrangement = (N) => {
   const result = [];
   backtracking(N, 0, {}, [], result);
   return result.length;

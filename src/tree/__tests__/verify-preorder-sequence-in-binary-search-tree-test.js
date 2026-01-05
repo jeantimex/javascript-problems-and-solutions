@@ -3,7 +3,11 @@ import { serializeTree, deserializeTree } from 'utils/tree-util';
 import verifyPreorder from '../verify-preorder-sequence-in-binary-search-tree';
 
 describe('Verify Preorder Sequence in Binary Search Tree', () => {
-  const testCases = [[[1], true], [[1, 2], true], [[3, 4, 1, 6, 5, 7], false]];
+  const testCases = [
+    [[1], true],
+    [[1, 2], true],
+    [[3, 4, 1, 6, 5, 7], false],
+  ];
 
   testCases.map((testCase, index) => {
     it(`should verify preorder sequence in binary search tree ${testCase[0]}`, () => {

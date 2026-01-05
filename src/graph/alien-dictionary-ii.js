@@ -47,7 +47,7 @@
  * @param {string[]} words
  * @return {string}
  */
-const alienOrder = words => {
+const alienOrder = (words) => {
   if (!words || words.length === 0) {
     return '';
   }
@@ -87,7 +87,7 @@ const alienOrder = words => {
   const stack = new Set();
   const result = [];
 
-  const hasCycle = u => {
+  const hasCycle = (u) => {
     if (visited.has(u)) {
       return false;
     }

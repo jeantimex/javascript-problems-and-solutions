@@ -32,7 +32,7 @@
  * @param {number[][]} matrix
  * @return {number[][]}
  */
-const pacificAtlantic = matrix => {
+const pacificAtlantic = (matrix) => {
   if (!matrix || matrix.length === 0 || matrix[0].length === 0) {
     return [];
   }
@@ -90,7 +90,12 @@ const bfs = (matrix, ocean, queue) => {
 
   while (queue.length > 0) {
     const [i, j] = queue.shift();
-    const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+    const dirs = [
+      [-1, 0],
+      [1, 0],
+      [0, -1],
+      [0, 1],
+    ];
 
     for (let [dx, dy] of dirs) {
       const x = i + dx;

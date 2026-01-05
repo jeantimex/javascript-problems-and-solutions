@@ -6,7 +6,7 @@
  * @param {string} text
  * @return {number}
  */
-const findCaseCombination = text => {
+const findCaseCombination = (text) => {
   const backtracking = (text, index, solution, result) => {
     if (index === text.length) {
       return result.push(solution);

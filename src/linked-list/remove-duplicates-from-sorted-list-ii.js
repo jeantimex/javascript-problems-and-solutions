@@ -26,7 +26,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const deleteDuplicates = head => {
+const deleteDuplicates = (head) => {
   const dummy = new ListNode(0);
 
   let p = dummy;

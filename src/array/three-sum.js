@@ -23,7 +23,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-const threeSum = nums => {
+const threeSum = (nums) => {
   const result = [];
 
   // Step 1. Sort the nums array

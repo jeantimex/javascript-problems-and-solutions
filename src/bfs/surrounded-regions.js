@@ -31,7 +31,7 @@ const dy = [0, 0, -1, 1];
  * @param {character[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
  */
-const solve = board => {
+const solve = (board) => {
   if (!board || board.length === 0 || board[0].length === 0) return;
 
   const n = board.length;

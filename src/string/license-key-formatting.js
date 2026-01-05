@@ -53,6 +53,6 @@ const licenseKeyFormatting = (s, k) => {
   return reverse(key);
 };
 
-const reverse = str => [...str].reverse().join('');
+const reverse = (str) => [...str].reverse().join('');
 
 export { licenseKeyFormatting };

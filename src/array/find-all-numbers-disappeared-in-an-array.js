@@ -20,7 +20,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-const findDisappearedNumbers = nums => {
+const findDisappearedNumbers = (nums) => {
   const result = [];
 
   for (let i = 0; i < nums.length; i++) {

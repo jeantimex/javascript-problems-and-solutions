@@ -26,7 +26,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const maxCoinsR = nums => {
+const maxCoinsR = (nums) => {
   return helper([1, ...nums, 1], 1, nums.length);
 };
 
@@ -51,7 +51,7 @@ const helper = (nums, start, end) => {
  * @param {number[]} nums
  * @return {number}
  */
-const maxCoins = nums => {
+const maxCoins = (nums) => {
   if (!nums || nums.length === 0) {
     return 0;
   }

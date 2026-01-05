@@ -8,7 +8,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const maxDepth = root => {
+const maxDepth = (root) => {
   if (!root) {
     return 0;
   }

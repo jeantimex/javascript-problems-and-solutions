@@ -72,7 +72,7 @@ class MapSum {
   dfs(current) {
     let sum = current.val === null ? 0 : current.val;
 
-    Object.keys(current.children).forEach(c => {
+    Object.keys(current.children).forEach((c) => {
       sum += this.dfs(current.children[c]);
     });
 

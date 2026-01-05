@@ -1,7 +1,6 @@
 {
   "require": [
-    "babel-register",
-    "babel-polyfill"
+    "@babel/register"
   ],
   "sourceMap": false,
   "instrument": false,

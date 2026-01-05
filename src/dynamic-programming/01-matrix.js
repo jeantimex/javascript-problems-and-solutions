@@ -44,7 +44,7 @@
  * @param {number[][]} matrix
  * @return {number[][]}
  */
-const updateMatrix = matrix => {
+const updateMatrix = (matrix) => {
   const m = matrix.length;
   const n = matrix[0].length;
   const dist = Array(m)

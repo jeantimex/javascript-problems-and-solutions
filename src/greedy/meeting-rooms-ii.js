@@ -28,7 +28,7 @@ import PriorityQueue from 'common/priority-queue';
  * @param {Interval[]} intervals
  * @return {number}
  */
-const minMeetingRooms = intervals => {
+const minMeetingRooms = (intervals) => {
   if (!intervals || intervals.length === 0) {
     return 0;
   }
@@ -56,7 +56,7 @@ const minMeetingRooms = intervals => {
  * @param {Interval[]} intervals
  * @return {number}
  */
-const minMeetingRoomsII = intervals => {
+const minMeetingRoomsII = (intervals) => {
   if (!intervals || intervals.length == 0) {
     return 0;
   }

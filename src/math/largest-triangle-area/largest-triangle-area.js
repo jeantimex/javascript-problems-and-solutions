@@ -24,7 +24,7 @@
  * @param {number[][]} points
  * @return {number}
  */
-const largestTriangleArea = points => {
+const largestTriangleArea = (points) => {
   const n = points.length;
 
   let res = 0;

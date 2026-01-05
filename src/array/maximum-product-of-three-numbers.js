@@ -20,7 +20,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const maximumProduct = nums => {
+const maximumProduct = (nums) => {
   nums.sort((a, b) => a - b);
 
   const n = nums.length;

@@ -24,7 +24,7 @@ import BinaryIndexedTree from 'common/binary-indexed-tree';
  * @param {number[]} nums
  * @return {number[]}
  */
-const countSmaller = nums => {
+const countSmaller = (nums) => {
   // Step 1. Re-think this problem by counting the occurrence of smaller nums
   // in a sorted array. We only need to know the index in the sorted nums
   const indexMap = {};

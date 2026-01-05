@@ -82,7 +82,7 @@ export const countComponentsUnionFind = (n, edges) => {
   const nums = Array(n).fill(-1);
 
   // Step 1. union find
-  const find = i => {
+  const find = (i) => {
     if (nums[i] === -1) {
       return i;
     }
@@ -100,7 +100,7 @@ export const countComponentsUnionFind = (n, edges) => {
   }
 
   // Step 2. count the -1
-  return nums.filter(num => num === -1).length;
+  return nums.filter((num) => num === -1).length;
 };
 
 /**
@@ -113,7 +113,7 @@ export const countComponentsUnionFind = (n, edges) => {
 const dfs = (adjList, u, visited) => {
   visited.add(u);
 
-  adjList.get(u).forEach(v => {
+  adjList.get(u).forEach((v) => {
     if (!visited.has(v)) {
       dfs(adjList, v, visited);
     }
@@ -134,7 +134,7 @@ const bfs = (adjList, node, visited) => {
   while (queue.length > 0) {
     const u = queue.shift();
 
-    adjList.get(u).forEach(v => {
+    adjList.get(u).forEach((v) => {
       if (!visited.has(v)) {
         queue.push(v);
         visited.add(v);
@@ -156,7 +156,7 @@ const buildGraph = (n, edges) => {
     adjList.set(i, []);
   }
 
-  edges.forEach(edge => {
+  edges.forEach((edge) => {
     const u = edge[0];
     const v = edge[1];
 

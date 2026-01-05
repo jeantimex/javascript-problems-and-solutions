@@ -3,7 +3,11 @@ import { serializeTree, deserializeTree } from 'utils/tree-util';
 import binaryTreePaths from '../binary-tree-paths';
 
 describe('Binary Tree Paths', () => {
-  const testCases = [['1', ['1']], ['1,2,3', ['1->2', '1->3']], ['null', []]];
+  const testCases = [
+    ['1', ['1']],
+    ['1,2,3', ['1->2', '1->3']],
+    ['null', []],
+  ];
 
   testCases.map((testCase, index) => {
     it(`should print the binary tree paths`, () => {

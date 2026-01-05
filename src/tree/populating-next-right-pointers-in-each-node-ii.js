@@ -30,8 +30,8 @@
  * @param {TreeLinkNode} root
  * @return {void} Do not return anything, modify tree in-place instead.
  */
-const connect = root => {
-  const getNext = root => {
+const connect = (root) => {
+  const getNext = (root) => {
     while (root) {
       if (root.left) {
         return root.left;

@@ -29,7 +29,7 @@
  * @param {character[][]} grid
  * @return {number}
  */
-const numIslands = grid => {
+const numIslands = (grid) => {
   if (!grid || grid.length === 0) {
     return 0;
   }

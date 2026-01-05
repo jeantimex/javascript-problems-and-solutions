@@ -49,7 +49,7 @@ const findOrder = (numCourses, prerequisites) => {
     adjList[i] = [];
   }
 
-  prerequisites.forEach(p => {
+  prerequisites.forEach((p) => {
     const u = p[0];
     const v = p[1];
     adjList[u].push(v);
@@ -59,7 +59,7 @@ const findOrder = (numCourses, prerequisites) => {
   const stack = [];
   const result = [];
 
-  const hasCycle = u => {
+  const hasCycle = (u) => {
     // checked already?
     if (visited[u]) {
       return false;

@@ -47,10 +47,10 @@
  * @param {number[][]} edges
  * @return {number[]}
  */
-const findRedundantConnection = edges => {
+const findRedundantConnection = (edges) => {
   const nums = Array(2000).fill(-1);
 
-  const find = i => {
+  const find = (i) => {
     if (nums[i] === -1) {
       return i;
     }

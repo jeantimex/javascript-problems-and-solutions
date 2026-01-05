@@ -45,10 +45,10 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-const findLeaves = root => {
+const findLeaves = (root) => {
   const result = [];
 
-  const getHeight = node => {
+  const getHeight = (node) => {
     if (!node) {
       return -1;
     }

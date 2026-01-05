@@ -66,7 +66,7 @@ const deleteNode = (root, key) => {
   return root;
 };
 
-const getMin = root => {
+const getMin = (root) => {
   while (root.left) {
     root = root.left;
   }

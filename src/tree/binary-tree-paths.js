@@ -17,7 +17,7 @@
  * @param {TreeNode} root
  * @return {string[]}
  */
-const binaryTreePaths = root => {
+const binaryTreePaths = (root) => {
   const helper = (node, path) => {
     if (!node) {
       return;

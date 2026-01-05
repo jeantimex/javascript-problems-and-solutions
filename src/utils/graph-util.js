@@ -31,7 +31,7 @@ import UndirectedGraphNode from 'common/undirected-graph-node';
  * @param {UndirectedGraphNode} graph
  * @return {string}
  */
-export const serializeUndirectedGraph = graph => {
+export const serializeUndirectedGraph = (graph) => {
   if (!graph) {
     return null;
   }
@@ -92,8 +92,8 @@ export const serializeUndirectedGraph = graph => {
  * @param {string} str
  * @return {UndirectedGraphNode}
  */
-export const deserializeUndirectedGraph = str => {
-  const getNode = label => {
+export const deserializeUndirectedGraph = (str) => {
+  const getNode = (label) => {
     if (map.has(label)) {
       return map.get(label);
     }
@@ -112,7 +112,7 @@ export const deserializeUndirectedGraph = str => {
 
   const levels = str.split('#');
 
-  levels.forEach(level => {
+  levels.forEach((level) => {
     const labels = level.split(',');
     const node = getNode(labels[0]);
 

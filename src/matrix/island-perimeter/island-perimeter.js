@@ -24,7 +24,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-const islandPerimeter_I = grid => {
+const islandPerimeter_I = (grid) => {
   if (!grid || grid.length === 0) {
     return 0;
   }
@@ -54,7 +54,7 @@ const islandPerimeter_I = grid => {
  * @param {number[][]} grid
  * @return {number}
  */
-const islandPerimeter_II = grid => {
+const islandPerimeter_II = (grid) => {
   if (!grid || grid.length === 0) {
     return 0;
   }

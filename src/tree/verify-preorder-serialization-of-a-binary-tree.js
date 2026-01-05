@@ -56,7 +56,7 @@
  * @param {string} preorder
  * @return {boolean}
  */
-const isValidSerialization = preorder => {
+const isValidSerialization = (preorder) => {
   const nodes = preorder.split(',');
 
   let diff = 1;

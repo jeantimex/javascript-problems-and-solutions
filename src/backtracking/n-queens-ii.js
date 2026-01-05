@@ -10,7 +10,7 @@
  * @param {number} n
  * @return {number}
  */
-const totalNQueens = n => {
+const totalNQueens = (n) => {
   const isValid = (row, columns) => {
     for (let i = 0; i < row; i++) {
       if (columns[i] === columns[row]) {

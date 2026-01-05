@@ -4,7 +4,14 @@ import WordDictionary from '../add-and-search-word-data-structure-design';
 describe('Add and Search Word - Data structure design', () => {
   let dict;
 
-  const testCases = [['pad', false], ['bad', true], ['b.d', true], ['b..', true], ['.ad', true], ['..z', false]];
+  const testCases = [
+    ['pad', false],
+    ['bad', true],
+    ['b.d', true],
+    ['b..', true],
+    ['.ad', true],
+    ['..z', false],
+  ];
 
   beforeEach(() => {
     dict = new WordDictionary();
@@ -14,7 +21,7 @@ describe('Add and Search Word - Data structure design', () => {
     dict.addWord('bbb');
   });
 
-  testCases.forEach(testCase => {
+  testCases.forEach((testCase) => {
     it('should search for the word', () => {
       const word = testCase[0];
       const expected = testCase[1];

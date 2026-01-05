@@ -16,7 +16,7 @@ import Stack from 'common/stack';
  * @param {number[]} heights
  * @return {number}
  */
-const largestRectangleArea = heights => {
+const largestRectangleArea = (heights) => {
   const n = heights.length;
   const stack = new Stack();
 

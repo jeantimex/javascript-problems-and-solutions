@@ -19,7 +19,7 @@
  * @param {number[][]} M
  * @return {number}
  */
-const longestLine = M => {
+const longestLine = (M) => {
   if (M.length === 0) {
     return 0;
   }

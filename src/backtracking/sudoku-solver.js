@@ -12,7 +12,7 @@
  * @param {character[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
  */
-const solveSudoku = board => {
+const solveSudoku = (board) => {
   solve(board, 0, 0);
 };
 

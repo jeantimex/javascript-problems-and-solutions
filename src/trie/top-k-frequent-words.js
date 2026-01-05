@@ -50,7 +50,7 @@ const topKFrequent = (words, k) => {
   });
 
   // Count the words
-  words.forEach(word => {
+  words.forEach((word) => {
     if (!map.has(word)) {
       map.set(word, 0);
     }

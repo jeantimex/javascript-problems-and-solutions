@@ -70,7 +70,12 @@ const shortestDistance = (maze, start, destination) => {
   const m = maze.length;
   const n = maze[0].length;
   const queue = [start];
-  const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+  const dirs = [
+    [-1, 0],
+    [1, 0],
+    [0, -1],
+    [0, 1],
+  ];
   const distance = Array(m)
     .fill()
     .map(() => Array(n).fill(Number.MAX_SAFE_INTEGER));

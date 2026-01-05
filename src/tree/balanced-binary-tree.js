@@ -5,8 +5,8 @@
  * in which the depth of the two subtrees of every node never differ by more than 1.
  */
 
-const isBalanced = root => {
-  const getHeight = root => {
+const isBalanced = (root) => {
+  const getHeight = (root) => {
     if (!root) {
       return 0;
     }

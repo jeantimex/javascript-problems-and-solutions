@@ -20,7 +20,7 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-const levelOrder = root => {
+const levelOrder = (root) => {
   if (!root) {
     return [];
   }

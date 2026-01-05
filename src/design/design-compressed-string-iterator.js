@@ -49,7 +49,7 @@ class StringIterator {
 
   updateIndex() {
     this.index++;
-    while (this.index < this.str.length && (this.str[this.index] >= '0' && this.str[this.index] <= '9')) {
+    while (this.index < this.str.length && this.str[this.index] >= '0' && this.str[this.index] <= '9') {
       this.index++;
     }
   }

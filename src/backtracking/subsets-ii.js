@@ -22,7 +22,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-const subsetsWithDup = nums => {
+const subsetsWithDup = (nums) => {
   const results = [];
   nums.sort((a, b) => a - b);
   backtracking(nums, 0, [], results);

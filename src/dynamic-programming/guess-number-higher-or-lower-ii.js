@@ -31,7 +31,7 @@
  * @param {number} n
  * @return {number}
  */
-const getMoneyAmountR = n => {
+const getMoneyAmountR = (n) => {
   return helper(1, n);
 };
 
@@ -56,7 +56,7 @@ const helper = (start, end) => {
  * @param {number} n
  * @return {number}
  */
-const getMoneyAmount = n => {
+const getMoneyAmount = (n) => {
   const dp = Array(n + 2)
     .fill()
     .map(() => Array(n + 2).fill(0));

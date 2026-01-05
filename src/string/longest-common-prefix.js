@@ -24,7 +24,7 @@
  * @param {string[]} strs
  * @return {string}
  */
-const longestCommonPrefix = strs => {
+const longestCommonPrefix = (strs) => {
   if (!strs || strs.length === 0) {
     return '';
   }

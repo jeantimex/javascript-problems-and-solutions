@@ -25,7 +25,7 @@
  * @param {string} s
  * @return {number}
  */
-const longestPalindrome = s => {
+const longestPalindrome = (s) => {
   const set = new Set();
   let count = 0; // count of pair
 

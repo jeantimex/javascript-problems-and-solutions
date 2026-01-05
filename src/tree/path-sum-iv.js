@@ -50,7 +50,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const pathSum = nums => {
+const pathSum = (nums) => {
   const helper = (node, sum) => {
     if (!tree.has(node)) {
       return;
@@ -79,7 +79,7 @@ const pathSum = nums => {
   let total = 0;
   const tree = new Map();
 
-  nums.forEach(num => {
+  nums.forEach((num) => {
     const key = int(num / 10);
     const value = num % 10;
     tree.set(key, value);
@@ -90,7 +90,7 @@ const pathSum = nums => {
   return total;
 };
 
-const int = number => {
+const int = (number) => {
   return parseInt(number, 10);
 };
 

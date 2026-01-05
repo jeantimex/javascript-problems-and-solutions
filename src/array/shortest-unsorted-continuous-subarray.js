@@ -23,7 +23,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const findUnsortedSubarray = nums => {
+const findUnsortedSubarray = (nums) => {
   let min = Infinity;
   let max = -Infinity;
 

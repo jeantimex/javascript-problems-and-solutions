@@ -18,7 +18,7 @@
  * @param {string} s
  * @return {number}
  */
-const lengthOfLongestSubstring = s => {
+const lengthOfLongestSubstring = (s) => {
   const set = new Set();
   let max = 0;
 
@@ -41,7 +41,7 @@ const lengthOfLongestSubstring = s => {
  * @param {string} s
  * @return {number}
  */
-const lengthOfLongestSubstringII = s => {
+const lengthOfLongestSubstringII = (s) => {
   let max = 0;
   const map = new Map();
 

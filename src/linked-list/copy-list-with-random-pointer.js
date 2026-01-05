@@ -19,7 +19,7 @@
  * @param {RandomListNode} head
  * @return {RandomListNode}
  */
-const copyRandomList = head => {
+const copyRandomList = (head) => {
   if (!head) {
     return null;
   }

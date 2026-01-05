@@ -24,7 +24,7 @@
  * @param {number[][]} triangle
  * @return {number}
  */
-const minimumTotal = triangle => {
+const minimumTotal = (triangle) => {
   const m = triangle.length;
   const dp = Array(m).fill(0);
 

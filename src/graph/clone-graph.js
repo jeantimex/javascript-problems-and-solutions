@@ -39,10 +39,10 @@ import UndirectedGraphNode from 'common/undirected-graph-node';
  * @param {UndirectedGraphNode} graph
  * @return {UndirectedGraphNode}
  */
-export const cloneGraph = graph => {
+export const cloneGraph = (graph) => {
   const map = new Map();
 
-  const clone = node => {
+  const clone = (node) => {
     if (!node) {
       return null;
     }
@@ -54,7 +54,7 @@ export const cloneGraph = graph => {
     const copy = new UndirectedGraphNode(node.label);
     map.set(node, copy);
 
-    node.neighbors.forEach(neighbor => {
+    node.neighbors.forEach((neighbor) => {
       copy.neighbors.push(clone(neighbor));
     });
 
@@ -70,8 +70,8 @@ export const cloneGraph = graph => {
  * @param {UndirectedGraphNode} graph
  * @return {UndirectedGraphNode}
  */
-export const cloneGraphBFS = graph => {
-  const getCopy = node => {
+export const cloneGraphBFS = (graph) => {
+  const getCopy = (node) => {
     if (map.has(node)) {
       return map.get(node);
     }
@@ -94,7 +94,7 @@ export const cloneGraphBFS = graph => {
     const node = queue.shift();
     const copy = getCopy(node);
 
-    node.neighbors.forEach(neighbor => {
+    node.neighbors.forEach((neighbor) => {
       const neighborCopy = getCopy(neighbor);
       copy.neighbors.push(neighborCopy);
 

@@ -21,7 +21,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const detectCycle = head => {
+const detectCycle = (head) => {
   let slow = head;
   let fast = head;
 

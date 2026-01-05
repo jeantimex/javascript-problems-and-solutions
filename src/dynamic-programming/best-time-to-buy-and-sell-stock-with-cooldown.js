@@ -38,7 +38,7 @@
  * @param {number[]} prices
  * @return {number}
  */
-const maxProfit = prices => {
+const maxProfit = (prices) => {
   let sold = 0;
   let hold = Number.MIN_SAFE_INTEGER;
   let rest = 0;

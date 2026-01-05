@@ -31,7 +31,7 @@
  * @param {number[]} cost
  * @return {number}
  */
-const minCostClimbingStairs = cost => {
+const minCostClimbingStairs = (cost) => {
   for (let i = 2; i < cost.length; i++) {
     cost[i] += Math.min(cost[i - 1], cost[i - 2]);
   }
@@ -44,7 +44,7 @@ const minCostClimbingStairs = cost => {
  * @param {number[]} cost
  * @return {number}
  */
-const minCostClimbingStairsDP = cost => {
+const minCostClimbingStairsDP = (cost) => {
   const n = cost.length;
   const dp = Array(n).fill(0);
 

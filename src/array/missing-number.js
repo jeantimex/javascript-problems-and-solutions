@@ -20,7 +20,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const missingNumber = nums => {
+const missingNumber = (nums) => {
   let res = nums.length;
 
   for (i = 0; i < nums.length; i++) {

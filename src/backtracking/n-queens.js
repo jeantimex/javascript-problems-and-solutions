@@ -28,7 +28,7 @@
  * @param {number} n
  * @return {string[][]}
  */
-const solveNQueens = n => {
+const solveNQueens = (n) => {
   const results = [];
   backtracking(n, 0, [], results);
   return results;

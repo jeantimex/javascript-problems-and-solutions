@@ -31,7 +31,7 @@
  * @param {string} s
  * @return {boolean}
  */
-const repeatedSubstringPattern = s => {
+const repeatedSubstringPattern = (s) => {
   const str = s + s;
   return str.substring(1, str.length - 1).includes(s);
 };
@@ -42,7 +42,7 @@ const repeatedSubstringPattern = s => {
  * @param {string} s
  * @return {boolean}
  */
-const repeatedSubstringPattern = s => {
+const repeatedSubstringPatternRecursive = (s) => {
   const canRepeat = (s, rest) => {
     if (s.length > rest.length) {
       return false;
@@ -64,4 +64,4 @@ const repeatedSubstringPattern = s => {
   return false;
 };
 
-export { repeatedSubstringPattern };
+export { repeatedSubstringPattern, repeatedSubstringPatternRecursive };

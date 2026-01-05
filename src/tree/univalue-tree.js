@@ -17,7 +17,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-const isUnivalTree = root => {
+const isUnivalTree = (root) => {
   if (!root) {
     return true;
   }

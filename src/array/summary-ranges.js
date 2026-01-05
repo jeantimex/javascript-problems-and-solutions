@@ -24,7 +24,7 @@ const getRange = (num1, num2) => (num1 === num2 ? `${num1}` : `${num1}->${num2}`
  * @param {number[]} nums
  * @return {string[]}
  */
-const summaryRanges = nums => {
+const summaryRanges = (nums) => {
   const n = nums.length;
   const result = [];
 

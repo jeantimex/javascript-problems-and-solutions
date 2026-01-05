@@ -3,7 +3,18 @@ import { serializeUndirectedGraph, deserializeUndirectedGraph } from 'utils/grap
 import findOrder from '../course-schedule-ii';
 
 describe('Course Schedule II', () => {
-  const testCases = [[1, [], [0]], [2, [[0, 1]], [1, 0]], [2, [[0, 1], [1, 0]], []]];
+  const testCases = [
+    [1, [], [0]],
+    [2, [[0, 1]], [1, 0]],
+    [
+      2,
+      [
+        [0, 1],
+        [1, 0],
+      ],
+      [],
+    ],
+  ];
 
   testCases.forEach((testCase, index) => {
     it(`should return the correct course list ${index}`, () => {

@@ -5,7 +5,7 @@
 /**
  * @param {number[]} nums
  */
-const insertionSort = nums => {
+const insertionSort = (nums) => {
   for (let i = 0; i < nums.length; i++) {
     const value = nums[i];
 

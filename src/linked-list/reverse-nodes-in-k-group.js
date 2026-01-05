@@ -60,7 +60,7 @@ const reverseKGroup = (head, k) => {
   return prev;
 };
 
-const getLength = head => {
+const getLength = (head) => {
   let count = 0;
   let p = head;
 

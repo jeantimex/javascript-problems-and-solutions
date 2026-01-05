@@ -33,7 +33,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-const maxAreaOfIsland = grid => {
+const maxAreaOfIsland = (grid) => {
   const m = grid.length;
   const n = grid[0].length;
 

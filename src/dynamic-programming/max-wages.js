@@ -29,7 +29,7 @@
  * @param {number[][]} jobs
  * @returns number
  */
-const maxWages = jobs => {
+const maxWages = (jobs) => {
   if (!jobs || jobs.length === 0) {
     return 0;
   }

@@ -4,7 +4,12 @@ import MagicDictionary from '../implement-magic-dictionary';
 describe('Implement Magic Dictionary', () => {
   let magicDict;
   const dict = ['hello', 'leetcode', 'hhh'];
-  const testCases = [['hello', false], ['hhllo', true], ['hell', false], ['leetcoded', false]];
+  const testCases = [
+    ['hello', false],
+    ['hhllo', true],
+    ['hell', false],
+    ['leetcoded', false],
+  ];
 
   beforeEach(() => {
     magicDict = new MagicDictionary();

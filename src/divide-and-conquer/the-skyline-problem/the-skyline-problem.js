@@ -3,13 +3,13 @@
  */
 
 Object.defineProperty(Array.prototype, 'first', {
-  get: function() {
+  get: function () {
     return this[0];
   },
 });
 
 Object.defineProperty(Array.prototype, 'last', {
-  get: function() {
+  get: function () {
     return this[this.length - 1];
   },
 });
@@ -18,7 +18,7 @@ Object.defineProperty(Array.prototype, 'last', {
  * @param {number[][]} buildings
  * @return {number[][]}
  */
-const getSkyline = buildings => {
+const getSkyline = (buildings) => {
   return helper(buildings, 0, buildings.length - 1);
 };
 
@@ -34,7 +34,10 @@ const helper = (buildings, lo, hi) => {
   }
 
   if (lo === hi) {
-    return [[buildings[lo][0], buildings[lo][2]], [buildings[lo][1], 0]];
+    return [
+      [buildings[lo][0], buildings[lo][2]],
+      [buildings[lo][1], 0],
+    ];
   }
 
   const mid = lo + Math.floor((hi - lo) / 2);

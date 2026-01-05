@@ -2,7 +2,11 @@ import { assert } from 'chai';
 import totalNQueens from '../n-queens-ii';
 
 describe('N-Queens', () => {
-  const testCases = [[4, 2], [6, 4], [8, 92]];
+  const testCases = [
+    [4, 2],
+    [6, 4],
+    [8, 92],
+  ];
 
   testCases.forEach((testCase, index) => {
     it(`should get the n-queens ${index}`, () => {

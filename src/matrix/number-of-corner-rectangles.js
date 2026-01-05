@@ -48,7 +48,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-const countCornerRectangles = grid => {
+const countCornerRectangles = (grid) => {
   const m = grid.length;
   const n = grid[0].length;
 

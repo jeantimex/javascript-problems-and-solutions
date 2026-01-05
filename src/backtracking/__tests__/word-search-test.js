@@ -3,9 +3,33 @@ import exist from '../word-search';
 
 describe('Word Search', () => {
   const testCases = [
-    [[['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']], 'ABCCED', true],
-    [[['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']], 'SEE', true],
-    [[['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']], 'ABCB', false],
+    [
+      [
+        ['A', 'B', 'C', 'E'],
+        ['S', 'F', 'C', 'S'],
+        ['A', 'D', 'E', 'E'],
+      ],
+      'ABCCED',
+      true,
+    ],
+    [
+      [
+        ['A', 'B', 'C', 'E'],
+        ['S', 'F', 'C', 'S'],
+        ['A', 'D', 'E', 'E'],
+      ],
+      'SEE',
+      true,
+    ],
+    [
+      [
+        ['A', 'B', 'C', 'E'],
+        ['S', 'F', 'C', 'S'],
+        ['A', 'D', 'E', 'E'],
+      ],
+      'ABCB',
+      false,
+    ],
   ];
 
   testCases.forEach((testCase, index) => {

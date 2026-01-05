@@ -25,7 +25,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const findLengthOfLCIS = nums => {
+const findLengthOfLCIS = (nums) => {
   if (!nums || nums.length === 0) {
     return 0;
   }

@@ -40,7 +40,7 @@
  * Basically the number should match this regular expression:
  * [-+]?(([0-9]+(.[0-9]*)?)|.[0-9]+)(e[-+]?[0-9]+)?
  */
-const isNumber = s => {
+const isNumber = (s) => {
   s = s.trim();
 
   // Define some flags

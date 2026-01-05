@@ -29,9 +29,9 @@
  * @param {string} time
  * @return {string}
  */
-const nextClosestTime = time => {
+const nextClosestTime = (time) => {
   const set = new Set();
-  [0, 1, 3, 4].map(d => set.add(parseInt(time.substr(d, 1))));
+  [0, 1, 3, 4].map((d) => set.add(parseInt(time.substr(d, 1))));
 
   if (set.size === 1) {
     return time;

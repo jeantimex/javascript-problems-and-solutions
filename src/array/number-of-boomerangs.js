@@ -23,7 +23,7 @@
  * @param {number[][]} points
  * @return {number}
  */
-const numberOfBoomerangs = points => {
+const numberOfBoomerangs = (points) => {
   let total = 0;
   let map = {};
 
@@ -37,7 +37,7 @@ const numberOfBoomerangs = points => {
       map[d] = ~~map[d] + 1;
     }
 
-    Object.values(map).forEach(val => {
+    Object.values(map).forEach((val) => {
       total += val * (val - 1); // permutations P(n, 2) = n * (n - 1)
     });
 

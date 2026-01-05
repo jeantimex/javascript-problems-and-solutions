@@ -39,7 +39,7 @@
  * @param {string} s
  * @return {number[]}
  */
-const findPermutation = s => {
+const findPermutation = (s) => {
   const result = Array(s.length + 1);
   const stack = [];
 

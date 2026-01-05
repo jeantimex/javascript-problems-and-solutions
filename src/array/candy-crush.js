@@ -31,7 +31,7 @@
  * @param {number[][]} board
  * @return {number[][]}
  */
-const candyCrush = board => {
+const candyCrush = (board) => {
   const m = board.length;
   const n = board[0].length;
 

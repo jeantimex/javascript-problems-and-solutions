@@ -38,7 +38,7 @@
  * @param {number[][]} dungeon
  * @return {number}
  */
-const calculateMinimumHP = dungeon => {
+const calculateMinimumHP = (dungeon) => {
   const m = dungeon.length;
   const n = dungeon[0].length;
 

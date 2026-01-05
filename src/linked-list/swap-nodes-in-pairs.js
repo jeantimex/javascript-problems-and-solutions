@@ -19,7 +19,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const swapPairsR = head => {
+const swapPairsR = (head) => {
   // Empty node or a single node
   if (!head || !head.next) {
     return head;
@@ -41,7 +41,7 @@ const swapPairsR = head => {
  * @param {ListNode} head
  * @return {ListNode}
  */
-const swapPairs = head => {
+const swapPairs = (head) => {
   // Empty node or a single node
   if (!head || !head.next) {
     return head;

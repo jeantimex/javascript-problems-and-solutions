@@ -31,7 +31,7 @@
  * @param {number} n
  * @return {string}
  */
-const convertToTitle = n => {
+const convertToTitle = (n) => {
   let title = '';
 
   while (n > 0) {

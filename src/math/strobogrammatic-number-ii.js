@@ -15,7 +15,7 @@
  * @param {number} n
  * @return {string[]}
  */
-const findStrobogrammatic = n => {
+const findStrobogrammatic = (n) => {
   return helper(n, n);
 };
 

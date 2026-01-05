@@ -32,7 +32,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const findBottomLeftValue = root => {
+const findBottomLeftValue = (root) => {
   const queue = [root];
 
   while (queue.length) {

@@ -33,7 +33,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const oddEvenList = head => {
+const oddEvenList = (head) => {
   if (!head) {
     return null;
   }

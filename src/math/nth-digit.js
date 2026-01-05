@@ -32,7 +32,7 @@
  * @param {number} n
  * @return {number}
  */
-const findNthDigit = n => {
+const findNthDigit = (n) => {
   let len = 1;
   let count = 9;
   let start = 1;

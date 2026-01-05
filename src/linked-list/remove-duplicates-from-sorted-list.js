@@ -26,7 +26,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const deleteDuplicates = head => {
+const deleteDuplicates = (head) => {
   let slow = head;
   let fast = head;
 

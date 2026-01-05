@@ -21,7 +21,7 @@
  * @param {number} num
  * @return {number}
  */
-const maximumSwap = num => {
+const maximumSwap = (num) => {
   const digits = num.toString().split('');
 
   // Use buckets to record the last position of digit 0 ~ 9 in this num.

@@ -25,7 +25,7 @@ import TreeNode from '../common/tree-node';
  * @param {number} n
  * @return {TreeNode[]}
  */
-const generateTrees = n => {
+const generateTrees = (n) => {
   if (n <= 0) {
     return [];
   }

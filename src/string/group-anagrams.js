@@ -22,7 +22,7 @@
  * @param {string[]} strs
  * @return {string[][]}
  */
-const groupAnagrams = strs => {
+const groupAnagrams = (strs) => {
   const map = {};
 
   for (let str of strs) {

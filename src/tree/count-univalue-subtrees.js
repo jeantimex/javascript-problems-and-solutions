@@ -17,8 +17,8 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const countUnivalSubtrees = root => {
-  const isUnivalSubtree = root => {
+const countUnivalSubtrees = (root) => {
+  const isUnivalSubtree = (root) => {
     if (!root) {
       return true;
     }

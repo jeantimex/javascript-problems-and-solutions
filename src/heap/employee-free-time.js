@@ -45,11 +45,11 @@ import PriorityQueue from 'common/priority-queue';
  * @param {Interval[][]} schedule
  * @return {Interval[]}
  */
-const employeeFreeTime = schedule => {
+const employeeFreeTime = (schedule) => {
   const result = [];
 
   const pq = new PriorityQueue({ comparator: (a, b) => a.start - b.start });
-  schedule.forEach(list => list.forEach(e => pq.offer(e)));
+  schedule.forEach((list) => list.forEach((e) => pq.offer(e)));
 
   let current = pq.poll();
 

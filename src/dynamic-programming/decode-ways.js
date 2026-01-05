@@ -26,7 +26,7 @@
  * @param {string} s
  * @return {number}
  */
-const numDecodings = s => {
+const numDecodings = (s) => {
   if (!s || s.length === 0 || s[0] === '0') {
     return 0;
   }

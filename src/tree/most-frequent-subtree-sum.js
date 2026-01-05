@@ -28,7 +28,7 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-const findFrequentTreeSum = root => {
+const findFrequentTreeSum = (root) => {
   if (!root) {
     return [];
   }
@@ -37,7 +37,7 @@ const findFrequentTreeSum = root => {
   const mapCount = {};
   let max = 0;
 
-  const helper = node => {
+  const helper = (node) => {
     if (!node) {
       return 0;
     }

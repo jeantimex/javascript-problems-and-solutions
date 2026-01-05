@@ -24,7 +24,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-const isSymmetric = root => {
+const isSymmetric = (root) => {
   if (!root) {
     return true;
   }
@@ -48,7 +48,7 @@ const isSymmetric = root => {
  * @param {TreeNode} root
  * @return {boolean}
  */
-const isSymmetricDFS = root => {
+const isSymmetricDFS = (root) => {
   if (!root) {
     return true;
   }
@@ -86,7 +86,7 @@ const isSymmetricDFS = root => {
  * @param {TreeNode} root
  * @return {boolean}
  */
-const isSymmetricBFS = root => {
+const isSymmetricBFS = (root) => {
   if (!root) {
     return true;
   }

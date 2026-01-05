@@ -32,14 +32,14 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const longestConsecutive = root => {
+const longestConsecutive = (root) => {
   /**
    * Return the max length so far on either side
    * and compare the max
    *
    * @param {TreeNode} root
    */
-  const helper = root => {
+  const helper = (root) => {
     if (!root) {
       return 0;
     }

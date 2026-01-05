@@ -85,7 +85,7 @@ export const sequenceReconstructionBFS = (org, seqs) => {
   }
 
   // Create a queue and enqueue all vertices with indegree 0
-  const queue = verticies.filter(u => indegree.get(u) === 0);
+  const queue = verticies.filter((u) => indegree.get(u) === 0);
 
   // Initialize count of visited vertices
   let index = 0;
@@ -103,7 +103,7 @@ export const sequenceReconstructionBFS = (org, seqs) => {
       return false;
     }
 
-    adjList.get(u).forEach(v => {
+    adjList.get(u).forEach((v) => {
       indegree.set(v, indegree.get(v) - 1);
 
       if (indegree.get(v) === 0) {
@@ -130,7 +130,7 @@ const dfs = (adjList, indegree, visited, results, solution) => {
       flag = true;
 
       // Reducing indegree of adjacent vertices
-      adjList.get(u).forEach(v => {
+      adjList.get(u).forEach((v) => {
         indegree.set(v, indegree.get(v) - 1);
       });
 
@@ -143,7 +143,7 @@ const dfs = (adjList, indegree, visited, results, solution) => {
       // Resetting visited, res and indegree for backtracking
       visited.delete(u);
       solution.pop();
-      adjList.get(u).forEach(v => {
+      adjList.get(u).forEach((v) => {
         indegree.set(v, indegree.get(v) + 1);
       });
     }
@@ -156,11 +156,11 @@ const dfs = (adjList, indegree, visited, results, solution) => {
   }
 };
 
-const buildGraph = seqs => {
+const buildGraph = (seqs) => {
   const adjList = new Map();
   const indegree = new Map();
 
-  seqs.forEach(seq => {
+  seqs.forEach((seq) => {
     for (let i = 0; i < seq.length; i++) {
       const v = seq[i];
 

@@ -37,7 +37,7 @@ const heapify = (nums, n, i) => {
  *
  * @param {number[]} nums
  */
-const heapSort = nums => {
+const heapSort = (nums) => {
   const n = nums.length;
 
   // Step 1. Build heap (rearrange array)

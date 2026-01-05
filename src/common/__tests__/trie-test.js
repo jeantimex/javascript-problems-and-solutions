@@ -10,7 +10,7 @@ describe('Trie', () => {
     trie = new Trie();
 
     // Insert words into the trie
-    words.forEach(word => {
+    words.forEach((word) => {
       trie.insert(word);
     });
   });

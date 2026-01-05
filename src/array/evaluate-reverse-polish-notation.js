@@ -44,7 +44,7 @@
  * @param {string[]} tokens
  * @return {number}
  */
-const evalRPN = tokens => {
+const evalRPN = (tokens) => {
   const operands = new Set(['+', '-', '*', '/']);
   const stack = [];
 

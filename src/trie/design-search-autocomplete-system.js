@@ -137,14 +137,14 @@ class AutocompleteSystem {
     }
 
     const list = Object.keys(current.counts)
-      .map(sentence => ({ sentence, count: current.counts[sentence] }))
+      .map((sentence) => ({ sentence, count: current.counts[sentence] }))
       .sort((a, b) => {
         if (a.count === b.count) {
           return a.sentence.localeCompare(b.sentence);
         }
         return b.count - a.count;
       })
-      .map(item => item.sentence)
+      .map((item) => item.sentence)
       .slice(0, 3);
 
     return list;

@@ -24,7 +24,7 @@
  * @param {string} s
  * @return {string}
  */
-const longestPalindrome = s => {
+const longestPalindrome = (s) => {
   const n = s.length;
 
   const dp = [];
@@ -52,7 +52,7 @@ const longestPalindrome = s => {
  * @param {string} s
  * @return {string}
  */
-const longestPalindromeExpand = s => {
+const longestPalindromeExpand = (s) => {
   let start = 0;
   let end = 0;
 

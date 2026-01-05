@@ -16,7 +16,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-const permuteUnique = nums => {
+const permuteUnique = (nums) => {
   const results = [];
   nums.sort((a, b) => a - b);
   backtracking(nums, {}, [], results);

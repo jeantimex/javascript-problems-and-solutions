@@ -24,7 +24,7 @@
  * @param {string} s
  * @return {boolean}
  */
-const validPalindrome = s => {
+const validPalindrome = (s) => {
   let i = -1;
   let j = s.length;
 

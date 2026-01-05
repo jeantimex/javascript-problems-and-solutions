@@ -20,7 +20,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-const findDuplicates = nums => {
+const findDuplicates = (nums) => {
   const result = [];
 
   for (let i = 0; i < nums.length; i++) {

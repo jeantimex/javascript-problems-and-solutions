@@ -37,7 +37,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-const numMagicSquaresInside = grid => {
+const numMagicSquaresInside = (grid) => {
   const R = grid.length;
   const C = grid[0].length;
 

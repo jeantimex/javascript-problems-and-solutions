@@ -26,7 +26,7 @@
  * @param {string} text
  * @return {string[]}
  */
-const parseCSVLine = text => {
+const parseCSVLine = (text) => {
   const arr = [''];
   let i = 0; // current index
   let p = ''; // previous character
@@ -56,6 +56,6 @@ const parseCSVLine = text => {
  * @param {string[]} csvLines
  * @return {string[][]}
  */
-const parseCSV = csvLines => csvLines.map(line => parseCSVLine(line));
+const parseCSV = (csvLines) => csvLines.map((line) => parseCSVLine(line));
 
 export { parseCSV };

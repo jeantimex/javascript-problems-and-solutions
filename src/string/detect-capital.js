@@ -27,7 +27,7 @@
  * @param {string} word
  * @return {boolean}
  */
-const detectCapitalUse = word => {
+const detectCapitalUse = (word) => {
   let count = 0;
 
   for (let c of word) {

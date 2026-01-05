@@ -8,7 +8,7 @@ import TreeNode from 'common/tree-node';
  * @param {number[]} nums
  * @return {TreeNode}
  */
-const sortedArrayToBST = nums => {
+const sortedArrayToBST = (nums) => {
   const helper = (i, j) => {
     if (i > j) {
       return null;

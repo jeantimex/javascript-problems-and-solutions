@@ -12,7 +12,7 @@
  *
  * Note: Recursive solution is trivial, could you do it iteratively?
  */
-const inorderTraversal = root => {
+const inorderTraversal = (root) => {
   const result = [];
   const stack = [];
   let current = root;

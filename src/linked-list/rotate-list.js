@@ -68,7 +68,7 @@ const rotateRight = (head, k) => {
   return head;
 };
 
-const getLength = head => {
+const getLength = (head) => {
   let count = 0;
 
   while (head) {

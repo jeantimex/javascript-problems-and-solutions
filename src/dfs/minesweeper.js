@@ -82,7 +82,16 @@ const updateBoard = (board, click) => {
 };
 
 const dfs = (board, x, y) => {
-  const dirs = [[-1, -1], [-1, 0], [-1, 1], [0, 1], [1, 1], [1, 0], [1, -1], [0, -1]];
+  const dirs = [
+    [-1, -1],
+    [-1, 0],
+    [-1, 1],
+    [0, 1],
+    [1, 1],
+    [1, 0],
+    [1, -1],
+    [0, -1],
+  ];
   const m = board.length;
   const n = board[0].length;
 

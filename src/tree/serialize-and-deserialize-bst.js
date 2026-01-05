@@ -22,14 +22,14 @@ import TreeNode from 'common/tree-node';
  * @param {TreeNode} root
  * @return {string}
  */
-const serialize = function(root) {
+const serialize = function (root) {
   if (!root) {
     return '';
   }
 
   const list = [];
 
-  const helper = function(node) {
+  const helper = function (node) {
     if (!node) {
       return;
     }
@@ -51,12 +51,12 @@ const serialize = function(root) {
  * @param {string} data
  * @return {TreeNode}
  */
-const deserialize = function(data) {
+const deserialize = function (data) {
   if (!data) {
     return null;
   }
 
-  const preorder = data.split(',').map(item => parseInt(item, 10));
+  const preorder = data.split(',').map((item) => parseInt(item, 10));
   const inorder = preorder.slice().sort((a, b) => a - b);
 
   return buildTree(preorder, inorder);

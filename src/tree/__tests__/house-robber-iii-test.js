@@ -4,7 +4,10 @@ import { rob, robR } from '../house-robber-iii';
 
 describe('House Robber III', () => {
   describe('Recursion', () => {
-    const testCases = [['3,2,3,null,3,null,1', 7], ['3,4,5,1,3,null,1', 9]];
+    const testCases = [
+      ['3,2,3,null,3,null,1', 7],
+      ['3,4,5,1,3,null,1', 9],
+    ];
 
     testCases.map((testCase, index) => {
       it(`should rob the house: ${testCase[0]}`, () => {

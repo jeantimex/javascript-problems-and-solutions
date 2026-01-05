@@ -4,12 +4,46 @@ import { validGraphTree, validTree } from '../graph-valid-tree';
 
 describe('Graph Valid Tree', () => {
   const testCases = [
-    [5, [[0, 1], [0, 2], [0, 3], [1, 4]], true],
-    [5, [[0, 1], [1, 2], [2, 3], [1, 3], [1, 4]], false],
+    [
+      5,
+      [
+        [0, 1],
+        [0, 2],
+        [0, 3],
+        [1, 4],
+      ],
+      true,
+    ],
+    [
+      5,
+      [
+        [0, 1],
+        [1, 2],
+        [2, 3],
+        [1, 3],
+        [1, 4],
+      ],
+      false,
+    ],
     [1, [[0, 0]], false],
-    [2, [[0, 0], [1, 1]], false],
+    [
+      2,
+      [
+        [0, 0],
+        [1, 1],
+      ],
+      false,
+    ],
     [2, [], false],
-    [3, [[0, 1], [1, 2], [2, 0]], false],
+    [
+      3,
+      [
+        [0, 1],
+        [1, 2],
+        [2, 0],
+      ],
+      false,
+    ],
   ];
 
   testCases.forEach((testCase, index) => {

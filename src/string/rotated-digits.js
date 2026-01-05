@@ -28,7 +28,7 @@
  * @param {number} N
  * @return {number}
  */
-const rotatedDigits = N => {
+const rotatedDigits = (N) => {
   // Count how many n in [1, N] are good.
   let ans = 0;
 

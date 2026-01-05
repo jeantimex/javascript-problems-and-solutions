@@ -19,7 +19,7 @@
  * @param {character[][]} matrix
  * @return {number}
  */
-const maximalRectangle = matrix => {
+const maximalRectangle = (matrix) => {
   if (!matrix || matrix.length === 0) {
     return 0;
   }

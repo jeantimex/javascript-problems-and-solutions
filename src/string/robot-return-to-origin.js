@@ -33,7 +33,7 @@
  * @param {string} moves
  * @return {boolean}
  */
-const judgeCircle = moves => {
+const judgeCircle = (moves) => {
   let x = 0;
   let y = 0;
 

@@ -24,7 +24,7 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-const wiggleSort = nums => {
+const wiggleSort = (nums) => {
   const n = nums.length;
   const sorted = nums.slice().sort((a, b) => a - b);
 

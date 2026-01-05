@@ -8,8 +8,8 @@ import connect from '../populating-next-right-pointers-in-each-node-ii';
  * @param {TreeLinkNode} root
  * @return {string}
  */
-const serializeLinkTree = root => {
-  const getNext = root => {
+const serializeLinkTree = (root) => {
+  const getNext = (root) => {
     while (root) {
       if (root.left) {
         return root.left;

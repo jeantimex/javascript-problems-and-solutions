@@ -41,7 +41,7 @@
  * @param {number[]} citations
  * @return {number}
  */
-const hIndex = citations => {
+const hIndex = (citations) => {
   const n = citations.length;
   let lo = 0;
   let hi = n - 1;

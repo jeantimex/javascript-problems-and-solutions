@@ -64,7 +64,10 @@ describe('Tree Util', () => {
   });
 
   describe('search tree node', () => {
-    const testCases = [[tree1, 2], [tree1, 3]];
+    const testCases = [
+      [tree1, 2],
+      [tree1, 3],
+    ];
 
     testCases.map((testCase, index) => {
       it(`should search the tree node ${testCase[1]}`, () => {

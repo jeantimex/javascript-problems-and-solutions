@@ -17,7 +17,7 @@
  * @param {number} n
  * @return {number}
  */
-const numTrees = n => {
+const numTrees = (n) => {
   // Sanity check
   if (n <= 0) {
     return 0;

@@ -29,7 +29,7 @@
  * @param {number} n
  * @return {boolean}
  */
-const isPowerOfThree_I = n => {
+const isPowerOfThree_I = (n) => {
   if (n < 1) {
     return false;
   }
@@ -49,7 +49,7 @@ const isPowerOfThree_I = n => {
  * @param {number} n
  * @return {boolean}
  */
-const isPowerOfThree_II = n => {
+const isPowerOfThree_II = (n) => {
   return n > 0 && 1162261467 % n == 0;
 };
 

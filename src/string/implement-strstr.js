@@ -93,7 +93,7 @@ const strStrKMP = (haystack, needle) => {
  * @param {string} s
  * @return {number[]}
  */
-const getLPS = s => {
+const getLPS = (s) => {
   const lps = Array(s.length).fill(0);
 
   let i = 1;

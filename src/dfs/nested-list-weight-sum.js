@@ -61,7 +61,7 @@
  * @param {NestedInteger[]} nestedList
  * @return {number}
  */
-const depthSum = nestedList => {
+const depthSum = (nestedList) => {
   return helper(nestedList, 1);
 };
 

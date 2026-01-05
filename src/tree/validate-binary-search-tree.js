@@ -31,7 +31,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-const isValidBST = root => {
+const isValidBST = (root) => {
   if (!root) {
     return false;
   }

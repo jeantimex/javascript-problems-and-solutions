@@ -4,7 +4,7 @@
 
 import ListNode from 'common/list-node';
 
-const isNumeric = n => {
+const isNumeric = (n) => {
   return !isNaN(parseFloat(n)) && isFinite(n);
 };
 
@@ -13,7 +13,7 @@ const isNumeric = n => {
  * @param {ListNode} node
  * @return {string}
  */
-export const serializeLinkedList = node => {
+export const serializeLinkedList = (node) => {
   if (!node) {
     return '';
   }
@@ -33,7 +33,7 @@ export const serializeLinkedList = node => {
  * @param {string} data
  * @return {ListNode}
  */
-export const deserializeLinkedList = data => {
+export const deserializeLinkedList = (data) => {
   if (!data) {
     return null;
   }
@@ -41,7 +41,7 @@ export const deserializeLinkedList = data => {
   const f = new ListNode();
   let p = f;
 
-  data.split(',').forEach(val => {
+  data.split(',').forEach((val) => {
     if (isNumeric(val)) {
       val = Number(val);
     }

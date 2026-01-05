@@ -38,7 +38,7 @@
  * @param {function} read4()
  * @return {function}
  */
-const solution = read4 => {
+const solution = (read4) => {
   /**
    * @param {character[]} buf Destination buffer
    * @param {number} n Maximum number of characters to read

@@ -9,7 +9,20 @@ const sorter = (a, b) => {
 };
 
 describe('Combinations', () => {
-  const testCases = [[4, 2, [[2, 4], [3, 4], [2, 3], [1, 2], [1, 3], [1, 4]]]];
+  const testCases = [
+    [
+      4,
+      2,
+      [
+        [2, 4],
+        [3, 4],
+        [2, 3],
+        [1, 2],
+        [1, 3],
+        [1, 4],
+      ],
+    ],
+  ];
 
   testCases.forEach((testCase, index) => {
     it(`should get the combinations using back tracking ${index}`, () => {

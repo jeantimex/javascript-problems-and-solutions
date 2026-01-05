@@ -9,7 +9,12 @@ const sorter = (a, b) => {
 };
 
 describe('Subsets', () => {
-  const testCases = [[[1, 2, 3], [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]]];
+  const testCases = [
+    [
+      [1, 2, 3],
+      [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]],
+    ],
+  ];
 
   testCases.forEach((testCase, index) => {
     it(`should get the subsets using back tracking ${index}`, () => {

@@ -75,6 +75,6 @@ const sort = (nums, lo, hi) => {
  *
  * @param {number[]} nums
  */
-const quickSort = nums => sort(nums, 0, nums.length - 1);
+const quickSort = (nums) => sort(nums, 0, nums.length - 1);
 
 export default quickSort;

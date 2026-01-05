@@ -53,7 +53,7 @@ const canFinish = (numCourses, prerequisites) => {
   const visited = [];
   const stack = [];
 
-  const hasCycle = u => {
+  const hasCycle = (u) => {
     visited[u] = true;
     stack[u] = true;
 

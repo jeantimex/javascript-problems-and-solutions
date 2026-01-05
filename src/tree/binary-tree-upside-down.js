@@ -22,7 +22,7 @@
  * @param {TreeNode} root
  * @return {TreeNode}
  */
-const upsideDownBinaryTree = root => {
+const upsideDownBinaryTree = (root) => {
   if (!root || (!root.left && !root.right)) {
     return root;
   }

@@ -20,7 +20,7 @@
  * @param {Interval[]} intervals
  * @return {Interval[]}
  */
-const merge = intervals => {
+const merge = (intervals) => {
   // Step 1. sort the intervals by start time
   intervals.sort((a, b) => a.start - b.start);
 

@@ -25,7 +25,7 @@ const canPartitionKSubsets = (nums, k) => {
   // Step 1. If total sum cannot be divided by k or one of the number
   // is greater than sum/k, return false
   const sum = nums.reduce((total, num) => total + num);
-  if (sum % k !== 0 || nums.some(num => num > sum / k)) {
+  if (sum % k !== 0 || nums.some((num) => num > sum / k)) {
     return false;
   }
 

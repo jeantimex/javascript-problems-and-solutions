@@ -62,7 +62,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const widthOfBinaryTree = root => {
+const widthOfBinaryTree = (root) => {
   if (!root) {
     return 0;
   }

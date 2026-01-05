@@ -21,6 +21,6 @@
  * @param {number[][]} nums
  * @return {number[]}
  */
-const smallestRange = nums => {};
+const smallestRange = (nums) => {};
 
 export { smallestRange };

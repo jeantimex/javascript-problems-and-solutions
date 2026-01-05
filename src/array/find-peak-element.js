@@ -16,7 +16,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const findPeakElement = nums => search(nums, 0, nums.length - 1);
+const findPeakElement = (nums) => search(nums, 0, nums.length - 1);
 
 const search = (nums, lo, hi) => {
   if (lo > hi) {

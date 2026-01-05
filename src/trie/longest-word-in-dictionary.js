@@ -44,7 +44,7 @@ class Trie {
   constructor(words) {
     this.root = new TrieNode();
 
-    words.forEach(word => {
+    words.forEach((word) => {
       this.addWord(word);
     });
   }
@@ -64,10 +64,10 @@ class Trie {
   }
 }
 
-const filter = node => {
+const filter = (node) => {
   return Object.keys(node.children)
-    .filter(c => !!node.children[c].word)
-    .map(c => node.children[c])
+    .filter((c) => !!node.children[c].word)
+    .map((c) => node.children[c])
     .sort((a, b) => b.word.localeCompare(a.word));
 };
 
@@ -75,7 +75,7 @@ const filter = node => {
  * @param {string[]} words
  * @return {string}
  */
-const longestWord = words => {
+const longestWord = (words) => {
   const trie = new Trie(words);
   let result = null;
 

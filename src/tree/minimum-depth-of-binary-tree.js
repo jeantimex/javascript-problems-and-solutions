@@ -8,7 +8,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const minDepth = root => {
+const minDepth = (root) => {
   if (!root) {
     return 0;
   }

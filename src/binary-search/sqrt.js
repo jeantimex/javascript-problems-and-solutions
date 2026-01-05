@@ -26,7 +26,7 @@
  * @param {number} x
  * @return {number}
  */
-const mySqrt = x => {
+const mySqrt = (x) => {
   if (x === 0) {
     return 0;
   }

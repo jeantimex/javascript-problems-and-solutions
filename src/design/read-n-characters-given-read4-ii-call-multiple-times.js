@@ -50,7 +50,7 @@
  * @param {function} read4()
  * @return {function}
  */
-const solution = read4 => {
+const solution = (read4) => {
   // a pointer in the buffer
   let ptr = 0;
   // how many left in the buffer after last call

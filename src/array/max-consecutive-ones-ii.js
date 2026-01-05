@@ -31,7 +31,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const findMaxConsecutiveOnes_I = nums => {
+const findMaxConsecutiveOnes_I = (nums) => {
   let max = 0;
   let zero = 0;
   let k = 1; // flip at most k zero
@@ -59,7 +59,7 @@ const findMaxConsecutiveOnes_I = nums => {
  * @param {number[]} nums
  * @return {number}
  */
-const findMaxConsecutiveOnes_II = nums => {
+const findMaxConsecutiveOnes_II = (nums) => {
   let max = 0;
   let k = 1; // flip at most k zero
   let zero = [];

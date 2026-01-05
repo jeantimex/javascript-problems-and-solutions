@@ -3,8 +3,20 @@ import wordSquares from '../word-squares';
 
 describe('Word Squares', () => {
   const testCases = [
-    [['area', 'lead', 'wall', 'lady', 'ball'], [['wall', 'area', 'lead', 'lady'], ['ball', 'area', 'lead', 'lady']]],
-    [['abat', 'baba', 'atan', 'atal'], [['baba', 'abat', 'baba', 'atan'], ['baba', 'abat', 'baba', 'atal']]],
+    [
+      ['area', 'lead', 'wall', 'lady', 'ball'],
+      [
+        ['wall', 'area', 'lead', 'lady'],
+        ['ball', 'area', 'lead', 'lady'],
+      ],
+    ],
+    [
+      ['abat', 'baba', 'atan', 'atal'],
+      [
+        ['baba', 'abat', 'baba', 'atan'],
+        ['baba', 'abat', 'baba', 'atal'],
+      ],
+    ],
     [['abcd', 'bnrt', 'crmy', 'dtye'], [['abcd', 'bnrt', 'crmy', 'dtye']]],
     [['abcd', 'bnrt', 'crm', 'dt'], [['abcd', 'bnrt', 'crm', 'dt']]],
   ];

@@ -27,7 +27,7 @@ import PriorityQueue from 'common/priority-queue';
  * @param {number[][]} heights
  * @return {number}
  */
-const trapRainWater = heights => {
+const trapRainWater = (heights) => {
   // Sanity check
   if (!heights || heights.length === 0 || heights[0].length === 0) {
     return 0;
@@ -62,7 +62,12 @@ const trapRainWater = heights => {
   // If the neighbor is shorter, collect the water it can trap and update its
   // height as its height plus the water trapped.
   // Add all its neighbors to the queue.
-  const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+  const dirs = [
+    [-1, 0],
+    [1, 0],
+    [0, -1],
+    [0, 1],
+  ];
 
   let res = 0;
   while (!queue.isEmpty()) {

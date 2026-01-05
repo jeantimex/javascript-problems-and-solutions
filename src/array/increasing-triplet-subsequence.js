@@ -24,7 +24,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-const increasingTriplet = nums => {
+const increasingTriplet = (nums) => {
   let n1 = Infinity;
   let n2 = Infinity;
 

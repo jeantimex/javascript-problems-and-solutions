@@ -27,7 +27,7 @@
  * @param {number[]} ratings
  * @return {number}
  */
-const candy = ratings => {
+const candy = (ratings) => {
   if (!ratings || ratings.length === 0) return 0;
 
   const n = ratings.length;

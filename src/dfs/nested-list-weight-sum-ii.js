@@ -64,7 +64,7 @@
  * @param {NestedInteger[]} nestedList
  * @return {number}
  */
-const depthSumInverse = nestedList => {
+const depthSumInverse = (nestedList) => {
   let unweighted = 0;
   let weighted = 0;
 

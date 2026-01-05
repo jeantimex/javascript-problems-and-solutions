@@ -39,7 +39,7 @@
  * @param {ListNode} head
  * @return {TreeNode}
  */
-const sortedListToBST = head => {
+const sortedListToBST = (head) => {
   if (!head) {
     return null;
   }
@@ -61,7 +61,7 @@ const sortedListToBST = head => {
   return root;
 };
 
-const findMiddle = head => {
+const findMiddle = (head) => {
   let prev = null;
   let slow = head;
   let fast = head;

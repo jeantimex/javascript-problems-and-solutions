@@ -2,7 +2,10 @@ import { assert } from 'chai';
 import shortestPalindrome from '../shortest-palindrome';
 
 describe('Shortest Palindrome', () => {
-  const testCases = [['aacecaaa', 'aaacecaaa'], ['abcd', 'dcbabcd']];
+  const testCases = [
+    ['aacecaaa', 'aaacecaaa'],
+    ['abcd', 'dcbabcd'],
+  ];
 
   testCases.forEach(([s, expected], index) => {
     it(`should get the shortest palindrome ${index}`, () => {

@@ -32,8 +32,8 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const longestConsecutive = root => {
-  const longestPath = root => {
+const longestConsecutive = (root) => {
+  const longestPath = (root) => {
     if (!root) {
       return [0, 0];
     }

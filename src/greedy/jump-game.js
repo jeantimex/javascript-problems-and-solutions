@@ -24,7 +24,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-const canJump = nums => {
+const canJump = (nums) => {
   let reach = 0;
 
   for (let i = 0; i < nums.length && i <= reach; i++) {

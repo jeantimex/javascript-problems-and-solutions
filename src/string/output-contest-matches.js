@@ -58,7 +58,7 @@
  * @param {number} n
  * @return {string}
  */
-const findContestMatch = n => {
+const findContestMatch = (n) => {
   let pairs = Array.from({ length: n }, (v, k) => k + 1);
 
   while (pairs.length > 1) {

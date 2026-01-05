@@ -29,7 +29,7 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-const canPartition = nums => {
+const canPartition = (nums) => {
   // Step 1. calculate the sum and make a sanity check
   let sum = nums.reduce((total, num) => total + num);
 
@@ -74,7 +74,7 @@ const canPartition = nums => {
  * @param {number[]} nums
  * @return {boolean}
  */
-const canPartitionII = nums => {
+const canPartitionII = (nums) => {
   // Step 1. calculate the sum and make a sanity check
   let sum = nums.reduce((total, num) => total + num);
 

@@ -24,7 +24,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-const countSmaller = nums => {
+const countSmaller = (nums) => {
   const result = [];
   let root = null;
 

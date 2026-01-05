@@ -18,7 +18,7 @@
  * @param {number[][]} matrix
  * @return {number[]}
  */
-const spiralOrder = matrix => {
+const spiralOrder = (matrix) => {
   const result = [];
 
   if (!matrix || matrix.length == 0 || matrix[0].length == 0) {

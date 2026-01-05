@@ -25,7 +25,7 @@
  * @param {string} num2
  * @return {string}
  */
-var multiply = function(num1, num2) {
+var multiply = function (num1, num2) {
   const m = num1.length;
   const n = num2.length;
 

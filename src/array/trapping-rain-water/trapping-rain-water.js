@@ -12,7 +12,7 @@
  * @param {number[]} height
  * @return {number}
  */
-const trap = height => {
+const trap = (height) => {
   const n = height.length;
 
   const left = [];

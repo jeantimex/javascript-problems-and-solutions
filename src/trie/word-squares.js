@@ -85,7 +85,7 @@ class Trie {
   constructor(words) {
     this.root = new TrieNode();
 
-    words.forEach(word => {
+    words.forEach((word) => {
       this.insert(word);
     });
   }
@@ -145,7 +145,7 @@ class Trie {
  * @param {string[]} words
  * @return {string[][]}
  */
-const wordSquares = words => {
+const wordSquares = (words) => {
   const results = [];
   const trie = new Trie(words);
 

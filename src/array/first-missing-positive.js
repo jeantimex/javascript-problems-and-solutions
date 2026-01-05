@@ -27,7 +27,7 @@
  * @param {number[]} A
  * @return {number}
  */
-const firstMissingPositive = A => {
+const firstMissingPositive = (A) => {
   const n = A.length;
 
   let i = 0;

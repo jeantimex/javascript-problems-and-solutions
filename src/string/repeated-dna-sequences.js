@@ -17,7 +17,7 @@
  * @param {string} s
  * @return {string[]}
  */
-const findRepeatedDnaSequences = s => {
+const findRepeatedDnaSequences = (s) => {
   const seen = new Set();
   const repeated = new Set();
 

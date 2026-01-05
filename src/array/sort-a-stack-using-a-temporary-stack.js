@@ -73,7 +73,7 @@ import Stack from 'common/stack';
  * @param {Stack} input
  * @return {Stack}
  */
-const sortStack = input => {
+const sortStack = (input) => {
   const tmpStack = new Stack();
 
   while (!input.isEmpty()) {

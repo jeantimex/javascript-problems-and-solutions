@@ -42,7 +42,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const minDiffInBST_I = root => {
+const minDiffInBST_I = (root) => {
   const stack = [];
   let curr = root;
   let prev = null;
@@ -73,11 +73,11 @@ const minDiffInBST_I = root => {
  * @param {TreeNode} root
  * @return {number}
  */
-const minDiffInBST_II = root => {
+const minDiffInBST_II = (root) => {
   let prev = null;
   let min = Infinity;
 
-  const inorder = curr => {
+  const inorder = (curr) => {
     if (!curr) {
       return;
     }

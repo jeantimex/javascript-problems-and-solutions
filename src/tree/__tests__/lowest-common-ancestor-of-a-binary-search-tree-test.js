@@ -4,7 +4,12 @@ import { serializeTree, deserializeTree, searchTreeNode } from 'utils/tree-util'
 import lowestCommonAncestor from '../lowest-common-ancestor-of-a-binary-search-tree';
 
 describe('Lowest Common Ancestor of A Binary Search Tree', () => {
-  const testCases = [['2,1,3', 2, 3, 2], ['5,3,7,2,4,6,8', 6, 8, 7], ['2,1,3', 4, 5, null], ['5,3,null,2,4', 2, 4, 3]];
+  const testCases = [
+    ['2,1,3', 2, 3, 2],
+    ['5,3,7,2,4,6,8', 6, 8, 7],
+    ['2,1,3', 4, 5, null],
+    ['5,3,null,2,4', 2, 4, 3],
+  ];
 
   testCases.map((testCase, index) => {
     it(`should get the LCA of a binary search tree ${testCase[0]}`, () => {

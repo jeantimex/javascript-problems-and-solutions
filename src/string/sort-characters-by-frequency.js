@@ -44,7 +44,7 @@
  * @param {string} s
  * @return {string}
  */
-const frequencySort = s => {
+const frequencySort = (s) => {
   // Step 1. count character frequency
   const map = {};
   for (let c of s) {
@@ -53,7 +53,7 @@ const frequencySort = s => {
 
   // Step 2. build the bucket
   const bucket = Array(s.length + 1).fill('');
-  Object.keys(map).forEach(c => {
+  Object.keys(map).forEach((c) => {
     const count = map[c];
     bucket[count] += c.repeat(count);
   });

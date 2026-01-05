@@ -66,7 +66,7 @@
  * @param {number[][]} edges
  * @return {number[]}
  */
-const findRedundantDirectedConnection = edges => {
+const findRedundantDirectedConnection = (edges) => {
   // Step 1. Check whether there is a node having two parents
   // If so, store them as candidates A and B, and set the second edge invalid
   let canA = [-1, -1];
@@ -91,7 +91,7 @@ const findRedundantDirectedConnection = edges => {
   // Step 2. Perform normal union find.
   parent = Array(2001).fill(-1);
 
-  const find = i => {
+  const find = (i) => {
     if (parent[i] === -1) {
       return i;
     }

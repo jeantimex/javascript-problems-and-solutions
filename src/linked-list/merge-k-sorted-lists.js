@@ -32,7 +32,7 @@ import PriorityQueue from 'common/priority-queue';
  * @param {ListNode[]} lists
  * @return {ListNode}
  */
-const mergeKLists = lists => {
+const mergeKLists = (lists) => {
   if (!lists || lists.length === 0) {
     return null;
   }

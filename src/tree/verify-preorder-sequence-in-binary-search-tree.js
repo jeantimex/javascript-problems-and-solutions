@@ -11,7 +11,7 @@
  * @param {number[]} preorder
  * @return {boolean}
  */
-const verifyPreorder = preorder => {
+const verifyPreorder = (preorder) => {
   let low = Number.MIN_SAFE_INTEGER;
   const stack = [];
 

@@ -15,7 +15,7 @@ describe('Unique Binary Search Trees II', () => {
       const n = testCase[0];
       const expected = testCase[1];
       const actual = generateTrees(n)
-        .map(tree => serializeTree(tree))
+        .map((tree) => serializeTree(tree))
         .sort();
       assert.deepEqual(actual, expected);
     });

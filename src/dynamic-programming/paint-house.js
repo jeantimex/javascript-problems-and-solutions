@@ -26,7 +26,7 @@
  * @param {number[][]} costs
  * @return {number}
  */
-const minCost = costs => {
+const minCost = (costs) => {
   if (!costs || costs.length === 0) {
     return 0;
   }

@@ -18,8 +18,8 @@ class Node {
   }
 }
 
-const treeToDoublyList = root => {
-  const inorder = root => {
+const treeToDoublyList = (root) => {
+  const inorder = (root) => {
     if (!root) {
       return;
     }

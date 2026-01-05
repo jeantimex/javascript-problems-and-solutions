@@ -21,7 +21,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const maxProduct = nums => {
+const maxProduct = (nums) => {
   let res = nums[0];
   let min = nums[0];
   let max = nums[0];

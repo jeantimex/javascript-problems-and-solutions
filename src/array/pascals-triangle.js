@@ -20,7 +20,7 @@
  * @param {number} numRows
  * @return {number[][]}
  */
-const generate = numRows => {
+const generate = (numRows) => {
   const res = [];
 
   for (let i = 0; i < numRows; i++) {

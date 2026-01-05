@@ -4,12 +4,34 @@ import { sequenceReconstructionDFS, sequenceReconstructionBFS } from '../sequenc
 
 describe('Sequence Reconstruction', () => {
   const testCases = [
-    [[1, 2, 3], [[1, 2], [1, 3]], false],
+    [
+      [1, 2, 3],
+      [
+        [1, 2],
+        [1, 3],
+      ],
+      false,
+    ],
     [[1, 2, 3], [[1, 2]], false],
     [[3], [[1, 2]], false],
     [[3, 4], [[1, 2]], false],
-    [[1, 2, 3], [[1, 2], [1, 3], [2, 3]], true],
-    [[4, 1, 5, 2, 6, 3], [[5, 2, 6, 3], [4, 1, 5, 2]], true],
+    [
+      [1, 2, 3],
+      [
+        [1, 2],
+        [1, 3],
+        [2, 3],
+      ],
+      true,
+    ],
+    [
+      [4, 1, 5, 2, 6, 3],
+      [
+        [5, 2, 6, 3],
+        [4, 1, 5, 2],
+      ],
+      true,
+    ],
   ];
 
   testCases.forEach((testCase, index) => {

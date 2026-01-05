@@ -4,7 +4,7 @@
  * Union-Find Solution
  */
 
-const countIntersection = rectangles => {
+const countIntersection = (rectangles) => {
   if (!rectangles || rectangles.length === 0) {
     return 0;
   }

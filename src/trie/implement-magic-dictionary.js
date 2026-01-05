@@ -44,7 +44,7 @@ class MagicDictionary {
    * @return {void}
    */
   buildDict(dict) {
-    dict.forEach(word => {
+    dict.forEach((word) => {
       this.insert(word);
     });
   }

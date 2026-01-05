@@ -20,7 +20,7 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-const zigzagLevelOrder = root => {
+const zigzagLevelOrder = (root) => {
   if (!root) return [];
 
   const result = [];

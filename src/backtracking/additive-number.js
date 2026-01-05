@@ -32,7 +32,7 @@
  * @param {string} num
  * @return {boolean}
  */
-const isAdditiveNumber = num => {
+const isAdditiveNumber = (num) => {
   if (!num || num.length < 3) {
     return false;
   }

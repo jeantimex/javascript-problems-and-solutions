@@ -51,7 +51,7 @@ const THOUSANDS = ['', 'Thousand', 'Million', 'Billion'];
  * @param {number} num
  * @return {string}
  */
-const numberToWords = num => {
+const numberToWords = (num) => {
   if (num === 0) return 'Zero';
 
   let i = 0;
@@ -66,7 +66,7 @@ const numberToWords = num => {
   return words.trim();
 };
 
-const helper = num => {
+const helper = (num) => {
   if (num === 0) return '';
   else if (num < 20) return LESS_THAN_20[num] + ' ';
   else if (num < 100) return TENS[Math.floor(num / 10)] + ' ' + helper(num % 10);

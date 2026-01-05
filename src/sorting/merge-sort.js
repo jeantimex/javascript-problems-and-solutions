@@ -58,6 +58,6 @@ const sort = (nums, lo, hi) => {
  *
  * @param {number[]} nums
  */
-const mergeSort = nums => sort(nums, 0, nums.length - 1);
+const mergeSort = (nums) => sort(nums, 0, nums.length - 1);
 
 export default mergeSort;

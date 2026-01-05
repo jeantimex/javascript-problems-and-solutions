@@ -48,7 +48,7 @@ export default class WordDictionary {
   }
 
   search(word) {
-    var search = function(current, level) {
+    var search = function (current, level) {
       // Cannot search for the word
       if (!current || (level === word.length && !current.isEnd)) {
         return false;

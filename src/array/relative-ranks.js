@@ -24,7 +24,7 @@
  * @param {number[]} nums
  * @return {string[]}
  */
-const findRelativeRanks = nums => {
+const findRelativeRanks = (nums) => {
   const result = [];
   const pairs = nums.map((num, index) => [num, index]).sort((a, b) => b[0] - a[0]);
 

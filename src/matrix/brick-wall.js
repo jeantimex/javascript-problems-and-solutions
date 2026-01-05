@@ -30,7 +30,7 @@
  * @param {number[][]} wall
  * @return {number}
  */
-const leastBricks = wall => {
+const leastBricks = (wall) => {
   const map = {};
   let count = 0;
 

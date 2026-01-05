@@ -19,11 +19,14 @@
  * @param {number[][]} matrix
  * @return {number[]}
  */
-const findDiagonalOrder = matrix => {
+const findDiagonalOrder = (matrix) => {
   const m = matrix.length;
   const n = matrix[0].length;
   const result = [];
-  const dir = [[-1, 1], [1, -1]];
+  const dir = [
+    [-1, 1],
+    [1, -1],
+  ];
 
   for (let i = 0, j = 0, d = 0, k = 0; k < m * n; k++) {
     result.push(matrix[i][j]);

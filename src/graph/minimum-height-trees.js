@@ -77,7 +77,7 @@ const findMinHeightTrees = (n, edges) => {
     for (let i = 0; i < size; i++) {
       const u = leaves.shift();
 
-      adjList.get(u).forEach(v => {
+      adjList.get(u).forEach((v) => {
         adjList.get(v).delete(u);
 
         if (adjList.get(v).size === 1) {
@@ -97,7 +97,7 @@ const buildGraph = (n, edges) => {
     adjList.set(i, new Set());
   }
 
-  edges.forEach(edge => {
+  edges.forEach((edge) => {
     const u = edge[0];
     const v = edge[1];
 

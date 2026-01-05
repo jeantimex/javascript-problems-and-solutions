@@ -17,7 +17,7 @@
  * @param {string} s
  * @return {number}
  */
-const firstUniqChar = s => {
+const firstUniqChar = (s) => {
   const map = {};
 
   // Count the characters

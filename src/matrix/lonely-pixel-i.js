@@ -28,7 +28,7 @@
  * @param {character[][]} picture
  * @return {number}
  */
-const findLonelyPixel = picture => {
+const findLonelyPixel = (picture) => {
   const m = picture.length;
   const n = picture[0].length;
 

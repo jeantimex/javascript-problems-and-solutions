@@ -14,7 +14,7 @@
  * @param {string} s
  * @return {string[]}
  */
-const restoreIpAddresses = s => {
+const restoreIpAddresses = (s) => {
   const result = [];
   backtracking(s, 0, 0, [], result);
   return result;

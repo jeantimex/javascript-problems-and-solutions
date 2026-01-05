@@ -80,7 +80,7 @@ const boldWords_II = (words, S) => {
   return arr.join('');
 };
 
-const mergeIntervals = intervals => {
+const mergeIntervals = (intervals) => {
   intervals.sort((a, b) => a[0] - b[0]);
 
   let i = 0;

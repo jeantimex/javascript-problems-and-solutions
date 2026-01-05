@@ -22,10 +22,10 @@ import TreeNode from 'common/tree-node';
  * @param {TreeNode} root
  * @return {TreeNode}
  */
-const convertBST = root => {
+const convertBST = (root) => {
   let last = 0;
 
-  const helper = root => {
+  const helper = (root) => {
     if (!root) {
       return null;
     }

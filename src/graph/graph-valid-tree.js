@@ -29,7 +29,7 @@ export const validGraphTree = (n, edges) => {
     adjList.set(i, []);
   }
 
-  edges.forEach(edge => {
+  edges.forEach((edge) => {
     const u = edge[0];
     const v = edge[1];
 
@@ -85,7 +85,7 @@ export const validTree = (n, edges) => {
   // Initialize n isolated islands
   const nums = Array(n).fill(-1);
 
-  const find = i => {
+  const find = (i) => {
     if (nums[i] === -1) {
       return i;
     }

@@ -44,7 +44,7 @@
  * @param {number[][]} matrix
  * @return {number[][]}
  */
-const updateMatrix = matrix => {
+const updateMatrix = (matrix) => {
   const m = matrix.length;
   const n = matrix[0].length;
   const dist = Array(m)
@@ -62,7 +62,12 @@ const updateMatrix = matrix => {
     }
   }
 
-  const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+  const dirs = [
+    [-1, 0],
+    [1, 0],
+    [0, -1],
+    [0, 1],
+  ];
 
   while (queue.length > 0) {
     const curr = queue.shift();

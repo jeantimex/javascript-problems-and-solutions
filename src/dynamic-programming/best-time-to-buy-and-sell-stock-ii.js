@@ -37,7 +37,7 @@
  * @param {number[]} prices
  * @return {number}
  */
-const maxProfit_I = prices => {
+const maxProfit_I = (prices) => {
   if (!prices) {
     return 0;
   }
@@ -57,7 +57,7 @@ const maxProfit_I = prices => {
  * @param {number[]} prices
  * @return {number}
  */
-const maxProfit_II = prices => {
+const maxProfit_II = (prices) => {
   if (!prices) {
     return 0;
   }

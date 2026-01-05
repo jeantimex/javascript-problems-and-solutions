@@ -27,7 +27,7 @@
  * @param {ListNode} head
  * @return {boolean}
  */
-const isPalindrome = head => {
+const isPalindrome = (head) => {
   if (!head || !head.next) {
     return true;
   }
@@ -63,7 +63,7 @@ const isPalindrome = head => {
 };
 
 // Helper function: reverse a list
-const reverse = head => {
+const reverse = (head) => {
   let prev = null,
     curr = head,
     next = null;

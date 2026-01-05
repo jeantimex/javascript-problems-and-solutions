@@ -34,7 +34,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-const thirdMax = nums => {
+const thirdMax = (nums) => {
   let first = -Infinity;
   let second = -Infinity;
   let third = -Infinity;

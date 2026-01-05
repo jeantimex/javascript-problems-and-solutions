@@ -32,7 +32,7 @@ import PriorityQueue from 'common/priority-queue';
  * @param {string[][]} tickets
  * @return {string[]}
  */
-const findItinerary = tickets => {
+const findItinerary = (tickets) => {
   // Step 1. Build the graph using adjacency list
   const adjList = buildGraph(tickets);
 
@@ -57,7 +57,7 @@ const dfs = (adjList, u, result) => {
   result.push(u);
 };
 
-const buildGraph = tickets => {
+const buildGraph = (tickets) => {
   const adjList = new Map();
 
   tickets.forEach(([from, to]) => {

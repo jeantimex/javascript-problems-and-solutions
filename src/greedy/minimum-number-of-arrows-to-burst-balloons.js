@@ -28,7 +28,7 @@
  * @param {number[][]} points
  * @return {number}
  */
-const findMinArrowShots = points => {
+const findMinArrowShots = (points) => {
   if (points.length === 0) {
     return 0;
   }

@@ -42,7 +42,7 @@
  * @param {number[][]} rooms
  * @return {boolean}
  */
-const canVisitAllRooms = rooms => {
+const canVisitAllRooms = (rooms) => {
   const roomsToVisit = new Set();
   for (let i = 0; i < rooms.length; i++) {
     roomsToVisit.add(i);

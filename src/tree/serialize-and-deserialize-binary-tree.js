@@ -41,7 +41,7 @@ import TreeNode from 'common/tree-node';
  * @param {TreeNode} root
  * @return {string}
  */
-const serialize = root => {
+const serialize = (root) => {
   if (!root) {
     return null;
   }
@@ -77,7 +77,7 @@ const serialize = root => {
  * @param {string} data
  * @return {TreeNode}
  */
-const deserialize = data => {
+const deserialize = (data) => {
   // Sanity checks
   try {
     data = JSON.parse(data);

@@ -23,7 +23,7 @@
  * @param {string} s
  * @return {number}
  */
-const calculate = s => {
+const calculate = (s) => {
   // Stack for numbers: 'values'
   const values = [];
   // Stack for Operators: 'ops'

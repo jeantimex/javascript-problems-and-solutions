@@ -20,7 +20,7 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const sumNumbers = root => {
+const sumNumbers = (root) => {
   return helper(root, 0);
 };
 

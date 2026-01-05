@@ -32,7 +32,7 @@
  * @param {number[][]} matrix
  * @return {number[][]}
  */
-const pacificAtlantic = matrix => {
+const pacificAtlantic = (matrix) => {
   if (!matrix || matrix.length === 0 || matrix[0].length === 0) {
     return [];
   }
@@ -92,7 +92,12 @@ const dfs = (matrix, ocean, x, y, height) => {
 
   ocean[x][y] = true; // can flow to the ocean from (x, y)
 
-  const dirs = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+  const dirs = [
+    [-1, 0],
+    [1, 0],
+    [0, -1],
+    [0, 1],
+  ];
 
   for (let [dx, dy] of dirs) {
     dfs(matrix, ocean, x + dx, y + dy, matrix[x][y]);

@@ -3,7 +3,18 @@ import { serializeUndirectedGraph, deserializeUndirectedGraph } from 'utils/grap
 import canFinish from '../course-schedule';
 
 describe('Course Schedule', () => {
-  const testCases = [[1, [], true], [2, [[0, 1]], true], [2, [[0, 1], [1, 0]], false]];
+  const testCases = [
+    [1, [], true],
+    [2, [[0, 1]], true],
+    [
+      2,
+      [
+        [0, 1],
+        [1, 0],
+      ],
+      false,
+    ],
+  ];
 
   testCases.forEach((testCase, index) => {
     it(`should check whether the course can be finished ${index}`, () => {

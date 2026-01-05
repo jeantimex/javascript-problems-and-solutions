@@ -2,7 +2,10 @@ import { assert } from 'chai';
 import { longestPalindrome, longestPalindromeExpand } from '../longest-palindromic-substring';
 
 describe('Longest Palindromic Substring', () => {
-  const testCases = [['babad', ['aba', 'bab']], ['aaaa', ['aaaa']]];
+  const testCases = [
+    ['babad', ['aba', 'bab']],
+    ['aaaa', ['aaaa']],
+  ];
 
   testCases.forEach((testCase, index) => {
     it(`should get the longest palindromic substring using dynamic programming`, () => {

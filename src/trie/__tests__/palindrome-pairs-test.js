@@ -3,9 +3,29 @@ import palindromePairs from '../palindrome-pairs';
 
 describe('Palindrome Pairs', () => {
   const testCases = [
-    [['bat', 'tab', 'cat'], [[0, 1], [1, 0]]],
-    [['abcd', 'dcba', 'lls', 's', 'sssll'], [[0, 1], [1, 0], [3, 2], [2, 4]]],
-    [['a', ''], [[0, 1], [1, 0]]],
+    [
+      ['bat', 'tab', 'cat'],
+      [
+        [0, 1],
+        [1, 0],
+      ],
+    ],
+    [
+      ['abcd', 'dcba', 'lls', 's', 'sssll'],
+      [
+        [0, 1],
+        [1, 0],
+        [3, 2],
+        [2, 4],
+      ],
+    ],
+    [
+      ['a', ''],
+      [
+        [0, 1],
+        [1, 0],
+      ],
+    ],
   ];
 
   testCases.forEach((testCase, index) => {

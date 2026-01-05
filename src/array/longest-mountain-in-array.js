@@ -46,7 +46,7 @@
  * @param {number[]} A
  * @return {number}
  */
-const longestMountain = A => {
+const longestMountain = (A) => {
   let ans = 0;
 
   // i is left boundary of the mountain

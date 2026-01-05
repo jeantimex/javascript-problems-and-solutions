@@ -19,8 +19,8 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const diameterOfBinaryTree = root => {
-  const helper = root => {
+const diameterOfBinaryTree = (root) => {
+  const helper = (root) => {
     if (!root) {
       return 0;
     }

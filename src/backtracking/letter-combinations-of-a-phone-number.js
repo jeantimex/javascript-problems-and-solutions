@@ -27,7 +27,7 @@ const keyboard = [' ', '', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wx
  * @param {string} digits
  * @return {string[]}
  */
-const letterCombinations = digits => {
+const letterCombinations = (digits) => {
   if (!digits) {
     return [];
   }

@@ -50,7 +50,7 @@ const inorderSuccessor = (root, p) => {
   return successor;
 };
 
-const getMinNode = root => {
+const getMinNode = (root) => {
   while (root.left) {
     root = root.left;
   }
