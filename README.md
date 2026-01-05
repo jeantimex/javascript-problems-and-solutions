@@ -578,7 +578,7 @@ Become a sponsor and get your logo on our README on Github with a link to your s
 
 <!-- markdownlint-disable MD033 -->
 <a href="https://paypal.me/jeantimex/3">
-  <img alt="But Me a Coffee" src="https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0" width="200" />
+  <img alt="But Me a Coffee" src="https://github.com/user-attachments/assets/b30768bf-2c11-4eff-9486-e0168edccf70" width="200" />
 </a>
 
 ## LICENSE
