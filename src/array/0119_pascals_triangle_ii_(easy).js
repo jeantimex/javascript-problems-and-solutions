@@ -1,5 +1,7 @@
 /**
- * Pascal's Triangle II
+ * 119. Pascal's Triangle II
+ *
+ * https://leetcode.com/problems/pascals-triangle-ii/
  *
  * Given a non-negative index k where k ≤ 33, return the kth index row of the Pascal's triangle.
  *

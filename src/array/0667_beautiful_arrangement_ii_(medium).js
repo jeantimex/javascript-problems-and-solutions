@@ -1,5 +1,7 @@
 /**
- * Beautiful Arrangement II
+ * 667. Beautiful Arrangement II
+ *
+ * https://leetcode.com/problems/beautiful-arrangement-ii/
  *
  * Given two integers n and k, you need to construct a list which contains n different positive integers
  * ranging from 1 to n and obeys the following requirement:

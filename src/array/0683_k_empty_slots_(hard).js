@@ -1,5 +1,7 @@
 /**
- * K Empty Slots
+ * 683. K Empty Slots
+ *
+ * https://leetcode.com/problems/k-empty-slots/
  *
  * There is a garden with N slots. In each slot, there is a flower.
  * The N flowers will bloom one by one in N days.

@@ -1,5 +1,7 @@
 /**
- * Valid Word Square
+ * 422. Valid Word Square
+ *
+ * https://leetcode.com/problems/valid-word-square/
  *
  * Given a sequence of words, check whether it forms a valid word square.
  *

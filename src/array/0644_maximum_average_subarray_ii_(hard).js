@@ -1,5 +1,7 @@
 /**
- * Maximum Average Subarray II
+ * 644. Maximum Average Subarray II
+ *
+ * https://leetcode.com/problems/maximum-average-subarray-ii/
  *
  * Given an array consisting of n integers, find the contiguous subarray whose length
  * is greater than or equal to k that has the maximum average value. And you need to

@@ -1,5 +1,7 @@
 /**
- * Toeplitz Matrix
+ * 766. Toeplitz Matrix
+ *
+ * https://leetcode.com/problems/toeplitz-matrix/
  *
  * A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
  *

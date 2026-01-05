@@ -1,5 +1,7 @@
 /**
- * Decode String
+ * 394. Decode String
+ *
+ * https://leetcode.com/problems/decode-string/
  *
  * Given an encoded string, return it's decoded string.
  *

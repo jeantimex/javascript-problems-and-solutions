@@ -1,5 +1,7 @@
 /**
- * Ugly Number II
+ * 264. Ugly Number II
+ *
+ * https://leetcode.com/problems/ugly-number-ii/
  *
  * Write a program to find the n-th ugly number.
  *

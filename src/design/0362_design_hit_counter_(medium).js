@@ -1,5 +1,7 @@
 /**
- * Design Hit Counter
+ * 362. Design Hit Counter
+ *
+ * https://leetcode.com/problems/design-hit-counter/
  *
  * Design a hit counter which counts the number of hits received in the past 5 minutes.
  *

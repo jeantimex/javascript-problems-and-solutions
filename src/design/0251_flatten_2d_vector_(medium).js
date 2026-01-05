@@ -1,5 +1,7 @@
 /**
- * Flatten 2D Vector
+ * 251. Flatten 2D Vector
+ *
+ * https://leetcode.com/problems/flatten-2d-vector/
  *
  * Implement an iterator to flatten a 2d vector.
  *

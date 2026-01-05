@@ -1,5 +1,7 @@
 /**
- * H-Index
+ * 274. H-Index
+ *
+ * https://leetcode.com/problems/h-index/
  *
  * Given an array of citations (each citation is a non-negative integer) of a researcher,
  * write a function to compute the researcher's h-index.

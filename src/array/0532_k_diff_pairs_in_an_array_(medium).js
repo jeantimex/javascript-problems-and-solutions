@@ -1,5 +1,7 @@
 /**
- * K-diff Pairs in an Array
+ * 532. K-diff Pairs in an Array
+ *
+ * https://leetcode.com/problems/k-diff-pairs-in-an-array/
  *
  * Given an array of integers and an integer k, you need to find the number of unique k-diff pairs in the array.
  * Here a k-diff pair is defined as an integer pair (i, j), where i and j are both numbers in the array and their

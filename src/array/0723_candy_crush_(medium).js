@@ -1,5 +1,7 @@
 /**
- * Candy Crush
+ * 723. Candy Crush
+ *
+ * https://leetcode.com/problems/candy-crush/
  *
  * This question is about implementing a basic elimination algorithm for Candy Crush.
  *

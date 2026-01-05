@@ -1,5 +1,7 @@
 /**
- * Daily Temperatures
+ * 739. Daily Temperatures
+ *
+ * https://leetcode.com/problems/daily-temperatures/
  *
  * Given a list of daily temperatures, produce a list that, for each day in the input,
  * tells you how many days you would have to wait until a warmer temperature.

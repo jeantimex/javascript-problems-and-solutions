@@ -1,5 +1,7 @@
 /**
- * Second Minimum Node In a Binary Tree
+ * 671. Second Minimum Node In a Binary Tree
+ *
+ * https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
  *
  * Given a non-empty special binary tree consisting of nodes with the non-negative value, where each node in this tree
  * has exactly two or zero sub-node. If the node has two sub-nodes, then this node's value is the smaller value among

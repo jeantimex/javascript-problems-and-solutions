@@ -1,5 +1,7 @@
 /**
- * Minesweeper
+ * 529. Minesweeper
+ *
+ * https://leetcode.com/problems/minesweeper/
  *
  * You are given a 2D char matrix representing the game board.
  * 'M' represents an unrevealed mine,

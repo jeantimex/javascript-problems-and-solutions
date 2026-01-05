@@ -1,5 +1,7 @@
 /**
- * H-Index II
+ * 275. H-Index II
+ *
+ * https://leetcode.com/problems/h-index-ii/
  *
  * Given an array of citations sorted in ascending order (each citation is a non-negative integer)
  * of a researcher, write a function to compute the researcher's h-index.

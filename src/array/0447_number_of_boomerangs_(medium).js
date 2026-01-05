@@ -1,5 +1,7 @@
 /**
- * Number of Boomerangs
+ * 447. Number of Boomerangs
+ *
+ * https://leetcode.com/problems/number-of-boomerangs/
  *
  * Given n points in the plane that are all pairwise distinct,
  * a "boomerang" is a tuple of points (i, j, k) such that

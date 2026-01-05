@@ -1,5 +1,7 @@
 /**
- * Lonely Pixel II
+ * 533. Lonely Pixel II
+ *
+ * https://leetcode.com/problems/lonely-pixel-ii/
  *
  * Given a picture consisting of black and white pixels, and a positive integer N,
  * find the number of black pixels located at some specific row R and column C that align with all the following rules:

@@ -1,5 +1,7 @@
 /**
- * Max Stack
+ * 716. Max Stack
+ *
+ * https://leetcode.com/problems/max-stack/
  *
  * The implementation is similar to Min Stack
  */

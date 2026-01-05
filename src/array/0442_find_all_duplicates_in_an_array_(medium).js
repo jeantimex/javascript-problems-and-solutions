@@ -1,5 +1,7 @@
 /**
- * Find All Duplicates in an Array
+ * 442. Find All Duplicates in an Array
+ *
+ * https://leetcode.com/problems/find-all-duplicates-in-an-array/
  *
  * Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
  *

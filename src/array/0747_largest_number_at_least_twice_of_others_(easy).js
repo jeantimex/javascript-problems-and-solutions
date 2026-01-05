@@ -1,5 +1,7 @@
 /**
- * Largest Number At Least Twice of Others
+ * 747. Largest Number At Least Twice of Others
+ *
+ * https://leetcode.com/problems/largest-number-at-least-twice-of-others/
  *
  * In a given integer array nums, there is always exactly one largest element.
  *

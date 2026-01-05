@@ -1,5 +1,7 @@
 /**
- * Ugly Number
+ * 263. Ugly Number
+ *
+ * https://leetcode.com/problems/ugly-number/
  *
  * Write a program to check whether a given number is an ugly number.
  *

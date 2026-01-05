@@ -1,5 +1,7 @@
 /**
- * Strobogrammatic Number
+ * 246. Strobogrammatic Number
+ *
+ * https://leetcode.com/problems/strobogrammatic-number/
  *
  * A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
  *

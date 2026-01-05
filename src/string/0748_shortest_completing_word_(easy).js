@@ -1,5 +1,7 @@
 /**
- * Shortest Completing Word
+ * 748. Shortest Completing Word
+ *
+ * https://leetcode.com/problems/shortest-completing-word/
  *
  * Find the minimum length word from a given dictionary words, which has all the letters from the string licensePlate.
  * Such a word is said to complete the given string licensePlate

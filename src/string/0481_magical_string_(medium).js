@@ -1,5 +1,7 @@
 /**
- * Magical String
+ * 481. Magical String
+ *
+ * https://leetcode.com/problems/magical-string/
  *
  * A magical string S consists of only '1' and '2' and obeys the following rules:
  *

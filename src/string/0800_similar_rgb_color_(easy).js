@@ -1,5 +1,7 @@
 /**
- * Similar RGB Color
+ * 800. Similar RGB Color
+ *
+ * https://leetcode.com/problems/similar-rgb-color/
  *
  * In the following, every capital letter represents some hexadecimal digit from 0 to f.
  *

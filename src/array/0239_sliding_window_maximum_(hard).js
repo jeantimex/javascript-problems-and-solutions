@@ -1,5 +1,7 @@
 /**
- * Sliding Window Maximum
+ * 239. Sliding Window Maximum
+ *
+ * https://leetcode.com/problems/sliding-window-maximum/
  *
  * Given an array nums, there is a sliding window of size k which is moving from
  * the very left of the array to the very right. You can only see the k numbers

@@ -1,5 +1,7 @@
 /**
- * N-Queens II
+ * 52. N-Queens II
+ *
+ * https://leetcode.com/problems/n-queens-ii/
  *
  * Follow up for N-Queens problem.
  *

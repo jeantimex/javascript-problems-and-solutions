@@ -1,5 +1,7 @@
 /**
- * Split Array with Equal Sum
+ * 548. Split Array with Equal Sum
+ *
+ * https://leetcode.com/problems/split-array-with-equal-sum/
  *
  * Given an array with n integers, you need to find if there are triplets (i, j, k) which satisfies
  * following conditions:

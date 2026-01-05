@@ -1,5 +1,7 @@
 /**
- * Nested List Weight Sum
+ * 339. Nested List Weight Sum
+ *
+ * https://leetcode.com/problems/nested-list-weight-sum/
  *
  * Given a nested list of integers, return the sum of all integers in the list weighted by their depth.
  *

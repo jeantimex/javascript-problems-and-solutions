@@ -1,4 +1,8 @@
 /**
+ * 582. Kill Process
+ *
+ * https://leetcode.com/problems/kill-process/
+ *
  * Given n processes, each process has a unique PID (process id) and its PPID (parent process id).
  *
  * Each process only has one parent process, but may have one or more children processes. This is

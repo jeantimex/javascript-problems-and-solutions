@@ -1,5 +1,7 @@
 /**
- * The Maze
+ * 490. The Maze
+ *
+ * https://leetcode.com/problems/the-maze/
  *
  * There is a ball in a maze with empty spaces and walls.
  * The ball can go through empty spaces by rolling up, down, left or right,

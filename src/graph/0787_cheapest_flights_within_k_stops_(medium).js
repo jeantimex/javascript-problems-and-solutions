@@ -1,5 +1,7 @@
 /**
- * Cheapest Flights Within K Stops
+ * 787. Cheapest Flights Within K Stops
+ *
+ * https://leetcode.com/problems/cheapest-flights-within-k-stops/
  *
  * There are n cities connected by m flights. Each fight starts from city u and arrives at v with a price w.
  *

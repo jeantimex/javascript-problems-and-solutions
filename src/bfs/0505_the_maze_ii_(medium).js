@@ -1,5 +1,7 @@
 /**
- * The Maze II
+ * 505. The Maze II
+ *
+ * https://leetcode.com/problems/the-maze-ii/
  *
  * There is a ball in a maze with empty spaces and walls.
  * The ball can go through empty spaces by rolling up, down, left or right,

@@ -1,5 +1,7 @@
 /**
- * Pyramid Transition Matrix
+ * 756. Pyramid Transition Matrix
+ *
+ * https://leetcode.com/problems/pyramid-transition-matrix/
  *
  * We are stacking blocks to form a pyramid. Each block has a color which is a one letter string, like `'Z'`.
  *

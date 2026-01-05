@@ -1,5 +1,7 @@
 /**
- * Isomorphic Strings
+ * 205. Isomorphic Strings
+ *
+ * https://leetcode.com/problems/isomorphic-strings/
  *
  * Given two strings s and t, determine if they are isomorphic.
  *

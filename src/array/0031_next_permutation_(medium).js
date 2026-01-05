@@ -1,5 +1,7 @@
 /**
- * Next Permutation
+ * 31. Next Permutation
+ *
+ * https://leetcode.com/problems/next-permutation/
  *
  * Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
  *

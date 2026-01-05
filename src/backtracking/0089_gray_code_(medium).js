@@ -1,5 +1,7 @@
 /**
- * Gray Code
+ * 89. Gray Code
+ *
+ * https://leetcode.com/problems/gray-code/
  *
  * The gray code is a binary numeral system where two successive values differ in only one bit.
  *

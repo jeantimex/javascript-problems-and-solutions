@@ -1,5 +1,7 @@
 /**
- * Concatenated Words
+ * 472. Concatenated Words
+ *
+ * https://leetcode.com/problems/concatenated-words/
  *
  * Given a list of words (without duplicates), please write a program that returns all concatenated words in the given list of words.
  *

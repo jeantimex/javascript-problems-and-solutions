@@ -1,5 +1,7 @@
 /**
- * Design Search Autocomplete System
+ * 642. Design Search Autocomplete System
+ *
+ * https://leetcode.com/problems/design-search-autocomplete-system/
  *
  * Design a search autocomplete system for a search engine.
  * Users may input a sentence (at least one word and end with a special character '#').

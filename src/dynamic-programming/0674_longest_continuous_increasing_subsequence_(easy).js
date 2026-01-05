@@ -1,5 +1,7 @@
 /**
- * Longest Continuous Increasing Subsequence
+ * 674. Longest Continuous Increasing Subsequence
+ *
+ * https://leetcode.com/problems/longest-continuous-increasing-subsequence/
  *
  * Given an unsorted array of integers, find the length of longest continuous increasing subsequence (subarray).
  *

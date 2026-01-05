@@ -1,5 +1,7 @@
 /**
- * Relative Ranks
+ * 506. Relative Ranks
+ *
+ * https://leetcode.com/problems/relative-ranks/
  *
  * Given scores of N athletes, find their relative ranks and the people with the top three highest scores,
  * who will be awarded medals: "Gold Medal", "Silver Medal" and "Bronze Medal".

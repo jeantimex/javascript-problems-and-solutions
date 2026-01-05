@@ -1,5 +1,7 @@
 /**
- * Binary Search Tree Iterator
+ * 173. Binary Search Tree Iterator
+ *
+ * https://leetcode.com/problems/binary-search-tree-iterator/
  *
  * Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.
  *

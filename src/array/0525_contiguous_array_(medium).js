@@ -1,4 +1,8 @@
 /**
+ * 525. Contiguous Array
+ *
+ * https://leetcode.com/problems/contiguous-array/
+ *
  * Max Contiguous Array with Equal Number of 0 and 1
  *
  * Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.

@@ -1,5 +1,7 @@
 /**
- * Paint Fence
+ * 276. Paint Fence
+ *
+ * https://leetcode.com/problems/paint-fence/
  *
  * There is a fence with n posts, each post can be painted with one of the k colors.
  *

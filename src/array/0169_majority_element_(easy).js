@@ -1,4 +1,8 @@
 /**
+ * 169. Majority Element
+ *
+ * https://leetcode.com/problems/majority-element/
+ *
  * Majority Elements
  *
  * Given an array of size n, find the majority element. The majority element is the element that appears

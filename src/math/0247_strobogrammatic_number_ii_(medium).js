@@ -1,5 +1,7 @@
 /**
- * Strobogrammatic Number II
+ * 247. Strobogrammatic Number II
+ *
+ * https://leetcode.com/problems/strobogrammatic-number-ii/
  *
  * A strobogrammatic number is a number that looks the same when rotated 180 degrees (looked at upside down).
  *

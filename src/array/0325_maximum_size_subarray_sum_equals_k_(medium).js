@@ -1,5 +1,7 @@
 /**
- * Maximum Size Subarray Sum Equals k
+ * 325. Maximum Size Subarray Sum Equals k
+ *
+ * https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
  *
  * Given an array nums and a target value k, find the maximum length of a subarray that sums to k.
  * If there isn't one, return 0 instead.

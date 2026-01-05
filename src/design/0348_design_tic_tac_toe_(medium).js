@@ -1,5 +1,7 @@
 /**
- * Design Tic-Tac-Toe
+ * 348. Design Tic-Tac-Toe
+ *
+ * https://leetcode.com/problems/design-tic-tac-toe/
  *
  * Design a Tic-tac-toe game that is played between two players on a n x n grid.
  *

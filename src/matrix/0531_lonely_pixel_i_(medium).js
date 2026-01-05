@@ -1,5 +1,7 @@
 /**
- * Lonely Pixel I
+ * 531. Lonely Pixel I
+ *
+ * https://leetcode.com/problems/lonely-pixel-i/
  *
  * Given a picture consisting of black and white pixels, find the number of black lonely pixels.
  *

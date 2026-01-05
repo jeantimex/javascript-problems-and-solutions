@@ -1,5 +1,7 @@
 /**
- * Flatten Nested List Iterator
+ * 341. Flatten Nested List Iterator
+ *
+ * https://leetcode.com/problems/flatten-nested-list-iterator/
  *
  * Given a nested list of integers, implement an iterator to flatten it.
  *

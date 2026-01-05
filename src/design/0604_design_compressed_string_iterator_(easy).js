@@ -1,5 +1,7 @@
 /**
- * Design Compressed String Iterator
+ * 604. Design Compressed String Iterator
+ *
+ * https://leetcode.com/problems/design-compressed-string-iterator/
  *
  * Design and implement a data structure for a compressed string iterator.
  * It should support the following operations: next and hasNext.

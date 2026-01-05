@@ -1,5 +1,7 @@
 /**
- * Shuffle an Array
+ * 384. Shuffle an Array
+ *
+ * https://leetcode.com/problems/shuffle-an-array/
  *
  * Shuffle a set of numbers without duplicates.
  *

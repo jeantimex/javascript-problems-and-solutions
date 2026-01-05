@@ -1,5 +1,7 @@
 /**
- * Generalized Abbreviation
+ * 320. Generalized Abbreviation
+ *
+ * https://leetcode.com/problems/generalized-abbreviation/
  *
  * Write a function to generate the generalized abbreviations of a word.
  *

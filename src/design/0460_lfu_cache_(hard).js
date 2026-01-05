@@ -1,5 +1,7 @@
 /**
- * LFU Cache
+ * 460. LFU Cache
+ *
+ * https://leetcode.com/problems/lfu-cache/
  *
  * Design and implement a data structure for Least Frequently Used (LFU) cache.
  * It should support the following operations: get and put.

@@ -1,5 +1,7 @@
 /**
- * Sparse Matrix Multiplication
+ * 311. Sparse Matrix Multiplication
+ *
+ * https://leetcode.com/problems/sparse-matrix-multiplication/
  *
  * Given two sparse matrices A and B, return the result of AB.
  *
